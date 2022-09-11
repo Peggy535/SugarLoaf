@@ -31,8 +31,8 @@
         that you wish to stand out. Serif fonts normally have a more opinionated
         appearance. On the other hand, Sans fonts are generally more geometric
         and placid in their design meaning they are less opinionated and
-        sometimes better suited for paragraphs text. You may have seen the sites
-        I sent you like 'La Crane' use this approach.<br />
+        sometimes better suited for paragraphs of text. You may have seen the
+        sites I sent you like 'La Crane' use this approach.<br />
       </p>
     </section>
 
