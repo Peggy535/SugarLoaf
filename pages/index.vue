@@ -24,14 +24,18 @@
         <div
           class="flex flex-col absolute bottom-0 left-0 m-2 p-2 mb-20 text-brand-rose-gold"
         >
-          <h1 class="text-6xl sm:text-9xl lg:text-11xl 2xl:text-13xl text-white mb-10">Sugar Loaf</h1>
+          <h1
+            class="text-6xl sm:text-9xl lg:text-11xl 2xl:text-13xl text-white mb-10"
+          >
+            Sugar Loaf
+          </h1>
           <h6 class="text-3xl text-white mb-10">
-            An Antiguan Residence that is like Home from Home
+            An Antiguan residence that is like Home from Home
           </h6>
         </div>
-        <aside class="text-white text-sm z-20 absolute bottom-0 m-2 p-2"
-          >Please scroll down Worthers!</aside
-        >
+        <aside class="text-white text-sm z-20 absolute bottom-0 m-2 p-2">
+          Please scroll down Worthers!
+        </aside>
       </section>
       <!-- Personal statement -->
     </main>
