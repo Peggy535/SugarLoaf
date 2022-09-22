@@ -4,20 +4,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Cirka: ["Cirka"],
-        EditorialNew: ["EditorialNew"],
-        Eiko: ["Eiko"],
-        Hatton: ["Hatton"],
-        Migra: ["Migra"],
-        NeueWorld: ["NeueWorld"],
-        PangramSans: ["PangramSans"],
-        Woodland: ["Woodland"],
-        Charlevoix: ["Charlevoix"],
-        NeueMontreal: ["NeueMontreal"],
-        ObjectSans: ["ObjectSans"],
-        PierSans: ["PierSans"],
-        RightGrotesk: ["RightGrotesk"],
-        Telegraf: ["Telegraf"],
+        NeueMontrealThin: ["NeueMontrealThin"],
+        NeueMontrealLight: ["NeueMontrealLight"],
+        NeueMontrealRegular: ["NeueMontrealRegular"],
+        NeueMontrealMedium: ["NeueMontrealMedium"],
+        NeueMontrealBold: ["NeueMontrealBold"],
+        NeueMontrealBook: ["NeueMontrealBook"],
+        
       },
       fontSize: {
         "10xl": "12rem",

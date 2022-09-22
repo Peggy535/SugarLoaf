@@ -3,81 +3,36 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Cirka";
-  src: url("assets/fonts/PPCirka-Light.woff") format("woff"),
-    url("assets/fonts/PPCirka-Light.woff2") format("woff2");
-}
-@font-face {
-  font-family: "EditorialNew";
-  src: url("assets/fonts/PPEditorialNew-Thin.woff") format("woff"),
-    url("assets/fonts/PPEditorialNew-Thin.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Eiko";
-  src: url("assets/fonts/PPEiko-Light.woff") format("woff"),
-    url("assets/fonts/PPEiko-Light.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Hatton";
-  src: url("assets/fonts/PPHatton-Light.woff") format("woff"),
-    url("assets/fonts/PPHatton-Light.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Migra";
-  src: url("assets/fonts/PPMigra-Light.woff") format("woff"),
-    url("assets/fonts/PPMigra-Light.woff2") format("woff2");
-}
-@font-face {
-  font-family: "NeueWorld";
-  src: url("assets/fonts/PPNeueWorld-ExtendedThin.woff") format("woff"),
-    url("assets/fonts/PPNeueWorld-ExtendedThin.woff2") format("woff2");
-}
-@font-face {
-  font-family: "PangramSans";
-  src: url("assets/fonts/PPPangramSans-Regular.woff") format("woff"),
-    url("assets/fonts/PPPangramSans-Regular.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Woodland";
-  src: url("assets/fonts/PPWoodland-Ultralight.woff") format("woff"),
-    url("assets/fonts/PPWoodland-Ultralight.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Woodland";
-  src: url("assets/fonts/PPWoodland-Ultralight.woff") format("woff"),
-    url("assets/fonts/PPWoodland-Ultralight.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Charlevoix";
-  src: url("assets/fonts/PPCharlevoix-Thin.woff") format("woff"),
-    url("assets/fonts/PPCharlevoix-Thin.woff2") format("woff2");
-}
-@font-face {
-  font-family: "NeueMontreal";
+  font-family: "NeueMontrealLight";
   src: url("assets/fonts/PPNeueMontreal-Light.woff") format("woff"),
     url("assets/fonts/PPNeueMontreal-Light.woff2") format("woff2");
 }
 @font-face {
-  font-family: "ObjectSans";
-  src: url("assets/fonts/PPObjectSans-Thin.woff") format("woff"),
-    url("assets/fonts/PPObjectSans-Thin.woff2") format("woff2");
+  font-family: "NeueMontrealThin";
+  src: url("assets/fonts/PPNeueMontreal-Thin.woff") format("woff"),
+    url("assets/fonts/PPNeueMontreal-Thin.woff2") format("woff2");
 }
 @font-face {
-  font-family: "PierSans";
-  src: url("assets/fonts/PPPierSans-Light.woff") format("woff"),
-    url("assets/fonts/PPPierSans-Light.woff2") format("woff2");
+  font-family: "NeueMontrealRegular";
+  src: url("assets/fonts/PPNeueMontreal-Regular.woff") format("woff"),
+    url("assets/fonts/PPNeueMontreal-Regular.woff2") format("woff2");
 }
 @font-face {
-  font-family: "RightGrotesk";
-  src: url("assets/fonts/PPRightGrotesk-SpatialFine.woff") format("woff"),
-    url("assets/fonts/PPRightGrotesk-SpatialFine.woff2") format("woff2");
+  font-family: "NeueMontrealMedium";
+  src: url("assets/fonts/PPNeueMontreal-Medium.woff") format("woff"),
+    url("assets/fonts/PPNeueMontreal-Medium.woff2") format("woff2");
 }
 @font-face {
-  font-family: "Telegraf";
-  src: url("assets/fonts/PPTelegraf-UltraLight.woff") format("woff"),
-    url("assets/fonts/PPTelegraf-UltraLight.woff2") format("woff2");
+  font-family: "NeueMontrealBook";
+  src: url("assets/fonts/PPNeueMontreal-Book.woff") format("woff"),
+    url("assets/fonts/PPNeueMontreal-Book.woff2") format("woff2");
+}
+@font-face {
+  font-family: "NeueMontrealBold";
+  src: url("assets/fonts/PPNeueMontreal-Bold.woff") format("woff"),
+    url("assets/fonts/PPNeueMontreal-Bold.woff2") format("woff2");
 }
 
-html {
-  font-family: "PangramSans";
+body {
+  font-family: "NeueMontrealLight";
 }
