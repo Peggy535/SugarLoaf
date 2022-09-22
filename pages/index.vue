@@ -49,7 +49,7 @@
       </div>
       <div class="grid col-span-1 row-span-1">
         <img
-          class="object-cover object-center shadow-xl shadow-neutral-400"
+          class="object-cover object-center shadow-lg shadow-neutral-400"
           src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best,r_0/v1663840537/SugarLoaf/HarbourView_rxip6o.jpg"
           alt=""
         />
@@ -71,7 +71,7 @@
       </div>
       <div class="grid col-span-1 row-span-1">
         <img
-          class="object-cover object-center shadow-xl shadow-neutral-400"
+          class="object-cover object-center shadow-lg shadow-neutral-400"
           src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840537/SugarLoaf/CourtYard_khmzbz.jpg"
           alt=""
         />
@@ -81,24 +81,24 @@
       </div>
     </section>
     <section
-      class="relative h-screen w-screen grid grid-cols-1 grid-rows-3 z-20 bg-white items-center"
+      class="relative h-auto w-screen grid grid-cols-1 grid-rows-3 z-20 bg-white items-center"
     >
-    <div class="grid col-span-1 row-span-1">
-      <img
-          class="object-contain object-center shadow-xl shadow-neutral-400"
+      <div class="grid col-span-1 row-span-1 mt-10">
+        <img
+          class="object-contain object-center shadow-lg shadow-neutral-400"
           src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840542/SugarLoaf/PoolViewOfHarbour_qqmxlg.jpg"
           alt=""
         />
-    </div>
+      </div>
       <div class="grid col-span-1 row-span-1">
-        <p class="text-left text-black text-3xl m-2 p-2">
+        <p class="text-left text-black text-2xl m-2 p-2 my-10">
           There’s a large Private Pool with stunning views, an outside shower
           and plenty of shade and seating.
         </p>
       </div>
       <div class="grid col-span-1 row-span-1">
         <img
-          class="object-contain object-center shadow-xl shadow-neutral-400"
+          class="object-contain object-center shadow-lg shadow-neutral-400"
           src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840542/SugarLoaf/PoolArea2_ictxam.jpg"
           alt=""
         />
