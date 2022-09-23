@@ -41,13 +41,13 @@
       <div class="grid col-span-1 row-span-1 md:col-span-2 md:row-span-1">
         <div class="flex flex-col w-full items-center">
           <p
-            class="text-4xl md:text-6xl m-3 p-3 my-10 border-l-2 border-l-black"
+            class="text-4xl md:text-6xl lg:text-7xl m-3 p-3 my-10 border-l-2 border-l-black"
           >
             "Set in large and quiet gardens overlooking Falmouth Harbour, Sugar
             Loaf has views to swoon at and plenty of privacy, peace and quiet."
           </p>
           <div class="m-2 p-2 sm:m-5 sm:p-5 md:h-2/3 items-center">
-            <cite class="text-xs"
+            <cite class="text-xs lg:text-sm"
               >The front court yard and entrance to Sugar Loaf</cite
             >
             <img
@@ -60,7 +60,7 @@
               src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840542/SugarLoaf/PoolViewOfHarbour_qqmxlg.jpg"
               alt=""
             />
-            <cite class="text-xs"
+            <cite class="text-xs lg:text-sm"
               >Views of Falmouth Harbour from the private pool</cite
             >
           </div>
@@ -82,7 +82,7 @@
             gazing at the Sea."
           </p>
           <div class="m-2 p-2 sm:m-5 sm:p-5 md:h-2/3 items-center">
-            <cite class="text-xs"
+            <cite class="text-xs lg:text-sm"
               >Sit back, relax, chat and ponder over the awe inspiring view</cite
             >
             <img
@@ -95,7 +95,7 @@
               src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840540/SugarLoaf/MainLivingRoom3_njhdjo.jpg"
               alt=""
             />
-            <cite class="text-xs"
+            <cite class="text-xs lg:text-sm"
               >Sugar Loafs living area</cite
             >
           </div>
