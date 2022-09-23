@@ -8,7 +8,7 @@
         preload
         autoplay="autoplay"
         loop
-        muted
+        muted="true"
         playsinline
         poster=""
       >
@@ -41,7 +41,7 @@
       </div>
     </section>
     <section
-      class="relative max-h-fit w-screen bg-amber-50 grid grid-cols-1 grid-rows-1 z-20"
+      class="relative max-h-fit w-screen bg-amber-50 bg-opacity-90 grid grid-cols-1 grid-rows-1 z-20"
     >
       <div class="grid col-span-1 row-span-1 md:col-span-2 md:row-span-1">
         <div class="flex flex-col w-full items-center">
@@ -73,7 +73,7 @@
       </div>
     </section>
     <section
-      class="relative max-h-fit w-screen bg-amber-50 grid grid-cols-1 grid-rows-1 z-20"
+      class="relative max-h-fit w-screen bg-amber-50 bg-opacity-95 grid grid-cols-1 grid-rows-1 z-20"
     >
       <div class="grid col-span-1 row-span-1 md:col-span-2 md:row-span-1">
         <div class="flex flex-col w-full items-center">
