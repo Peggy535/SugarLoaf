@@ -113,38 +113,44 @@
         </div>
       </div>
       <div
-        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-turquoise bg-opacity-40 border-4 border-brand-turquoise"
+        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-turquoise bg-opacity-40 border-4 border-brand-turquoise transition ease-in-out duration-300 hover:bg-opacity-100"
       >
         <div class="flex relative">
           <h1 class="text-3xl m-1 p-1">
             House details, amenities and specifications
           </h1>
           <span class="absolute bottom-0 right-0">
-            <button class="m-2 p-2 rounded-2xl ring-2 ring-black">
+            <button
+              class="m-2 p-2 rounded-2xl ring-2 ring-black transition ease-in-out duration-300 hover:ring-6 hover:ring-white hover:text-white"
+            >
               Press here
             </button>
           </span>
         </div>
       </div>
       <div
-        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-green bg-opacity-40 border-4 border-brand-green"
+        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-green bg-opacity-40 border-4 border-brand-green transition ease-in-out duration-300 hover:bg-opacity-100"
       >
         <div class="flex relative">
           <h1 class="text-3xl m-1 p-1">Sugar Loaf Photo Gallery</h1>
           <span class="absolute bottom-0 right-0">
-            <button class="m-2 p-2 rounded-2xl ring-2 ring-black">
+            <button
+              class="m-2 p-2 rounded-2xl ring-2 ring-black transition ease-in-out duration-300 hover:ring-6 hover:ring-white hover:text-white"
+            >
               Tap here
             </button>
           </span>
         </div>
       </div>
       <div
-        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-pink bg-opacity-40 border-4 border-brand-pink"
+        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-pink bg-opacity-40 border-4 border-brand-pink transition ease-in-out duration-300 hover:bg-opacity-100"
       >
         <div class="flex relative">
           <h1 class="text-3xl m-1 p-1">Booking & Prices</h1>
           <span class="absolute bottom-0 right-0">
-            <button class="m-2 p-2 rounded-2xl ring-2 ring-black">
+            <button
+              class="m-2 p-2 rounded-2xl ring-2 ring-black transition ease-in-out duration-300 hover:ring-6 hover:ring-white hover:text-white"
+            >
               Go here
             </button>
           </span>
