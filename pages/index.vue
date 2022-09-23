@@ -107,7 +107,7 @@
       </div>
     </section>
     <section
-      class="relative z-20 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid-rows-auto h-auto w-screen bg-amber-50"
+      class="relative z-20 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid-rows-auto h-auto w-screen bg-amber-50 bg-opacity-90"
     >
       <div class="grid col-span-1 row-span-1 h-40 m-2 p-2">
         <div class="relative flex">
@@ -139,13 +139,15 @@
       >
         <div class="flex relative">
           <h1 class="text-3xl m-1 p-1">Sugar Loaf Photo Gallery</h1>
-          <span class="absolute bottom-0 right-0">
-            <button
-              class="m-2 p-2 rounded-2xl ring-2 ring-black transition ease-in-out duration-300 hover:ring-6 hover:ring-white hover:text-white"
-            >
-              Tap here
-            </button>
-          </span>
+          <NuxtLink to="/gallery">
+            <span class="absolute bottom-0 right-0">
+              <button
+                class="m-2 p-2 rounded-2xl ring-2 ring-black transition ease-in-out duration-300 hover:ring-6 hover:ring-white hover:text-white"
+              >
+                Tap here
+              </button>
+            </span>
+          </NuxtLink>
         </div>
       </div>
       <div

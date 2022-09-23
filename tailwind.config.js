@@ -3,6 +3,9 @@ module.exports = {
   content: ["./pages/**/*.{html,js}", "./components/**/*.{html,js}"],
   theme: {
     extend: {
+      transitionProperty:{
+        
+      },
       colors: {
         "brand-green": "#88ff9f",
         "brand-blue": "#7099ff",
