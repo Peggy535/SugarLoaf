@@ -33,6 +33,12 @@
     url("assets/fonts/PPNeueMontreal-Bold.woff2") format("woff2");
 }
 
+html {
+  overflow: hidden;
+  height: 100%;
+}
 body {
+  height: 100%;
+  overflow: auto;
   font-family: "NeueMontrealLight";
 }

@@ -9,10 +9,14 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.3.3",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "autoprefixer": "^10.4.8",
     "gsap": "^3.11.1",
     "nuxt": "3.0.0-rc.9",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "@twicpics/components": "^0.10.0"
   }
 }
