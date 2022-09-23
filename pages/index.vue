@@ -5,10 +5,12 @@
     <section class="h-screen w-screen fixed">
       <video
         class="absolute top-0 right-0 w-screen h-screen object-center object-cover"
-        autoplay
+        preload
+        autoplay="autoplay"
         loop
         muted
         playsinline
+        poster=""
       >
         <source
           src="https://res.cloudinary.com/peggy-co/video/upload/q_auto:best/v1663840583/SugarLoaf/antigua_sea_qof8pg.webm"
@@ -17,6 +19,10 @@
         <source
           src="https://res.cloudinary.com/peggy-co/video/upload/q_auto:best/v1663840583/SugarLoaf/antigua_sea_qof8pg.mp4"
           type="video/mp4"
+        />
+        <source
+          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto:best/v1663840583/SugarLoaf/antigua_sea_qof8pg.mov"
+          type="video/mov"
         />
       </video>
     </section>
@@ -101,7 +107,7 @@
       </div>
     </section>
     <section
-      class="relative z-20 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid-rows-auto h-fit w-screen bg-amber-50"
+      class="relative z-20 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid-rows-auto h-auto w-screen bg-amber-50"
     >
       <div class="grid col-span-1 row-span-1 h-40 m-2 p-2">
         <div class="relative flex">
@@ -113,7 +119,7 @@
         </div>
       </div>
       <div
-        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-turquoise bg-opacity-40 border-4 border-brand-turquoise transition ease-in-out duration-300 hover:bg-opacity-100"
+        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-turquoise bg-opacity-40 border-4 border-brand-turquoise transition ease-in-out duration-300 hover:bg-opacity-100 hover:-translate-y-1 hover:scale-110"
       >
         <div class="flex relative">
           <h1 class="text-3xl m-1 p-1">
@@ -129,7 +135,7 @@
         </div>
       </div>
       <div
-        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-green bg-opacity-40 border-4 border-brand-green transition ease-in-out duration-300 hover:bg-opacity-100"
+        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-green bg-opacity-40 border-4 border-brand-green transition ease-in-out duration-300 hover:bg-opacity-100 hover:-translate-y-1 hover:scale-110"
       >
         <div class="flex relative">
           <h1 class="text-3xl m-1 p-1">Sugar Loaf Photo Gallery</h1>
@@ -143,7 +149,7 @@
         </div>
       </div>
       <div
-        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-pink bg-opacity-40 border-4 border-brand-pink transition ease-in-out duration-300 hover:bg-opacity-100"
+        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-pink bg-opacity-40 border-4 border-brand-pink transition ease-in-out duration-300 hover:bg-opacity-100 hover:-translate-y-1 hover:scale-110"
       >
         <div class="flex relative">
           <h1 class="text-3xl m-1 p-1">Booking & Prices</h1>
