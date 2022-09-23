@@ -23,17 +23,15 @@
     <section class="relative h-screen w-full bg-amber-500 bg-opacity-20 z-20">
       <div class="flex flex-col absolute bottom-0 left-0 m-1 p-1 mb-20">
         <h1
-          class="text-6xl sm:text-9xl lg:text-11xl 2xl:text-13xl text-white mb-10"
+          class="text-6xl sm:text-9xl lg:text-12xl xl:text-14xl 2xl:text-13xl text-white mb-10"
         >
           Sugar Loaf
         </h1>
-        <h6 class="text-3xl text-white mb-10">
+        <h6 class="text-3xl lg:text-4xl text-white mb-10">
           A luxurious Antiguan residence that is 'Home from Home'.
         </h6>
+        <span class="text-white text-left">Please scroll down Worthers!</span>
       </div>
-      <aside class="text-white text-sm z-20 absolute bottom-0 m-2 p-2">
-        Please scroll down Worthers!
-      </aside>
     </section>
     <section
       class="relative max-h-fit w-screen bg-amber-50 grid grid-cols-1 grid-rows-1 z-20"
@@ -41,7 +39,7 @@
       <div class="grid col-span-1 row-span-1 md:col-span-2 md:row-span-1">
         <div class="flex flex-col w-full items-center">
           <p
-            class="text-4xl md:text-6xl lg:text-7xl m-3 p-3 my-10 border-l-2 border-l-black"
+            class="text-4xl md:text-6xl lg:text-7xl xl:text-8xl m-3 p-3 my-10 border-l-2 border-l-black"
           >
             "Set in large and quiet gardens overlooking Falmouth Harbour, Sugar
             Loaf has views to swoon at and plenty of privacy, peace and quiet."
@@ -83,7 +81,8 @@
           </p>
           <div class="m-2 p-2 sm:m-5 sm:p-5 md:h-2/3 items-center">
             <cite class="text-xs lg:text-sm"
-              >Sit back, relax, chat and ponder over the awe inspiring view</cite
+              >Sit back, relax, chat and ponder over the awe inspiring
+              view</cite
             >
             <img
               class="object-contain rounded-2xl py-2"
@@ -95,9 +94,7 @@
               src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840540/SugarLoaf/MainLivingRoom3_njhdjo.jpg"
               alt=""
             />
-            <cite class="text-xs lg:text-sm"
-              >Sugar Loafs living area</cite
-            >
+            <cite class="text-xs lg:text-sm">Sugar Loafs living area</cite>
           </div>
         </div>
       </div>
