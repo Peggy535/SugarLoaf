@@ -99,5 +99,56 @@
         </div>
       </div>
     </section>
+    <section
+      class="relative z-20 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid-rows-auto h-fit w-screen bg-amber-50"
+    >
+      <div class="grid col-span-1 row-span-1 h-40 m-2 p-2">
+        <div class="relative flex">
+          <h1
+            class="text-5xl m-1 p-1 lg:text-3xl lg:leading-normal xl:text-5xl 2xl:text-6xl"
+          >
+            Discover more about Sugar Loaf
+          </h1>
+        </div>
+      </div>
+      <div
+        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-turquoise bg-opacity-40 border-4 border-brand-turquoise"
+      >
+        <div class="flex relative">
+          <h1 class="text-3xl m-1 p-1">
+            House details, amenities and specifications
+          </h1>
+          <span class="absolute bottom-0 right-0">
+            <button class="m-2 p-2 rounded-2xl ring-2 ring-black">
+              Press here
+            </button>
+          </span>
+        </div>
+      </div>
+      <div
+        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-green bg-opacity-40 border-4 border-brand-green"
+      >
+        <div class="flex relative">
+          <h1 class="text-3xl m-1 p-1">Sugar Loaf Photo Gallery</h1>
+          <span class="absolute bottom-0 right-0">
+            <button class="m-2 p-2 rounded-2xl ring-2 ring-black">
+              Tap here
+            </button>
+          </span>
+        </div>
+      </div>
+      <div
+        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-pink bg-opacity-40 border-4 border-brand-pink"
+      >
+        <div class="flex relative">
+          <h1 class="text-3xl m-1 p-1">Booking & Prices</h1>
+          <span class="absolute bottom-0 right-0">
+            <button class="m-2 p-2 rounded-2xl ring-2 ring-black">
+              Go here
+            </button>
+          </span>
+        </div>
+      </div>
+    </section>
   </div>
 </template>

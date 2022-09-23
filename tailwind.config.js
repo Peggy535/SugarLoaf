@@ -3,6 +3,13 @@ module.exports = {
   content: ["./pages/**/*.{html,js}", "./components/**/*.{html,js}"],
   theme: {
     extend: {
+      colors: {
+        "brand-green": "#88ff9f",
+        "brand-blue": "#7099ff",
+        "brand-pink": "#ff7d90",
+        "brand-yellow": "#ffbd1c",
+        "brand-turquoise": "#63fffc",
+      },
       fontFamily: {
         NeueMontrealThin: ["NeueMontrealThin"],
         NeueMontrealLight: ["NeueMontrealLight"],
