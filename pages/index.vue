@@ -39,7 +39,7 @@
         </h6>
         <span class="text-white text-left">Please scroll down Worthers!</span>
       </div>
-      <span class="absolute top-10 right-10 m-1 p-1"
+      <span class="absolute top-0 md:top-3 right-0 md:right-3 m-1 p-1"
         ><NuxtLink
           to="https://www.admiralmanagementservices.com/sugarloaf"
           target="_blank"
@@ -49,7 +49,7 @@
             class="border-2 border-white rounded-2xl transition delay-50 ease-in-out hover:border-brand-yellow duration:300"
           >
             <p
-              class="text-white p-2 m-2 text-xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
+              class="text-white p-1 m-1 md:p-2 text-lg md:text-2xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
             >
               Book now
             </p>
@@ -170,7 +170,7 @@
         </div>
       </div>
       <div
-        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-pink bg-opacity-40 border-4 border-brand-pink transition ease-in-out duration-300 hover:bg-opacity-100 hover:-translate-y-1 hover:scale-110"
+        class="grid col-span-1 row-span-1 rounded-2xl m-2 p-2 h-60 bg-brand-yellow bg-opacity-40 border-4 border-brand-yellow transition ease-in-out duration-300 hover:bg-opacity-100 hover:-translate-y-1 hover:scale-110"
       >
         <div class="flex relative">
           <h1 class="text-3xl m-1 p-1">Booking & Prices</h1>

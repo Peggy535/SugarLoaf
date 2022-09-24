@@ -184,9 +184,9 @@ onMounted(() => {
 
 <template>
   <div>
-    <section class="h-fit w-screen bg-amber-50">
+    <section class="relative h-fit w-screen bg-amber-50">
       <div class="flex flex-col">
-        <h1 class="text-6xl md:text-8xl xl:text-11xl m-1 sm:m-3 sm:p-3 mb-10">
+        <h1 class="text-6xl md:text-8xl xl:text-11xl m-1 sm:m-3 sm:p-3 my-20">
           Sugar Loaf
         </h1>
         <h1 class="text-4xl md:text-6xl xl:text-8xl m-1 sm:m-3 sm:p-3 mb-5">
@@ -241,7 +241,7 @@ onMounted(() => {
           </div>
         </ul>
       </div>
-      <span class="absolute top-10 right-10 m-1 p-1"
+      <span class="absolute top-0 md:top-3 right-0 md:right-3 m-1 p-1"
         ><NuxtLink
           to="https://www.admiralmanagementservices.com/sugarloaf"
           target="_blank"
@@ -251,7 +251,7 @@ onMounted(() => {
             class="border-2 border-black rounded-2xl transition delay-50 ease-in-out hover:border-brand-yellow duration:300"
           >
             <p
-              class="text-black p-2 m-2 text-xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
+              class="text-black p-1 m-1 md:p-2 text-lg md:text-2xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
             >
               Book now
             </p>
