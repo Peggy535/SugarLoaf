@@ -76,13 +76,6 @@ const images = [
   },
   {
     imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840542/SugarLoaf/RainbowHarbourView_qlzbo8.jpg",
-    imageAlt:
-      "A stunning wooden outside dining table with the most spectacular view",
-    tag: "Balcony",
-  },
-  {
-    imageUrl:
       "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840540/SugarLoaf/MainLivingRoom2_klmf5f.jpg",
     imageAlt: "Brightly lit living room with ceiling fans and A/C.",
     tag: "LivingRoom",
@@ -107,49 +100,83 @@ const images = [
     tag: "Kitchen",
   },
   {
-    imageUrl: "",
-    imageAlt: "",
-    tag: "",
+    imageUrl:
+      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840539/SugarLoaf/Kitchen2_vlydjd.jpg",
+    imageAlt: "Ample room for the family to help prepare for your meals.",
+    tag: "Kitchen",
   },
   {
-    imageUrl: "",
-    imageAlt: "",
-    tag: "",
+    imageUrl:
+      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840539/SugarLoaf/kitchen1_wa43b4.jpg",
+    imageAlt: "The Kitchen area",
+    tag: "Kitchen",
   },
   {
-    imageUrl: "",
-    imageAlt: "",
-    tag: "",
+    imageUrl:
+      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840536/SugarLoaf/Bedroom3_ctwctl.jpg",
+    imageAlt: "One of the 4 spacious and cool bedrooms",
+    tag: "Bedrooms",
   },
   {
-    imageUrl: "",
-    imageAlt: "",
-    tag: "",
+    imageUrl:
+      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840536/SugarLoaf/Bedroom1_yvhil9.jpg",
+    imageAlt: "All bedrooms have excellent ventilation and mosquito nets",
+    tag: "Bedrooms",
   },
   {
-    imageUrl: "",
-    imageAlt: "",
-    tag: "",
+    imageUrl:
+      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840536/SugarLoaf/Bedroom2_aluu4b.jpg",
+    imageAlt: "Bedroom - the stunning views are everywhere!",
+    tag: "Bedrooms",
   },
   {
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840537/SugarLoaf/AbovePoolHarbourView_jwvqby.jpg",
     imageAlt: "",
-    tag: "",
+    tag: "Other",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840537/SugarLoaf/DiningArea_bzmv0w.jpg",
+    imageAlt: "",
+    tag: "Other",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840538/SugarLoaf/Inside2_pdnyq1.jpg",
+    imageAlt: "",
+    tag: "Other",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840539/SugarLoaf/Inside3_dpxsi6.jpg",
+    imageAlt: "",
+    tag: "Other",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840544/SugarLoaf/ViewFromBedroom_sfs040.jpg",
+    imageAlt: "",
+    tag: "Other",
   },
 ];
 
 onMounted(() => {
+  gsap.set(".imageOverlay", { autoAlpha: 0, scale: 0 });
   const items = document.querySelectorAll(".item");
+  const overlayImage = document.querySelector(".imageOverlayeCard");
 
   items.forEach((el) => {
-    const image = el.querySelector("img");
-    el.addEventListener("mouseenter", (el) => {
-      console.log(el);
-      console.log(image);
-      gsap.to(".imageOverlay", { duration: 1, autoAlpha: 1 });
+    el.addEventListener("mouseover", (e) => {
+      gsap.to(".imageOverlayCard", {
+        autoAlpha: 1,
+        duration: 1,
+        x: 200,
+        y: 200,
+      });
     });
-    el.addEventListener("mouseleave", (el) => {
-      gsap.to(".imageOverlay", { duration: 1, autoAlpha: 0 });
+    el.addEventListener("mouseleave", (e) => {
+      gsap.to(".imageOverlayCard", { autoAlpha: 0, duration: 1 });
     });
   });
 });
@@ -166,7 +193,7 @@ onMounted(() => {
           Photo Gallery
         </h1>
         <p
-          class="text-xl md:text-2xl xl:text-3xl sm:w-3/4 xl:w-1/2 m-1 sm:m-3 sm:p-3 w-full mb-3 xl:mb-12 border-l-2 border-l-black"
+          class="text-xl md:text-2xl xl:text-3xl sm:w-3/4 xl:w-1/2 m-1 p-1 sm:m-3 sm:p-3 w-full mb-3 xl:mb-12 border-l-2 border-l-black"
         >
           Discover Sugar Loaf both inside and out. Simply click on the areas you
           would like to see in more detail or simply hover, click or touch the
@@ -177,45 +204,62 @@ onMounted(() => {
         >
           <div class="my-2 py-2">
             <li
-              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-75 hover:text-white pointer-events-auto"
+              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-50 hover:text-white pointer-events-auto"
             >
               Main Building |
             </li>
             <li
-              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-75 hover:text-white pointer-events-auto"
+              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-50 hover:text-white pointer-events-auto"
             >
               Pool |
             </li>
             <li
-              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-75 hover:text-white pointer-events-auto"
+              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-50 hover:text-white pointer-events-auto"
             >
               Balcony area |
             </li>
             <li
-              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-75 hover:text-white pointer-events-auto"
+              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-50 hover:text-white pointer-events-auto"
             >
               Living Room |
             </li>
             <li
-              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-75 hover:text-white pointer-events-auto"
+              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-50 hover:text-white pointer-events-auto"
             >
               Kitchen |
             </li>
             <li
-              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-75 hover:text-white pointer-events-auto"
+              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-50 hover:text-white pointer-events-auto"
             >
               Bedrooms & Bathrooms |
             </li>
             <li
-              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-75 hover:text-white pointer-events-auto"
+              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-50 hover:text-white pointer-events-auto"
             >
-              Swooning Views
+              Other areas
             </li>
           </div>
         </ul>
       </div>
+      <span class="absolute top-10 right-10 m-1 p-1"
+        ><NuxtLink
+          to="https://www.admiralmanagementservices.com/sugarloaf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button
+            class="border-2 border-black rounded-2xl transition delay-50 ease-in-out hover:border-brand-yellow duration:300"
+          >
+            <p
+              class="text-black p-2 m-2 text-xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
+            >
+              Book now
+            </p>
+          </button>
+        </NuxtLink>
+      </span>
     </section>
-    <main class="h-auto w-screen bg-amber-50 z-10">
+    <main class="h-auto w-screen bg-amber-50 z-10 overflow-hidden">
       <ul class="flex flex-row flex-wrap">
         <li
           class="h-50 sm:h-40 lg:h-60 xl:h-70 2xl:h-80 flex-grow m-1 p-1 item"
@@ -227,11 +271,18 @@ onMounted(() => {
             :alt="image.imageAlt"
             loading="lazy"
           />
+          <section
+            class="imageOverlayCard invisible w-1/2 h-3/4 relative bg-orange-500 flex flex-col"
+          >
+            <img
+              class="max-h-full min-w-full object-cover align-bottom rounded-2xl absolute"
+              :src="image.imageUrl"
+              :alt="image.imageAlt"
+              loading="lazy"
+            />
+          </section>
         </li>
       </ul>
     </main>
-    <section
-      class="imageOverlay invisible w-1/2 h-3/4 absolute top-0 z-30 bg-orange-500"
-    ></section>
   </div>
 </template>

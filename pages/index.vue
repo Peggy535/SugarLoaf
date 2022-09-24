@@ -39,6 +39,23 @@
         </h6>
         <span class="text-white text-left">Please scroll down Worthers!</span>
       </div>
+      <span class="absolute top-10 right-10 m-1 p-1"
+        ><NuxtLink
+          to="https://www.admiralmanagementservices.com/sugarloaf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button
+            class="border-2 border-white rounded-2xl transition delay-50 ease-in-out hover:border-brand-yellow duration:300"
+          >
+            <p
+              class="text-white p-2 m-2 text-xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
+            >
+              Book now
+            </p>
+          </button>
+        </NuxtLink>
+      </span>
     </section>
     <section
       class="relative max-h-fit w-screen bg-amber-50 bg-opacity-90 grid grid-cols-1 grid-rows-1 z-20"
@@ -125,13 +142,15 @@
           <h1 class="text-3xl m-1 p-1">
             House details, amenities and specifications
           </h1>
-          <span class="absolute bottom-0 right-0">
-            <button
-              class="m-2 p-2 rounded-2xl ring-2 ring-black transition ease-in-out duration-300 hover:ring-6 hover:ring-white hover:text-white"
-            >
-              Press here
-            </button>
-          </span>
+          <NuxtLink to="/housedetails">
+            <span class="absolute bottom-0 right-0">
+              <button
+                class="m-2 p-2 rounded-2xl ring-2 ring-black transition ease-in-out duration-300 hover:ring-6 hover:ring-white hover:text-white"
+              >
+                Press here
+              </button>
+            </span>
+          </NuxtLink>
         </div>
       </div>
       <div
