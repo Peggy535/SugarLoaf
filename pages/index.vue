@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
+</script>
 <template>
   <div class="h-auto w-screen overflow-hidden">
     <!-- Video section -->
@@ -174,13 +178,15 @@
       >
         <div class="flex relative">
           <h1 class="text-3xl m-1 p-1">Booking & Prices</h1>
-          <span class="absolute bottom-0 right-0">
-            <button
-              class="m-2 p-2 rounded-2xl ring-2 ring-black transition ease-in-out duration-300 hover:ring-6 hover:ring-white hover:text-white"
-            >
-              Go here
-            </button>
-          </span>
+          <NuxtLink to="/booking-pricing">
+            <span class="absolute bottom-0 right-0">
+              <button
+                class="m-2 p-2 rounded-2xl ring-2 ring-black transition ease-in-out duration-300 hover:ring-6 hover:ring-white hover:text-white"
+              >
+                Go here
+              </button>
+            </span>
+          </NuxtLink>
         </div>
       </div>
     </section>

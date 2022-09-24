@@ -162,6 +162,8 @@ const images = [
 ];
 
 onMounted(() => {
+  window.scrollTo(0, 0);
+  refreshNuxtData();
   gsap.set(".imageOverlay", { autoAlpha: 0, scale: 0 });
   const items = document.querySelectorAll(".item");
   const overlayImage = document.querySelector(".imageOverlayeCard");

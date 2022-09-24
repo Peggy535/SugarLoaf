@@ -1,3 +1,9 @@
+<script setup>
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
+</script>
+
 <template>
   <div>
     <!-- Video section -->
