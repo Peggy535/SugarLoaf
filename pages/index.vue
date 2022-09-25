@@ -30,20 +30,7 @@ onMounted(() => {
         muted
         playsinline
         poster="https://res.cloudinary.com/peggy-co/video/upload/c_fit,q_auto,w_1024/v1663840583/SugarLoaf/antigua_sea_qof8pg.webp"
-      >
-        <!-- <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1663840583/SugarLoaf/antigua_sea_qof8pg.webmv"
-          type="video/webm"
-        />
-        <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1663840583/SugarLoaf/antigua_sea_qof8pg.mp4"
-          type="video/mp4"
-        />
-        <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1663840583/SugarLoaf/antigua_sea_qof8pg.mov"
-          type="video/mov"
-        /> -->
-      </video>
+      ></video>
     </section>
     <!-- Landing title -->
     <section class="relative h-screen w-full bg-amber-500 bg-opacity-20 z-20">
@@ -109,12 +96,20 @@ onMounted(() => {
               class="object-contain rounded-2xl py-2"
               src="/CourtYard_khmzbz.jpg"
               alt=""
+              width="1024"
+              height="768"
+              loading="lazy"
+              sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
             />
             <NuxtImg
               provider="cloudinary"
               class="object-contain rounded-2xl"
               src="/PoolViewOfHarbour_qqmxlg.jpg"
               alt=""
+              width="1024"
+              height="768"
+              loading="lazy"
+              sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
             />
             <cite class="text-xs lg:text-sm"
               >Views of Falmouth Harbour from the private pool</cite
@@ -147,12 +142,20 @@ onMounted(() => {
               class="object-contain rounded-2xl py-2"
               src="/veranda_ipjnac.jpg"
               alt=""
+              width="1024"
+              height="768"
+              loading="lazy"
+              sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
             />
             <NuxtImg
               provider="cloudinary"
               class="object-contain rounded-2xl"
               src="/MainLivingRoom3_njhdjo.jpg"
               alt=""
+              width="1024"
+              height="768"
+              loading="lazy"
+              sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
             />
             <cite class="text-xs lg:text-sm">Sugar Loafs living area</cite>
           </div>
