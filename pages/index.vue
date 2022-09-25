@@ -36,15 +36,6 @@ onMounted(() => {
     <section class="relative h-screen w-full bg-amber-500 bg-opacity-20 z-20">
       <div class="flex flex-row place-content-between items-center">
         <MenuIcon class="w-10" />
-        <span>
-          <NuxtLink to="/">
-            <img
-              class="w-10"
-              src="../assets/logo/Logo_transp_white.png"
-              alt=""
-            />
-          </NuxtLink>
-        </span>
 
         <span class="m-1"
           ><NuxtLink

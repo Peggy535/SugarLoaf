@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     cloudinary: {
       baseURL:
         "https://res.cloudinary.com/peggy-co/image/upload/v1663840544/SugarLoaf",
-      
     },
   },
   css: ["~/assets/css/tailwind.css"],
