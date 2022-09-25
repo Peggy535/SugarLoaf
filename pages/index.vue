@@ -20,17 +20,18 @@ onMounted(() => {
     <!-- Video section -->
     <section class="h-screen w-screen fixed">
       <video
+        src="https://res.cloudinary.com/peggy-co/video/upload/c_fit,f_auto,q_auto,w_1024/v1663840583/SugarLoaf/antigua_sea_qof8pg.mp4"
         class="absolute top-0 right-0 w-screen h-screen object-center object-cover"
-        width="1920"
-        height="1080"
+        width="1024"
+        height="576"
         preload
         autoplay
         loop
         muted
         playsinline
-        poster="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1663840583/SugarLoaf/antigua_sea_qof8pg.webp"
+        poster="https://res.cloudinary.com/peggy-co/video/upload/c_fit,q_auto,w_1024/v1663840583/SugarLoaf/antigua_sea_qof8pg.webp"
       >
-        <source
+        <!-- <source
           src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1663840583/SugarLoaf/antigua_sea_qof8pg.webmv"
           type="video/webm"
         />
@@ -41,7 +42,7 @@ onMounted(() => {
         <source
           src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1663840583/SugarLoaf/antigua_sea_qof8pg.mov"
           type="video/mov"
-        />
+        /> -->
       </video>
     </section>
     <!-- Landing title -->
