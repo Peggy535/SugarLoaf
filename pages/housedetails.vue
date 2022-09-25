@@ -1,16 +1,16 @@
 <script setup>
-  const title = ref('Sugar Loaf | Amenities & facilities')
-  const description = ref('The description goes here')
+const title = ref("Sugar Loaf | Amenities & facilities");
+const description = ref("The description goes here");
 
-  useHead({
-    title,
-    meta: [
-      {
-        name: 'description',
-        content: description
-      }
-    ]
-  })
+useHead({
+  title,
+  meta: [
+    {
+      name: "description",
+      content: description,
+    },
+  ],
+});
 onMounted(() => {
   window.scrollTo(0, 0);
 });
@@ -26,17 +26,19 @@ onMounted(() => {
         loop
         muted
         playsinline
+        preload
+        poster=""
       >
         <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto:best/v1664038068/SugarLoaf/production_ID_4782135_1_onpelh.webm"
+          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1664038068/SugarLoaf/production_ID_4782135_1_onpelh.webm"
           type="video/webm"
         />
         <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto:best/v1664038068/SugarLoaf/production_ID_4782135_1_onpelh.mp4"
+          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1664038068/SugarLoaf/production_ID_4782135_1_onpelh.mp4"
           type="video/mp4"
         />
         <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto:best/v1664038068/SugarLoaf/production_ID_4782135_1_onpelh.mov"
+          src="https://res.cloudinary.com/peggy-co/video/upload/f_auto,q_auto/v1664038068/SugarLoaf/production_ID_4782135_1_onpelh.mp4"
           type="video/mov"
         />
       </video>

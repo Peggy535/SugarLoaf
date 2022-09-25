@@ -22,41 +22,41 @@ onMounted(() => {
       <video
         class="absolute top-0 right-0 w-screen h-screen object-center object-cover"
         preload
-        autoplay="autoplay"
+        autoplay
         loop
-        muted="true"
+        muted
         playsinline
         poster=""
       >
         <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto:best/v1663840583/SugarLoaf/antigua_sea_qof8pg.webm"
+          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1663840583/SugarLoaf/antigua_sea_qof8pg.webmv"
           type="video/webm"
         />
         <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto:best/v1663840583/SugarLoaf/antigua_sea_qof8pg.mp4"
+          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1663840583/SugarLoaf/antigua_sea_qof8pg.mp4"
           type="video/mp4"
         />
         <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto:best/v1663840583/SugarLoaf/antigua_sea_qof8pg.mov"
+          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1663840583/SugarLoaf/antigua_sea_qof8pg.mov"
           type="video/mov"
         />
       </video>
     </section>
     <!-- Landing title -->
     <section class="relative h-screen w-full bg-amber-500 bg-opacity-20 z-20">
-      <div class="flex flex-row place-content-between">
-        <MenuIcon class="w-20" />
+      <div class="flex flex-row place-content-between items-center">
+        <MenuIcon class="w-10" />
         <span>
           <NuxtLink to="/">
             <img
-              class="w-24"
+              class="w-10"
               src="../assets/logo/Logo_transp_white.png"
               alt=""
             />
           </NuxtLink>
         </span>
 
-        <span class="m-1 p-1"
+        <span class="m-1"
           ><NuxtLink
             to="https://www.admiralmanagementservices.com/sugarloaf"
             target="_blank"
@@ -66,7 +66,7 @@ onMounted(() => {
               class="border-2 border-white rounded-2xl transition delay-50 ease-in-out hover:border-brand-yellow duration:300"
             >
               <p
-                class="text-white p-1 m-1 md:p-2 text-lg md:text-2xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
+                class="text-white p-1 md:p-2 text-md md:text-2xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
               >
                 Book now
               </p>

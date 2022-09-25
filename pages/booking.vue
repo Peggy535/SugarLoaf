@@ -26,17 +26,19 @@ onMounted(() => {
         loop
         muted
         playsinline
+        preload
+        poster=""
       >
         <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto:best/v1664041139/SugarLoaf/video_dfr9s3.webm"
+          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1664041139/SugarLoaf/video_dfr9s3.webm"
           type="video/webm"
         />
         <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto:best/v1664041139/SugarLoaf/video_dfr9s3.mp4"
+          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1664041139/SugarLoaf/video_dfr9s3.mp4"
           type="video/mp4"
         />
         <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto:best/v1664041139/SugarLoaf/video_dfr9s3.mov"
+          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1664041139/SugarLoaf/video_dfr9s3.mov"
           type="video/mov"
         />
       </video>
@@ -45,7 +47,7 @@ onMounted(() => {
     <section
       class="relative flex h-screen w-full bg-amber-50 bg-opacity-80 z-20"
     >
-      <div class="flex flex-col place-content-end font-NeueMontrealBook">
+      <div class="flex flex-col place-content-end font-NeueMontrealBook my-10">
         <h1
           class="text-6xl md:text-8xl xl:text-10xl m-1 sm:m-3 sm:p-3 mt-20 mb-10"
         >
@@ -84,22 +86,25 @@ onMounted(() => {
       </span>
     </section>
     <section class="relative h-fit w-screen z-20 flex bg-amber-50">
-      <div class="flex-flex-col w-full sm:w-3/4 mx-auto">
-        <div class="flex flex-col mb-5">
+      <div class="flex-flex-col w-full sm:w-3/4 lg:w-1/2 mx-auto">
+        <div class="flex flex-col my-10">
           <h1 class="p-1 m-1 text-2xl">
             1. Choose how many bedrooms you would like to book for.
           </h1>
           <p class="m-1 p-1">
-            Sugar Loaf has 4 bedrooms in total. If you choose you can book for
-            2, 3 or 4 bedrooms. The weekly prices reflect this.
+            Sugar Loaf has 4 bedrooms in total. You can book the house for
+            depending on the size of your party. The weekly pricing for 2, 3 or
+            4 bedroom options are listed below.
           </p>
         </div>
         <div class="flex flex-col w-full">
           <h1 class="p-1 m-1 text-2xl">
             2. Review the pricing for your selected stay.
           </h1>
-          <div class="flex flex-col border border-black rounded-2xl m-1">
-            <h2 class="m-1 p-2 text-2xl">(2 Bedroom Option)</h2>
+          <div class="flex flex-col border border-black rounded-2xl m-1 my-5">
+            <h2 class="m-1 p-2 text-2xl">
+              (2 Bedroom Option | Price per week (US$))
+            </h2>
             <table class="table-fixed text-center m-1 p-1 mb-3">
               <thead>
                 <tr>
@@ -118,9 +123,11 @@ onMounted(() => {
             </table>
           </div>
 
-          <div class="flex flex-col border border-black rounded-2xl m-1">
-            <h2 class="m-1 p-2 text-2xl">(3 Bedroom Option)</h2>
-            <table class="table-fixed text-center mb-5">
+          <div class="flex flex-col border border-black rounded-2xl m-1 my-5">
+            <h2 class="m-1 p-2 text-2xl">
+              (3 Bedroom Option | Price per week (US$))
+            </h2>
+            <table class="table-fixed text-center m-1 p-1 mb-5">
               <thead>
                 <tr>
                   <th>Summer</th>
@@ -137,9 +144,11 @@ onMounted(() => {
               </tbody>
             </table>
           </div>
-          <div class="flex flex-col border border-black rounded-2xl m-1">
-            <h2 class="m-1 p-2 text-2xl">(4 Bedroom Option)</h2>
-            <table class="table-fixed text-center mb-5">
+          <div class="flex flex-col border border-black rounded-2xl m-1 my-5">
+            <h2 class="m-1 p-2 text-2xl">
+              (4 Bedroom Option | Price per week (US$))
+            </h2>
+            <table class="table-fixed text-center m-1 p-1 mb-5">
               <thead>
                 <tr>
                   <th>Summer</th>
@@ -156,7 +165,8 @@ onMounted(() => {
               </tbody>
             </table>
           </div>
-          <div class="flex flex-col border border-black rounded-2xl m-1">
+          <div class="flex flex-col border border-black rounded-2xl m-1 my-5">
+            <h1 class="text-4xl">Date periods</h1>
             <ul class="m-1 p-1">
               <li>Summer: 16th May - 14th Nov incl.</li>
               <li>Winter: 15th Nov - 15th May incl.</li>
@@ -175,7 +185,8 @@ onMounted(() => {
                       <td>
                         <NuxtLink
                           to="https://visitantiguabarbuda.com/antiguas-carnival/"
-                          rel="noopener noreferer"
+                          target="_blank"
+                          rel="noopener noreferrer"
                           >Carnival</NuxtLink
                         >
                       </td>
