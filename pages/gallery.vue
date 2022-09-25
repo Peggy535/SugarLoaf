@@ -15,159 +15,134 @@ useHead({
 });
 const images = [
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840544/SugarLoaf/SideOfMainBuilding_rtdcok.jpg",
+    imageUrl: "/SideOfMainBuilding_rtdcok.jpg",
     imageAlt:
       "View from the side garden, blacony and Falmouth Harbour in the distance",
     tag: "Building",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840544/SugarLoaf/ViewFromCourtYard_nfevbp.jpg",
+    imageUrl: "/ViewFromCourtYard_nfevbp.jpg",
     imageAlt:
       "View of the surrounding area from the private front court yard/entrance",
     tag: "Building",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840537/SugarLoaf/CourtYard_khmzbz.jpg",
+    imageUrl: "/CourtYard_khmzbz.jpg",
     imageAlt: "Front entrance to Sugar Loaf",
     tag: "Building",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840537/SugarLoaf/FrontDoor_ea8i9a.jpg",
+    imageUrl: "/FrontDoor_ea8i9a.jpg",
     imageAlt: "Secure entrance with a beautiful view through to the Harbour",
     tag: "Building",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840542/SugarLoaf/PoolViewOfHarbour_qqmxlg.jpg",
+    imageUrl: "/PoolViewOfHarbour_qqmxlg.jpg",
     imageAlt:
       "View from the private pool side which looks directly towards Falmouth Harbour",
     tag: "Pool",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840542/SugarLoaf/PoolAreaWithCover_cmgtom.jpg",
+    imageUrl: "/PoolAreaWithCover_cmgtom.jpg",
     imageAlt: "View of the pool, sun loungers and shaded seating area",
     tag: "Pool",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840542/SugarLoaf/PoolArea2_ictxam.jpg",
+    imageUrl: "/PoolArea2_ictxam.jpg",
     imageAlt:
       "A view of the pool area from underneath the shaded area. Stunning view can be seen from virtually all positions.",
     tag: "Pool",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840541/SugarLoaf/OpenAirShower_ygit2t.jpg",
+    imageUrl: "/OpenAirShower_ygit2t.jpg",
     imageAlt: "Outside, stone-walled, rain-fall shower.",
     tag: "Pool",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840543/SugarLoaf/veranda_ipjnac.jpg",
+    imageUrl: "/veranda_ipjnac.jpg",
     imageAlt:
       "View of the outside balcont seating area with marvellous view of Falmouth Harbour.",
     tag: "Balcony",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840543/SugarLoaf/SunnyVeranda_n0m0xo.jpg",
+    imageUrl: "/SunnyVeranda_n0m0xo.jpg",
     imageAlt: "Relaxing, comfortable seating area - outside balcont area.",
     tag: "Balcony",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840542/SugarLoaf/RainbowHarbourView_qlzbo8.jpg",
+    imageUrl: "/RainbowHarbourView_qlzbo8.jpg",
     imageAlt:
       "The most stunning rainbow! Caught from Sugar Loaf's outside balcony area.",
     tag: "Balcony",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840540/SugarLoaf/MainLivingRoom2_klmf5f.jpg",
+    imageUrl: "/MainLivingRoom2_klmf5f.jpg",
     imageAlt: "Brightly lit living room with ceiling fans and A/C.",
     tag: "LivingRoom",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840540/SugarLoaf/MainLivingRoom3_njhdjo.jpg",
+    imageUrl: "/MainLivingRoom3_njhdjo.jpg",
     imageAlt:
       "The living room from a different angle showing a secluded work area if one needs it.",
     tag: "LivingRoom",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840540/SugarLoaf/MainLivingRoom_toe1oq.jpg",
+    imageUrl: "/MainLivingRoom_toe1oq.jpg",
     imageAlt: "The villa's living room.",
     tag: "LivingRoom",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840540/SugarLoaf/Kitchen3_nlvmfm.jpg",
+    imageUrl: "/Kitchen3_nlvmfm.jpg",
     imageAlt: "Spacious kitchen with all conveniences",
     tag: "Kitchen",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840539/SugarLoaf/Kitchen2_vlydjd.jpg",
+    imageUrl: "/Kitchen2_vlydjd.jpg",
     imageAlt: "Ample room for the family to help prepare for your meals.",
     tag: "Kitchen",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840539/SugarLoaf/kitchen1_wa43b4.jpg",
+    imageUrl: "/kitchen1_wa43b4.jpg",
     imageAlt: "The Kitchen area",
     tag: "Kitchen",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840536/SugarLoaf/Bedroom3_ctwctl.jpg",
+    imageUrl: "/Bedroom3_ctwctl.jpg",
     imageAlt: "One of the 4 spacious and cool bedrooms",
     tag: "Bedrooms",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840536/SugarLoaf/Bedroom1_yvhil9.jpg",
+    imageUrl: "/Bedroom1_yvhil9.jpg",
     imageAlt: "All bedrooms have excellent ventilation and mosquito nets",
     tag: "Bedrooms",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840536/SugarLoaf/Bedroom2_aluu4b.jpg",
+    imageUrl: "/Bedroom2_aluu4b.jpg",
     imageAlt: "Bedroom - the stunning views are everywhere!",
     tag: "Bedrooms",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840537/SugarLoaf/AbovePoolHarbourView_jwvqby.jpg",
+    imageUrl: "/AbovePoolHarbourView_jwvqby.jpg",
     imageAlt: "",
     tag: "Other",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840537/SugarLoaf/DiningArea_bzmv0w.jpg",
+    imageUrl: "/DiningArea_bzmv0w.jpg",
     imageAlt: "",
     tag: "Other",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840538/SugarLoaf/Inside2_pdnyq1.jpg",
+    imageUrl: "/Inside2_pdnyq1.jpg",
     imageAlt: "",
     tag: "Other",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840539/SugarLoaf/Inside3_dpxsi6.jpg",
+    imageUrl: "/Inside3_dpxsi6.jpg",
     imageAlt: "",
     tag: "Other",
   },
   {
-    imageUrl:
-      "https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840544/SugarLoaf/ViewFromBedroom_sfs040.jpg",
+    imageUrl: "/ViewFromBedroom_sfs040.jpg",
     imageAlt: "",
     tag: "Other",
   },
@@ -279,8 +254,9 @@ onMounted(() => {
           class="h-50 sm:h-40 lg:h-60 xl:h-70 2xl:h-80 flex-grow m-1 p-1 item"
           v-for="image in images"
         >
-          <img
+          <NuxtImg
             class="max-h-full min-w-full object-cover align-bottom rounded-2xl"
+            provider="cloudinary"
             :src="image.imageUrl"
             :alt="image.imageAlt"
             loading="lazy"
@@ -288,8 +264,9 @@ onMounted(() => {
           <section
             class="imageOverlayCard invisible w-1/2 h-3/4 relative bg-orange-500 flex flex-col"
           >
-            <img
+            <NuxtImg
               class="max-h-full min-w-full object-cover align-bottom rounded-2xl absolute"
+              provider="cloudinary"
               :src="image.imageUrl"
               :alt="image.imageAlt"
               loading="lazy"

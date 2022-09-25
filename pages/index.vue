@@ -21,12 +21,14 @@ onMounted(() => {
     <section class="h-screen w-screen fixed">
       <video
         class="absolute top-0 right-0 w-screen h-screen object-center object-cover"
+        width="1920"
+        height="1080"
         preload
         autoplay
         loop
         muted
         playsinline
-        poster=""
+        poster="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1663840583/SugarLoaf/antigua_sea_qof8pg.webp"
       >
         <source
           src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1663840583/SugarLoaf/antigua_sea_qof8pg.webmv"
@@ -101,14 +103,16 @@ onMounted(() => {
             <cite class="text-xs lg:text-sm"
               >The front court yard and entrance to Sugar Loaf</cite
             >
-            <img
+            <NuxtImg
+              provider="cloudinary"
               class="object-contain rounded-2xl py-2"
-              src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840537/SugarLoaf/CourtYard_khmzbz.jpg"
+              src="/CourtYard_khmzbz.jpg"
               alt=""
             />
-            <img
+            <NuxtImg
+              provider="cloudinary"
               class="object-contain rounded-2xl"
-              src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840542/SugarLoaf/PoolViewOfHarbour_qqmxlg.jpg"
+              src="/PoolViewOfHarbour_qqmxlg.jpg"
               alt=""
             />
             <cite class="text-xs lg:text-sm"
@@ -137,14 +141,16 @@ onMounted(() => {
               >Sit back, relax, chat and ponder over the awe inspiring
               view</cite
             >
-            <img
+            <NuxtImg
+              provider="cloudinary"
               class="object-contain rounded-2xl py-2"
-              src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840543/SugarLoaf/veranda_ipjnac.jpg"
+              src="/veranda_ipjnac.jpg"
               alt=""
             />
-            <img
+            <NuxtImg
+              provider="cloudinary"
               class="object-contain rounded-2xl"
-              src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto:best/v1663840540/SugarLoaf/MainLivingRoom3_njhdjo.jpg"
+              src="/MainLivingRoom3_njhdjo.jpg"
               alt=""
             />
             <cite class="text-xs lg:text-sm">Sugar Loafs living area</cite>
