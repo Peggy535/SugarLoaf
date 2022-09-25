@@ -178,7 +178,7 @@ onMounted(() => {
       >
         <div class="flex relative">
           <h1 class="text-3xl m-1 p-1">Booking & Prices</h1>
-          <NuxtLink to="/booking-pricing">
+          <NuxtLink to="/booking">
             <span class="absolute bottom-0 right-0">
               <button
                 class="m-2 p-2 rounded-2xl ring-2 ring-black transition ease-in-out duration-300 hover:ring-6 hover:ring-white hover:text-white"
