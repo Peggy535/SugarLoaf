@@ -1,4 +1,16 @@
 <script setup>
+  const title = ref('Sugar Loaf | Amenities & facilities')
+  const description = ref('The description goes here')
+
+  useHead({
+    title,
+    meta: [
+      {
+        name: 'description',
+        content: description
+      }
+    ]
+  })
 onMounted(() => {
   window.scrollTo(0, 0);
 });

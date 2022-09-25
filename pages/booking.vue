@@ -1,4 +1,16 @@
 <script setup>
+const title = ref("Sugar Loaf | Booking & Pricing");
+const description = ref("The description goes here");
+
+useHead({
+  title,
+  meta: [
+    {
+      name: "description",
+      content: description,
+    },
+  ],
+});
 onMounted(() => {
   window.scrollTo(0, 0);
 });
@@ -163,7 +175,7 @@ onMounted(() => {
                       <td>
                         <NuxtLink
                           to="https://visitantiguabarbuda.com/antiguas-carnival/"
-                          rel="noopener no reffer"
+                          rel="noopener noreferer"
                           >Carnival</NuxtLink
                         >
                       </td>

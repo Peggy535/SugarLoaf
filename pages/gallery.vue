@@ -1,6 +1,18 @@
 <script setup>
 import { gsap } from "gsap";
 
+const title = ref("Sugar Loaf | Photo Gallery");
+const description = ref("The description goes here");
+
+useHead({
+  title,
+  meta: [
+    {
+      name: "description",
+      content: description,
+    },
+  ],
+});
 const images = [
   {
     imageUrl:

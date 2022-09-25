@@ -1,4 +1,16 @@
 <script setup>
+const title = ref("Sugar Loaf | Home");
+const description = ref("The description goes here");
+
+useHead({
+  title,
+  meta: [
+    {
+      name: "description",
+      content: description,
+    },
+  ],
+});
 onMounted(() => {
   window.scrollTo(0, 0);
 });
@@ -32,6 +44,36 @@ onMounted(() => {
     </section>
     <!-- Landing title -->
     <section class="relative h-screen w-full bg-amber-500 bg-opacity-20 z-20">
+      <div class="flex flex-row place-content-between">
+        <MenuIcon class="w-20" />
+        <span>
+          <NuxtLink to="/">
+            <img
+              class="w-24"
+              src="../assets/logo/Logo_transp_white.png"
+              alt=""
+            />
+          </NuxtLink>
+        </span>
+
+        <span class="m-1 p-1"
+          ><NuxtLink
+            to="https://www.admiralmanagementservices.com/sugarloaf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button
+              class="border-2 border-white rounded-2xl transition delay-50 ease-in-out hover:border-brand-yellow duration:300"
+            >
+              <p
+                class="text-white p-1 m-1 md:p-2 text-lg md:text-2xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
+              >
+                Book now
+              </p>
+            </button>
+          </NuxtLink>
+        </span>
+      </div>
       <div class="flex flex-col absolute bottom-0 left-0 m-1 p-1 mb-20">
         <h1
           class="text-6xl sm:text-9xl lg:text-12xl xl:text-14xl 2xl:text-13xl text-white mb-10"
@@ -43,23 +85,6 @@ onMounted(() => {
         </h6>
         <span class="text-white text-left">Please scroll down Worthers!</span>
       </div>
-      <span class="absolute top-0 md:top-3 right-0 md:right-3 m-1 p-1"
-        ><NuxtLink
-          to="https://www.admiralmanagementservices.com/sugarloaf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button
-            class="border-2 border-white rounded-2xl transition delay-50 ease-in-out hover:border-brand-yellow duration:300"
-          >
-            <p
-              class="text-white p-1 m-1 md:p-2 text-lg md:text-2xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
-            >
-              Book now
-            </p>
-          </button>
-        </NuxtLink>
-      </span>
     </section>
     <section
       class="relative max-h-fit w-screen bg-amber-50 bg-opacity-90 grid grid-cols-1 grid-rows-1 z-20"
