@@ -4,32 +4,38 @@
 
 @font-face {
   font-family: "NeueMontrealLight";
-  src: url("assets/fonts/PPNeueMontreal-Light.woff") format("woff"),
+  src: local(PPNeueMontreal-Light), local("NeueMontrealLight"),
+    url("assets/fonts/PPNeueMontreal-Light.woff") format("woff"),
     url("assets/fonts/PPNeueMontreal-Light.woff2") format("woff2");
 }
 @font-face {
   font-family: "NeueMontrealThin";
-  src: url("assets/fonts/PPNeueMontreal-Thin.woff") format("woff"),
+  src: local(PPNeueMontreal-Thin), local("NeueMontrealThin"),
+    url("assets/fonts/PPNeueMontreal-Thin.woff") format("woff"),
     url("assets/fonts/PPNeueMontreal-Thin.woff2") format("woff2");
 }
 @font-face {
   font-family: "NeueMontrealRegular";
-  src: url("assets/fonts/PPNeueMontreal-Regular.woff") format("woff"),
+  src: local(PPNeueMontreal-Regular), local("NeueMontrealRegular"),
+    url("assets/fonts/PPNeueMontreal-Regular.woff") format("woff"),
     url("assets/fonts/PPNeueMontreal-Regular.woff2") format("woff2");
 }
 @font-face {
   font-family: "NeueMontrealMedium";
-  src: url("assets/fonts/PPNeueMontreal-Medium.woff") format("woff"),
+  src: local(PPNeueMontreal-Medium), local("NeueMontrealMedium"),
+    url("assets/fonts/PPNeueMontreal-Medium.woff") format("woff"),
     url("assets/fonts/PPNeueMontreal-Medium.woff2") format("woff2");
 }
 @font-face {
   font-family: "NeueMontrealBook";
-  src: url("assets/fonts/PPNeueMontreal-Book.woff") format("woff"),
+  src: local(PPNeueMontreal-Book), local("NeueMontrealBook"),
+    url("assets/fonts/PPNeueMontreal-Book.woff") format("woff"),
     url("assets/fonts/PPNeueMontreal-Book.woff2") format("woff2");
 }
 @font-face {
   font-family: "NeueMontrealBold";
-  src: url("assets/fonts/PPNeueMontreal-Bold.woff") format("woff"),
+  src: local(PPNeueMontreal-Bold), local("NeueMontrealBold"),
+    url("assets/fonts/PPNeueMontreal-Bold.woff") format("woff"),
     url("assets/fonts/PPNeueMontreal-Bold.woff2") format("woff2");
 }
 
