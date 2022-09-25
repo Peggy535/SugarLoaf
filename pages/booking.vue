@@ -72,8 +72,8 @@ onMounted(() => {
       </span>
     </section>
     <section class="relative h-fit w-screen z-20 flex bg-amber-50">
-      <div class="flex-flex-col place-content-center">
-        <div class="flex flex-col w-full mb-5">
+      <div class="flex-flex-col w-full sm:w-3/4 mx-auto">
+        <div class="flex flex-col mb-5">
           <h1 class="p-1 m-1 text-2xl">
             1. Choose how many bedrooms you would like to book for.
           </h1>
@@ -91,9 +91,9 @@ onMounted(() => {
             <table class="table-fixed text-center m-1 p-1 mb-3">
               <thead>
                 <tr>
-                  <th>Summer*</th>
-                  <th>Winter**</th>
-                  <th>Peak***</th>
+                  <th>Summer</th>
+                  <th>Winter</th>
+                  <th>Peak</th>
                 </tr>
               </thead>
               <tbody>
@@ -111,9 +111,9 @@ onMounted(() => {
             <table class="table-fixed text-center mb-5">
               <thead>
                 <tr>
-                  <th>Summer*</th>
-                  <th>Winter**</th>
-                  <th>Peak***</th>
+                  <th>Summer</th>
+                  <th>Winter</th>
+                  <th>Peak</th>
                 </tr>
               </thead>
               <tbody>
@@ -130,9 +130,9 @@ onMounted(() => {
             <table class="table-fixed text-center mb-5">
               <thead>
                 <tr>
-                  <th>Summer*</th>
-                  <th>Winter**</th>
-                  <th>Peak***</th>
+                  <th>Summer</th>
+                  <th>Winter</th>
+                  <th>Peak</th>
                 </tr>
               </thead>
               <tbody>
@@ -144,11 +144,34 @@ onMounted(() => {
               </tbody>
             </table>
           </div>
-          <div>
-            <ul>
-              <li>* Summer: 16th May - 14th Nov incl.</li>
-              <li>** Winter: 15th Nov - 15th May incl.</li>
-              <li>*** Peak: Peak period dates are for the following events</li>
+          <div class="flex flex-col border border-black rounded-2xl m-1">
+            <ul class="m-1 p-1">
+              <li>Summer: 16th May - 14th Nov incl.</li>
+              <li>Winter: 15th Nov - 15th May incl.</li>
+              <li>
+                Peak: Peak periods are detailed below. Please click on the event
+                link to take you to the official event website.
+                <table class="table-auto text-center w-full mb-5">
+                  <thead>
+                    <tr>
+                      <th>Event</th>
+                      <th>Dates</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <NuxtLink
+                          to="https://visitantiguabarbuda.com/antiguas-carnival/"
+                          rel="noopener no reffer"
+                          >Carnival</NuxtLink
+                        >
+                      </td>
+                      <td>7th Aug 2023</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </li>
             </ul>
           </div>
         </div>
