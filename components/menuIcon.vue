@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 
 <template>
   <svg
-    class="fill-slate-400 transition delay-50 ease-in-out hover:fill-brand-yellow duration:300"
+    class="fill-slate-200 transition delay-50 ease-in-out hover:fill-brand-yellow duration:300"
     version="1.1"
     viewBox="0 0 1200 1200"
     xmlns="http://www.w3.org/2000/svg"

@@ -31,14 +31,14 @@ const closeMenu = () => {
   >
     <span class="absolute top-5 left-5" @click="closeMenu">
       <h1
-        class="text-xl  transition delay-50 ease-in-out duration-700 hover:text-amber-500"
+        class="text-xl transition delay-50 ease-in-out duration-700 hover:text-amber-500"
       >
         Close
       </h1>
     </span>
     <div class="flex mx-auto">
       <ul class="text-slate-700 text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
-        <NuxtLink to="/">
+        <NuxtLink to="/" @click="closeMenu">
           <li
             class="m-2 p-2 transition delay-50 ease-in-out duration-700 hover:text-amber-500"
           >
@@ -46,21 +46,21 @@ const closeMenu = () => {
           </li>
         </NuxtLink>
         <span></span>
-        <NuxtLink to="/gallery">
+        <NuxtLink to="/gallery" @click="closeMenu">
           <li
             class="m-2 p-2 transition delay-50 ease-in-out duration-700 hover:text-amber-500"
           >
             Photo Gallery
           </li>
         </NuxtLink>
-        <NuxtLink to="/housedetails">
+        <NuxtLink to="/housedetails" @click="closeMenu">
           <li
             class="m-2 p-2 transition delay-50 ease-in-out duration-700 hover:text-amber-500"
           >
             House details & amenities
           </li>
         </NuxtLink>
-        <NuxtLink to="/booking">
+        <NuxtLink to="/booking" @click="closeMenu">
           <li
             class="m-2 p-2 transition delay-50 ease-in-out duration-700 hover:text-amber-500"
           >
@@ -74,7 +74,7 @@ const closeMenu = () => {
   <div
     class="fixed w-full flex flex-row place-content-between items-center z-30 font-NeueMontrealThin"
   >
-    <MenuIcon class="w-10 sm:w-12 md:w-14" @click="openMenu" />
+    <MenuIcon class="w-16 sm:w-18 md:w-20" @click="openMenu" />
     <span class="m-1"
       ><NuxtLink
         to="https://www.admiralmanagementservices.com/sugarloaf"
@@ -82,10 +82,10 @@ const closeMenu = () => {
         rel="noopener noreferrer"
       >
         <button
-          class="border-2 border-slate-400 rounded-2xl transition delay-50 ease-in-out hover:border-brand-yellow duration:300"
+          class="border-2 border-slate-200 rounded-2xl transition delay-50 ease-in-out hover:border-brand-yellow duration:300"
         >
           <p
-            class="text-slate-400 p-1 md:p-2 text-md md:text-2xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
+            class="text-slate-200 p-1 sm:p-2 text-md sm:text-xl md:text-2xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
           >
             Book now
           </p>
