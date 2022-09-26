@@ -13,10 +13,17 @@ useHead({
     },
   ],
 });
-onMounted(() => {});
+onMounted(() => {
+  /* console.log(gsap);
+  gsap.set(".menupanel", { autoAlpha: 0 });
+  const openmenu = gsap.to(".menupanel", { autoAlpha: 1, duration: 3, delay: 2 });
+  const closemenu = gsap.to(".menupanel", {autoAlpha:0, duration:1}); */
+});
 </script>
 <template>
-  <div class="h-auto w-screen overflow-hidden font-NeueMontrealLight">
+  <div
+    class="h-auto w-screen overflow-hidden font-NeueMontrealLight text-slate-700"
+  >
     <!-- Video section -->
     <section class="h-screen w-screen fixed">
       <video
@@ -32,29 +39,11 @@ onMounted(() => {});
         poster="https://res.cloudinary.com/peggy-co/video/upload/c_fit,q_auto,w_1024/v1663840583/SugarLoaf/antigua_sea_qof8pg.webp"
       ></video>
     </section>
+    <!-- <div class="menupanel absolute top-0 h-screen w-3/4 z-50 bg-amber-400 invisible">
+      <h1 class="text-9xl">This is the menu area</h1>
+    </div> -->
     <!-- Landing title -->
     <section class="relative h-screen w-full bg-amber-500 bg-opacity-20 z-20">
-      <!-- NavBar -->
-      <div class="flex flex-row place-content-between items-center">
-        <MenuIcon class="w-10 sm:w-12 md:w-14" />
-        <span class="m-1"
-          ><NuxtLink
-            to="https://www.admiralmanagementservices.com/sugarloaf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button
-              class="border-2 border-white rounded-2xl transition delay-50 ease-in-out hover:border-brand-yellow duration:300"
-            >
-              <p
-                class="text-white p-1 md:p-2 text-md md:text-2xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
-              >
-                Book now
-              </p>
-            </button>
-          </NuxtLink>
-        </span>
-      </div>
       <!-- Landing Page text -->
       <div class="flex flex-col absolute bottom-0 left-0 m-1 p-1 mb-20">
         <h1

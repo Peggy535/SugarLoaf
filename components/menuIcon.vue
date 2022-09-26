@@ -1,8 +1,17 @@
+<script setup>
+import { gsap } from "gsap";
+</script>
+
 <template>
-  <svg version="1.1" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <svg
+    class="fill-slate-400 transition delay-50 ease-in-out hover:fill-brand-yellow duration:300"
+    version="1.1"
+    viewBox="0 0 1200 1200"
+    xmlns="http://www.w3.org/2000/svg"
+    @click="openmenu"
+  >
     <path
       d="m312 810c0-10.012 8.0703-18 18.031-18h539.94c9.8906 0 18.031 8.0586 18.031 18 0 10.012-8.0703 18-18.031 18h-539.94c-9.8906 0-18.031-8.0586-18.031-18zm0-204c0-10.012 8.0703-18 18.031-18h539.94c9.8906 0 18.031 8.0586 18.031 18 0 10.012-8.0703 18-18.031 18h-539.94c-9.8906 0-18.031-8.0586-18.031-18zm0-204c0-10.012 8.0703-18 18.031-18h539.94c9.8906 0 18.031 8.0586 18.031 18 0 10.012-8.0703 18-18.031 18h-539.94c-9.8906 0-18.031-8.0586-18.031-18z"
-      fill="#fff"
     />
   </svg>
 </template>

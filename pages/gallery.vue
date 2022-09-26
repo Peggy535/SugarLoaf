@@ -278,23 +278,7 @@ onMounted(() => {
           </div>
         </ul>
       </div>
-      <span class="absolute top-0 md:top-3 right-0 md:right-3 m-1 p-1"
-        ><NuxtLink
-          to="https://www.admiralmanagementservices.com/sugarloaf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button
-            class="border-2 border-black rounded-2xl transition delay-50 ease-in-out hover:border-brand-yellow duration:300"
-          >
-            <p
-              class="text-black p-1 m-1 md:p-2 text-lg md:text-2xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
-            >
-              Book now
-            </p>
-          </button>
-        </NuxtLink>
-      </span>
+      
     </section>
     <main class="h-auto w-screen bg-amber-50 z-10 overflow-hidden">
       <ul class="flex flex-row flex-wrap">

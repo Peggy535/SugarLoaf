@@ -17,7 +17,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="h-auto w-screen overflow-hidden font-NeueMontrealLight">
+  <div
+    class="h-auto w-screen overflow-hidden font-NeueMontrealLight text-slate-700"
+  >
     <!-- Video section -->
     <section class="h-screen w-screen fixed">
       <video
@@ -59,31 +61,13 @@ onMounted(() => {
           How to book and pricing
         </h1>
         <p
-          class="text-xl md:text-3xl xl:text-2xl sm:w-3/4 xl:w-1/2 m-1 p-2 sm:m-3 sm:p-3 w-full mb-3 xl:mb-12 border-l-2 border-l-black"
+          class="text-xl md:text-3xl xl:text-2xl sm:w-3/4 xl:w-1/2 m-1 p-2 sm:m-3 sm:p-3 w-full mb-3 xl:mb-12 border-l-2 border-l-slate-700"
         >
           Using a trusted service partner, Admiral Managament Services of
           Antigua, discover the weekly pricing for Sugar Loaf and how best to
           book your stay.
         </p>
       </div>
-
-      <span class="absolute top-0 md:top-3 right-0 md:right-3 m-1 p-1"
-        ><NuxtLink
-          to="https://www.admiralmanagementservices.com/sugarloaf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button
-            class="border-2 border-slate-800 rounded-2xl transition delay-50 ease-in-out hover:border-brand-yellow duration:300"
-          >
-            <p
-              class="text-slate-800 p-1 m-1 md:p-2 text-lg md:text-3xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
-            >
-              Book now
-            </p>
-          </button>
-        </NuxtLink>
-      </span>
     </section>
     <section class="relative h-fit w-screen z-20 flex bg-amber-50">
       <div class="flex-flex-col w-full sm:w-3/4 lg:w-1/2 mx-auto">
@@ -101,7 +85,9 @@ onMounted(() => {
           <h1 class="p-1 m-1 text-2xl">
             2. Review the pricing for your selected stay.
           </h1>
-          <div class="flex flex-col border border-black rounded-2xl m-1 my-5">
+          <div
+            class="flex flex-col border border-slate-700 rounded-2xl m-1 my-5"
+          >
             <h2 class="m-1 p-2 text-2xl">
               (2 Bedroom Option | Price per week (US$))
             </h2>
@@ -123,7 +109,9 @@ onMounted(() => {
             </table>
           </div>
 
-          <div class="flex flex-col border border-black rounded-2xl m-1 my-5">
+          <div
+            class="flex flex-col border border-slate-700 rounded-2xl m-1 my-5"
+          >
             <h2 class="m-1 p-2 text-2xl">
               (3 Bedroom Option | Price per week (US$))
             </h2>
@@ -144,7 +132,9 @@ onMounted(() => {
               </tbody>
             </table>
           </div>
-          <div class="flex flex-col border border-black rounded-2xl m-1 my-5">
+          <div
+            class="flex flex-col border border-slate-700 rounded-2xl m-1 my-5"
+          >
             <h2 class="m-1 p-2 text-2xl">
               (4 Bedroom Option | Price per week (US$))
             </h2>
@@ -165,7 +155,9 @@ onMounted(() => {
               </tbody>
             </table>
           </div>
-          <div class="flex flex-col border border-black rounded-2xl m-1 my-5">
+          <div
+            class="flex flex-col border border-slate-700 rounded-2xl m-1 my-5"
+          >
             <h1 class="text-4xl">Date periods</h1>
             <ul class="m-1 p-1">
               <li>Summer: 16th May - 14th Nov incl.</li>

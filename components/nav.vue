@@ -4,28 +4,26 @@ import MenuIcon from "./menuIcon.vue";
 </script>
 
 <template>
-    <nav class="relative z-30">
-      <div>
-        <MenuIcon class="h-30 py-2" />
-      </div>
-      <div>
-        <span class="m-1 p-1"
-          ><NuxtLink
-            to="https://www.admiralmanagementservices.com/sugarloaf"
-            target="_blank"
-            rel="noopener noreferrer"
+  <div
+    class="fixed w-full flex flex-row place-content-between items-center z-30 font-NeueMontrealThin"
+  >
+    <MenuIcon class="w-10 sm:w-12 md:w-14" />
+    <span class="m-1"
+      ><NuxtLink
+        to="https://www.admiralmanagementservices.com/sugarloaf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button
+          class="border-2 border-slate-400 rounded-2xl transition delay-50 ease-in-out hover:border-brand-yellow duration:300"
+        >
+          <p
+            class="text-slate-400 p-1 md:p-2 text-md md:text-2xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
           >
-            <button
-              class="border-2 border-white rounded-2xl transition delay-50 ease-in-out hover:border-brand-yellow duration:300"
-            >
-              <p
-                class="text-white p-1 m-1 md:p-2 text-lg md:text-2xl transition delay-50 ease-in-out hover:text-brand-yellow duration:200"
-              >
-                Book now
-              </p>
-            </button>
-          </NuxtLink>
-        </span>
-      </div>
-    </nav>
+            Book now
+          </p>
+        </button>
+      </NuxtLink>
+    </span>
+  </div>
 </template>
