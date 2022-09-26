@@ -1,4 +1,6 @@
 <script setup>
+import { gsap } from "gsap";
+
 const title = ref("Sugar Loaf | Home");
 const description = ref("The description goes here");
 
@@ -11,12 +13,10 @@ useHead({
     },
   ],
 });
-onMounted(() => {
-  window.scrollTo(0, 0);
-});
+onMounted(() => {});
 </script>
 <template>
-  <div class="h-auto w-screen overflow-hidden">
+  <div class="h-auto w-screen overflow-hidden font-NeueMontrealLight">
     <!-- Video section -->
     <section class="h-screen w-screen fixed">
       <video
@@ -34,9 +34,9 @@ onMounted(() => {
     </section>
     <!-- Landing title -->
     <section class="relative h-screen w-full bg-amber-500 bg-opacity-20 z-20">
+      <!-- NavBar -->
       <div class="flex flex-row place-content-between items-center">
-        <MenuIcon class="w-10" />
-
+        <MenuIcon class="w-10 sm:w-12 md:w-14" />
         <span class="m-1"
           ><NuxtLink
             to="https://www.admiralmanagementservices.com/sugarloaf"
@@ -55,6 +55,7 @@ onMounted(() => {
           </NuxtLink>
         </span>
       </div>
+      <!-- Landing Page text -->
       <div class="flex flex-col absolute bottom-0 left-0 m-1 p-1 mb-20">
         <h1
           class="text-6xl sm:text-9xl lg:text-12xl xl:text-14xl 2xl:text-13xl text-white mb-10"

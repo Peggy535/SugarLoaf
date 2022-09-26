@@ -17,7 +17,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="h-auto w-screen overflow-hidden">
+  <div class="h-auto w-screen overflow-hidden font-NeueMontrealLight">
     <!-- Video section -->
     <section class="h-screen w-screen fixed">
       <video

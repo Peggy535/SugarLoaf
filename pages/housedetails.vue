@@ -1,4 +1,6 @@
 <script setup>
+import { gsap } from "gsap";
+
 const title = ref("Sugar Loaf | Amenities & facilities");
 const description = ref("The description goes here");
 
@@ -11,13 +13,11 @@ useHead({
     },
   ],
 });
-onMounted(() => {
-  window.scrollTo(0, 0);
-});
+onMounted(() => {});
 </script>
 
 <template>
-  <div>
+  <div class="font-NeueMontrealLight">
     <!-- Video section -->
     <section class="h-screen w-screen fixed z-10">
       <video

@@ -199,8 +199,6 @@ const images = [
 ];
 
 onMounted(() => {
-  window.scrollTo(0, 0);
-  refreshNuxtData();
   gsap.set(".imageOverlay", { autoAlpha: 0, scale: 0 });
   const items = document.querySelectorAll(".item");
   const overlayImage = document.querySelector(".imageOverlayeCard");
@@ -222,7 +220,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
+  <div class="font-NeueMontrealLight">
     <section class="relative h-fit w-screen bg-amber-50">
       <div class="flex flex-col">
         <h1 class="text-6xl md:text-8xl xl:text-11xl m-1 sm:m-3 sm:p-3 my-20">
