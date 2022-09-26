@@ -27,7 +27,7 @@ onMounted(() => {
     <!-- Video section -->
     <section class="h-screen w-screen fixed">
       <video
-        src="https://res.cloudinary.com/peggy-co/video/upload/c_fit,f_auto,q_auto,w_1024/v1663840583/SugarLoaf/antigua_sea_qof8pg.mp4"
+        src="https://res.cloudinary.com/peggy-co/video/upload/c_scale,f_auto,q_auto,w_800/v1663840583/SugarLoaf/antigua_sea_qof8pg.mp4"
         class="absolute top-0 right-0 w-screen h-screen object-center object-cover"
         width="1024"
         height="576"
@@ -78,6 +78,7 @@ onMounted(() => {
               height="768"
               loading="lazy"
               sizes="xs:100vw sm:80vw md:80vw lg:80vw xl:80vw xxl:80vw"
+              format="webp"
             />
             <NuxtImg
               provider="cloudinary"
@@ -88,6 +89,7 @@ onMounted(() => {
               height="768"
               loading="lazy"
               sizes="xs:100vw sm:80vw md:80vw lg:80vw xl:80vw xxl:80vw"
+              format="webp"
             />
             <cite class="text-xs lg:text-sm"
               >Views of Falmouth Harbour from the private pool</cite
@@ -124,6 +126,7 @@ onMounted(() => {
               height="768"
               loading="lazy"
               sizes="xs:100vw sm:80vw md:80vw lg:80vw xl:80vw xxl:80vw"
+              format="webp"
             />
             <NuxtImg
               provider="cloudinary"
@@ -134,6 +137,7 @@ onMounted(() => {
               height="768"
               loading="lazy"
               sizes="xs:100vw sm:80vw md:80vw lg:80vw xl:80vw xxl:80vw"
+              format="webp"
             />
             <cite class="text-xs lg:text-sm">Sugar Loafs living area</cite>
           </div>
