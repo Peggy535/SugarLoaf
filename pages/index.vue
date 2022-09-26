@@ -90,7 +90,7 @@ onMounted(() => {
               width="1024"
               height="768"
               loading="lazy"
-              sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
+              sizes="xs:100vw sm:80vw md:80vw lg:80vw xl:80vw xxl:80vw"
             />
             <NuxtImg
               provider="cloudinary"
@@ -100,7 +100,7 @@ onMounted(() => {
               width="1024"
               height="768"
               loading="lazy"
-              sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
+              sizes="xs:100vw sm:80vw md:80vw lg:80vw xl:80vw xxl:80vw"
             />
             <cite class="text-xs lg:text-sm"
               >Views of Falmouth Harbour from the private pool</cite
@@ -136,7 +136,7 @@ onMounted(() => {
               width="1024"
               height="768"
               loading="lazy"
-              sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
+              sizes="xs:100vw sm:80vw md:80vw lg:80vw xl:80vw xxl:80vw"
             />
             <NuxtImg
               provider="cloudinary"
@@ -146,7 +146,7 @@ onMounted(() => {
               width="1024"
               height="768"
               loading="lazy"
-              sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
+              sizes="xs:100vw sm:80vw md:80vw lg:80vw xl:80vw xxl:80vw"
             />
             <cite class="text-xs lg:text-sm">Sugar Loafs living area</cite>
           </div>
