@@ -1,13 +1,80 @@
 <script setup>
 import { gsap } from "gsap";
+import { CSSPlugin } from "gsap/CSSPlugin";
 import MenuIcon from "./menuIcon.vue";
+
+onMounted(() => {
+  gsap.registerPlugin(CSSPlugin);
+  gsap.set(".menu", { autoAlpha: 0, xPercent: -100 });
+});
+const openMenu = () => {
+  gsap.registerPlugin(CSSPlugin);
+  gsap.fromTo(
+    ".menu",
+    { autoAlpha: 1, xPercent: -100 },
+    { xPercent: 0, duration: 1, ease: "expo.inOut" }
+  );
+};
+const closeMenu = () => {
+  gsap.to(".menu", {
+    xPercent: -100,
+    duration: 1,
+    autoAlpha: 0,
+    ease: "expo.inOut",
+  });
+};
 </script>
 
 <template>
   <div
+    class="fixed z-40 h-screen w-3/4 bg-amber-100 flex flex-col place-content-center invisible menu font-NeueMontrealThin"
+  >
+    <span class="absolute top-5 left-5" @click="closeMenu">
+      <h1
+        class="text-xl  transition delay-50 ease-in-out duration-700 hover:text-amber-500"
+      >
+        Close
+      </h1>
+    </span>
+    <div class="flex mx-auto">
+      <ul class="text-slate-700 text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+        <NuxtLink to="/">
+          <li
+            class="m-2 p-2 transition delay-50 ease-in-out duration-700 hover:text-amber-500"
+          >
+            Home
+          </li>
+        </NuxtLink>
+        <span></span>
+        <NuxtLink to="/gallery">
+          <li
+            class="m-2 p-2 transition delay-50 ease-in-out duration-700 hover:text-amber-500"
+          >
+            Photo Gallery
+          </li>
+        </NuxtLink>
+        <NuxtLink to="/housedetails">
+          <li
+            class="m-2 p-2 transition delay-50 ease-in-out duration-700 hover:text-amber-500"
+          >
+            House details & amenities
+          </li>
+        </NuxtLink>
+        <NuxtLink to="/booking">
+          <li
+            class="m-2 p-2 transition delay-50 ease-in-out duration-700 hover:text-amber-500"
+          >
+            Booking & Pricing
+          </li>
+        </NuxtLink>
+      </ul>
+    </div>
+  </div>
+
+  <div
     class="fixed w-full flex flex-row place-content-between items-center z-30 font-NeueMontrealThin"
   >
-    <MenuIcon class="w-10 sm:w-12 md:w-14" />
+    <MenuIcon class="w-10 sm:w-12 md:w-14" @click="openMenu" />
     <span class="m-1"
       ><NuxtLink
         to="https://www.admiralmanagementservices.com/sugarloaf"

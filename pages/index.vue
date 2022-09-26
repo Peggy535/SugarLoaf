@@ -39,9 +39,6 @@ onMounted(() => {
         poster="https://res.cloudinary.com/peggy-co/video/upload/c_fit,q_auto,w_1024/v1663840583/SugarLoaf/antigua_sea_qof8pg.webp"
       ></video>
     </section>
-    <!-- <div class="menupanel absolute top-0 h-screen w-3/4 z-50 bg-amber-400 invisible">
-      <h1 class="text-9xl">This is the menu area</h1>
-    </div> -->
     <!-- Landing title -->
     <section class="relative h-screen w-full bg-amber-500 bg-opacity-20 z-20">
       <!-- Landing Page text -->

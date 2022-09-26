@@ -221,7 +221,7 @@ onMounted(() => {
 
 <template>
   <div class="font-NeueMontrealLight">
-    <section class="relative h-fit w-screen bg-amber-50">
+    <section class="relative flex flex-col h-screen w-screen bg-amber-50 place-content-end">
       <div class="flex flex-col">
         <h1 class="text-6xl md:text-8xl xl:text-11xl m-1 sm:m-3 sm:p-3 my-20">
           Sugar Loaf
@@ -236,47 +236,6 @@ onMounted(() => {
           would like to see in more detail or simply hover, click or touch the
           image you would like to view to see the image and a brief description.
         </p>
-        <ul
-          class="text-xl sm:text-2xl md:text-3xl xl:text-4xl sm:flex-row mb-3 sm:mb-6 w-3/4 mx-auto text-center bg-brand-yellow bg-opacity-60 rounded-2xl border-4 border-brand-yellow cursor-crosshair"
-        >
-          <div class="my-2 py-2">
-            <li
-              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-50 hover:text-white pointer-events-auto"
-            >
-              Main Building |
-            </li>
-            <li
-              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-50 hover:text-white pointer-events-auto"
-            >
-              Pool |
-            </li>
-            <li
-              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-50 hover:text-white pointer-events-auto"
-            >
-              Balcony area |
-            </li>
-            <li
-              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-50 hover:text-white pointer-events-auto"
-            >
-              Living Room |
-            </li>
-            <li
-              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-50 hover:text-white pointer-events-auto"
-            >
-              Kitchen |
-            </li>
-            <li
-              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-50 hover:text-white pointer-events-auto"
-            >
-              Bedrooms & Bathrooms |
-            </li>
-            <li
-              class="m-1 p-1 sm:inline-block transition ease-in-out duration-300 delay-50 hover:text-white pointer-events-auto"
-            >
-              Other areas
-            </li>
-          </div>
-        </ul>
       </div>
       
     </section>
