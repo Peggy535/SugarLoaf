@@ -7,8 +7,9 @@ import Bathroom from "~~/components/icons/Bathroom.vue";
 import Info from "~~/components/icons/Info.vue";
 import View from "~~/components/icons/View.vue";
 import Garden from "~~/components/icons/Garden.vue";
-import Wifi from "~~/components/icons/Wifi.vue";
+import Entertainment from "~~/components/icons/Entertainment.vue";
 import Wheelchair from "~~/components/icons/Wheelchair.vue";
+import Entertainment from "../components/icons/Entertainment.vue";
 
 const title = ref("Sugar Loaf | Amenities & facilities");
 const description = ref("The description goes here");
@@ -52,7 +53,9 @@ onMounted(() => {});
         />
       </video>
     </section>
-    <section class="relative flex h-screen w-screen bg-amber-50 bg-opacity-50 z-20">
+    <section
+      class="relative flex h-screen w-screen bg-amber-50 bg-opacity-50 z-20"
+    >
       <div
         class="flex flex-col place-content-end text-slate-700 font-NeueMontrealBook"
       >
@@ -174,7 +177,7 @@ onMounted(() => {});
           <div class="m-1 p-1">
             <div class="flex flex-row">
               <h1 class="text-2xl m-1 p-1">Entertainment</h1>
-              <Wifi class="fill-slate-700 w-8" />
+              <Entertainment class="fill-slate-700 w-8" />
             </div>
             <ul class="m-1 p-1 text-lg list-disc list-inside">
               <li>Wifi</li>
