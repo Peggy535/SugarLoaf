@@ -24,26 +24,15 @@ definePageMeta({
     <section class="h-screen w-screen fixed">
       <video
         class="absolute top-0 right-0 w-screen h-screen object-center object-cover"
+        src="https://res.cloudinary.com/peggy-co/video/upload/ac_none,c_scale,vc_auto,w_1024/v1664041139/SugarLoaf/video_dfr9s3.webm"
+        width="1024"
+        height="576"
         autoplay
         loop
         muted
         playsinline
         preload
-        poster=""
-      >
-        <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1664041139/SugarLoaf/video_dfr9s3.webm"
-          type="video/webm"
-        />
-        <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1664041139/SugarLoaf/video_dfr9s3.mp4"
-          type="video/mp4"
-        />
-        <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1664041139/SugarLoaf/video_dfr9s3.mov"
-          type="video/mov"
-        />
-      </video>
+      ></video>
     </section>
 
     <section

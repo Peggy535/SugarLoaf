@@ -1,5 +1,3 @@
-import { defineNuxtConfig } from "nuxt";
-
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   modules: [
@@ -9,6 +7,12 @@ export default defineNuxtConfig({
     "@nuxtjs/robots",
   ],
   css: ["assets/css/tailwind.css"],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
   image: {
     cloudinary: {
       baseURL:

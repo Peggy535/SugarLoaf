@@ -33,26 +33,14 @@ definePageMeta({
     <section class="h-screen w-screen fixed z-10">
       <video
         class="absolute top-0 right-0 w-screen h-screen object-center object-cover"
+        src="https://res.cloudinary.com/peggy-co/video/upload/ac_none,c_scale,q_auto,vc_auto,w_1024/v1664038068/SugarLoaf/production_ID_4782135_1_onpelh.webm"
         autoplay
         loop
         muted
         playsinline
-        preload
-        poster=""
-      >
-        <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1664038068/SugarLoaf/production_ID_4782135_1_onpelh.webm"
-          type="video/webm"
-        />
-        <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1664038068/SugarLoaf/production_ID_4782135_1_onpelh.mp4"
-          type="video/mp4"
-        />
-        <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/f_auto,q_auto/v1664038068/SugarLoaf/production_ID_4782135_1_onpelh.mp4"
-          type="video/mov"
-        />
-      </video>
+        width="1024"
+        height="576"
+      ></video>
     </section>
     <section
       class="relative flex h-screen w-screen bg-amber-50 bg-opacity-50 z-20"

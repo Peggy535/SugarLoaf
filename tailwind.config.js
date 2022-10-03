@@ -1,11 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./pages/**/*.{html,js}", "./components/**/*.{html,js}"],
+  content: [
+    "./components/**/*.{vue,js}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}",
+    "./app.vue",
+  ],
+  mode: "jit",
   theme: {
     extend: {
-      transitionProperty:{
-        
-      },
+      transitionProperty: {},
       colors: {
         "brand-green": "#88ff9f",
         "brand-blue": "#7099ff",
