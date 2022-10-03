@@ -1,7 +1,7 @@
 <script setup>
 import { gsap } from "gsap";
 import { CSSPlugin } from "gsap/CSSPlugin";
-import MenuIcon from "./menuIcon.vue";
+import MenuIcon from "./icons/MenuIcon.vue";
 
 onMounted(() => {
   gsap.registerPlugin(CSSPlugin);

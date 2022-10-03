@@ -1,5 +1,14 @@
 <script setup>
 import { gsap } from "gsap";
+import Bedroom from "~~/components/icons/Bedroom.vue";
+import Overview from "~~/components/icons/Overview.vue";
+import AC from "~~/components/icons/AC.vue";
+import Bathroom from "~~/components/icons/Bathroom.vue";
+import Info from "~~/components/icons/Info.vue";
+import View from "~~/components/icons/View.vue";
+import Garden from "~~/components/icons/Garden.vue";
+import Wifi from "~~/components/icons/Wifi.vue";
+import Wheelchair from "~~/components/icons/Wheelchair.vue";
 
 const title = ref("Sugar Loaf | Amenities & facilities");
 const description = ref("The description goes here");
@@ -17,7 +26,7 @@ onMounted(() => {});
 </script>
 
 <template>
-  <div class="font-NeueMontrealLight">
+  <div class="font-NeueMontrealLight overflow-hidden">
     <!-- Video section -->
     <section class="h-screen w-screen fixed z-10">
       <video
@@ -45,7 +54,7 @@ onMounted(() => {});
     </section>
     <section class="relative flex h-screen w-screen z-20">
       <div
-        class="flex flex-col place-content-end text-slate-800 bg-amber-50 bg-opacity-80 font-NeueMontrealBook"
+        class="flex flex-col place-content-end text-slate-700 bg-amber-50 bg-opacity-50 font-NeueMontrealBook"
       >
         <h1
           class="text-7xl md:text-8xl xl:text-10xl m-1 sm:m-3 sm:p-3 mt-20 mb-10"
@@ -58,29 +67,26 @@ onMounted(() => {});
           House details, amenities and facilities
         </h1>
         <p
-          class="text-xl md:text-3xl xl:text-2xl sm:w-3/4 xl:w-1/2 m-1 p-1 sm:m-3 sm:p-3 w-full mb-3 xl:mb-12 border-l-2 border-l-black"
+          class="text-xl md:text-3xl xl:text-2xl sm:w-3/4 xl:w-1/2 m-1 p-1 sm:m-3 sm:p-3 w-full mb-3 xl:mb-12 border-l-2 border-l-slate-700"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda non
-          dolorem facilis aut possimus voluptatum nostrum nisi. Aspernatur
-          delectus quisquam consequuntur aliquam libero unde sed, voluptate
-          blanditiis quasi harum hic!
+          A detailed listing of Sugar Loaf's amenities and offering's for your
+          stay.
         </p>
       </div>
     </section>
 
-    <section class="relative h-fit w-screen bg-amber-50 bg-opacity-80 z-20">
+    <section class="relative h-auto w-screen bg-amber-50 bg-opacity-50 z-20">
       <div
-        class="w-full md:w-3/4 items-start flex flex-col mx-auto divide-y divide-slate-600 text-slate-800"
+        class="w-full sm:w-4/5 md:w-2/3 lg:w-1/2 flex flex-col text-slate-800 p-2 mx-auto"
       >
-        <div
-          class="relative transition duration-200 delay-50 ease-in-out hover:scale-110"
-        >
+        <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-4">
           <!-- Start of amenities -->
           <div class="m-1 p-1">
-            <div>
-              <h1 class="text-4xl m-1 p-1">General details of Sugar Loaf</h1>
+            <div class="flex flex-row w-full">
+              <h1 class="text-xl m-1 p-1">Overview of Sugar Loaf</h1>
+              <Overview class="fill-slate-700 w-8" />
             </div>
-            <ul class="m-1 p-1 text-xl list-disc list-inside">
+            <ul class="m-1 p-1 text-md list-disc list-inside">
               <li>Up to 8 guests</li>
               <li>4 Bedrooms</li>
               <li>2 Bathrooms | 2 Indoor showers</li>
@@ -92,12 +98,13 @@ onMounted(() => {});
           </div>
         </div>
 
-        <div class="relative">
+        <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-4">
           <div class="m-1 p-1">
-            <div>
-              <h1 class="text-4xl m-1 p-1">Scenic Views</h1>
+            <div class="flex flex-row">
+              <h1 class="text-2xl m-1 p-1">Scenic Views</h1>
+              <View class="fill-slate-700 w-8" />
             </div>
-            <ul class="m-1 p-1 text-xl list-disc list-inside">
+            <ul class="m-1 p-1 text-md list-disc list-inside">
               <li>
                 Uninterrupted views of Falmouth Harbour from the pool area,
                 outside balcont, living room and bedrooms.
@@ -107,12 +114,13 @@ onMounted(() => {});
           </div>
         </div>
 
-        <div class="relative">
+        <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-4">
           <div class="m-1 p-1">
-            <div>
-              <h1 class="text-4xl m-1 p-1">Outdoors</h1>
+            <div class="flex flex-row">
+              <h1 class="text-2xl m-1 p-1">Outdoors</h1>
+              <Garden class="fill-slate-700 w-8 stroke-1" />
             </div>
-            <ul class="m-1 p-1 list-disc list-inside text-xl">
+            <ul class="m-1 p-1 list-disc list-inside text-lg">
               <li>
                 Private balcony area extending along two sides of the house
               </li>
@@ -127,12 +135,13 @@ onMounted(() => {});
           </div>
         </div>
 
-        <div class="relative">
+        <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
           <div class="m-1 p-1">
-            <div>
-              <h1 class="text-4xl m-1 p-1">Bedrooms & Laundry</h1>
+            <div class="flex flex-row">
+              <h1 class="text-2xl m-1 p-1">Bedrooms & Laundry</h1>
+              <Bedroom class="fill-slate-700 w-8" />
             </div>
-            <ul class="m-1 p-1 text-xl list-disc list-inside">
+            <ul class="m-1 p-1 text-lg list-disc list-inside">
               <li>
                 Housekeeper ('Jolly') for all laundry and washing (Attends 3
                 times per week - this can be extended)
@@ -147,12 +156,13 @@ onMounted(() => {});
           </div>
         </div>
 
-        <div class="relative">
+        <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
           <div class="m-1 p-1">
-            <div>
-              <h1 class="text-4xl m-1 p-1">Heating & cooling</h1>
+            <div class="flex flex-row">
+              <h1 class="text-2xl m-1 p-1">Heating & cooling</h1>
+              <AC class="fill-slate-700 w-8" />
             </div>
-            <ul class="m-1 p-1 text-xl list-disc list-inside">
+            <ul class="m-1 p-1 text-lg list-disc list-inside">
               <li>Air Conditioning</li>
               <li>Ceiling fans</li>
               <li>Portable fans</li>
@@ -160,12 +170,13 @@ onMounted(() => {});
           </div>
         </div>
 
-        <div class="relative">
+        <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
           <div class="m-1 p-1">
-            <div>
-              <h1 class="text-4xl m-1 p-1 pr-10">Entertainment</h1>
+            <div class="flex flex-row">
+              <h1 class="text-2xl m-1 p-1">Entertainment</h1>
+              <Wifi class="fill-slate-700 w-8" />
             </div>
-            <ul class="m-1 p-1 text-xl list-disc list-inside">
+            <ul class="m-1 p-1 text-lg list-disc list-inside">
               <li>Wifi</li>
               <li>TV in main living room</li>
               <li>Anything else??</li>
@@ -173,12 +184,13 @@ onMounted(() => {});
           </div>
         </div>
 
-        <div class="relative">
+        <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
           <div class="m-1 p-1">
-            <div>
-              <h1 class="text-4xl m-1 p-1">Bathrooms</h1>
+            <div class="flex flex-row">
+              <h1 class="text-2xl m-1 p-1">Bathrooms</h1>
+              <Bathroom class="fill-slate-700 w-8" />
             </div>
-            <ul class="m-1 p-1 text-xl list-disc list-inside">
+            <ul class="m-1 p-1 text-lg list-disc list-inside">
               <li>Hot Water</li>
               <li>Hair dryers</li>
               <li>2 indoor showers | 1 outdoor shower</li>
@@ -187,12 +199,13 @@ onMounted(() => {});
           </div>
         </div>
 
-        <div class="relative">
+        <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
           <div class="m-1 p-1">
-            <div>
-              <h1 class="text-4xl m-1 p-1">Wheelchair access</h1>
+            <div class="flex flex-row">
+              <h1 class="text-2xl m-1 p-1">Wheelchair access</h1>
+              <Wheelchair class="fill-slate-700 w-8" />
             </div>
-            <ul class="m-1 p-1 text-xl list-disc list-inside">
+            <ul class="m-1 p-1 text-lg list-disc list-inside">
               <li>
                 Wheelchairs have access to the main villa level and the pool
                 level.
@@ -202,12 +215,13 @@ onMounted(() => {});
           </div>
         </div>
 
-        <div class="relative">
+        <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
           <div class="m-1 p-1">
-            <div>
-              <h1 class="text-4xl m-1 p-1">Other important aspects</h1>
+            <div class="flex flex-row">
+              <h1 class="text-2xl m-1 p-1">Other important aspects</h1>
+              <Info class="fill-slate-700 w-8" />
             </div>
-            <ul class="m-1 p-1 text-xl list-disc list-inside">
+            <ul class="m-1 p-1 text-lg list-disc list-inside">
               <li>
                 At the House, the back-up generator will provide a rapid pick up
                 in the event of occasional power drops, and there is a TV to
