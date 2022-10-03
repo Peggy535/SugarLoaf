@@ -24,6 +24,10 @@ export default defineNuxtConfig({
   build: {
     transpile: ["gsap"],
   },
+  robots: {
+    UserAgent: "*",
+    Allow: "*",
+  },
   pwa: {
     icon: {
       sizes: [512],
