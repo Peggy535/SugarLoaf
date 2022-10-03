@@ -30,7 +30,7 @@ export default defineNuxtConfig({
         "A luxurious Antiguan residence that is Home from Home. Set in large and quiet gardens overlooking Falmouth Harbour, Sugar Loaf has views to swoon at and plenty of privacy, peace and quiet",
       ogTitle: "Sugar Loaf - An Antiguan Residence",
       ogImage: {
-        path: "icon.png",
+        path: "/icon.png",
         width: 512,
         height: 512,
       },
