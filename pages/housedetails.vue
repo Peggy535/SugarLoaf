@@ -122,7 +122,7 @@ onMounted(() => {});
               <h1 class="text-2xl m-1 p-1">Outdoors</h1>
               <Garden class="fill-slate-700 w-8 stroke-1" />
             </div>
-            <ul class="m-1 p-1 list-disc list-inside text-lg">
+            <ul class="m-1 p-1 list-disc list-inside text-md">
               <li>
                 Private balcony area extending along two sides of the house
               </li>
@@ -143,7 +143,7 @@ onMounted(() => {});
               <h1 class="text-2xl m-1 p-1">Bedrooms & Laundry</h1>
               <Bedroom class="fill-slate-700 w-8" />
             </div>
-            <ul class="m-1 p-1 text-lg list-disc list-inside">
+            <ul class="m-1 p-1 text-md list-disc list-inside">
               <li>
                 Housekeeper ('Jolly') for all laundry and washing (Attends 3
                 times per week - this can be extended)
@@ -164,7 +164,7 @@ onMounted(() => {});
               <h1 class="text-2xl m-1 p-1">Heating & cooling</h1>
               <AC class="fill-slate-700 w-8" />
             </div>
-            <ul class="m-1 p-1 text-lg list-disc list-inside">
+            <ul class="m-1 p-1 text-md list-disc list-inside">
               <li>Air Conditioning</li>
               <li>Ceiling fans</li>
               <li>Portable fans</li>
@@ -178,7 +178,7 @@ onMounted(() => {});
               <h1 class="text-2xl m-1 p-1">Entertainment</h1>
               <Entertainment class="fill-slate-700 w-8" />
             </div>
-            <ul class="m-1 p-1 text-lg list-disc list-inside">
+            <ul class="m-1 p-1 text-md list-disc list-inside">
               <li>Wifi</li>
               <li>TV in main living room</li>
               <li>Anything else??</li>
@@ -192,7 +192,7 @@ onMounted(() => {});
               <h1 class="text-2xl m-1 p-1">Bathrooms</h1>
               <Bathroom class="fill-slate-700 w-8" />
             </div>
-            <ul class="m-1 p-1 text-lg list-disc list-inside">
+            <ul class="m-1 p-1 text-md list-disc list-inside">
               <li>Hot Water</li>
               <li>Hair dryers</li>
               <li>2 indoor showers | 1 outdoor shower</li>
@@ -207,7 +207,7 @@ onMounted(() => {});
               <h1 class="text-2xl m-1 p-1">Wheelchair access</h1>
               <Wheelchair class="fill-slate-700 w-8" />
             </div>
-            <ul class="m-1 p-1 text-lg list-disc list-inside">
+            <ul class="m-1 p-1 text-md list-disc list-inside">
               <li>
                 Wheelchairs have access to the main villa level and the pool
                 level.
@@ -223,7 +223,7 @@ onMounted(() => {});
               <h1 class="text-2xl m-1 p-1">Other important aspects</h1>
               <Info class="fill-slate-700 w-8" />
             </div>
-            <ul class="m-1 p-1 text-lg list-disc list-inside">
+            <ul class="m-1 p-1 text-md list-disc list-inside">
               <li>
                 At the House, the back-up generator will provide a rapid pick up
                 in the event of occasional power drops, and there is a TV to
