@@ -8,19 +8,14 @@ export default defineNuxtConfig({
     "@kevinmarrec/nuxt-pwa",
     "@nuxtjs/robots",
   ],
+  css: ["assets/css/tailwind.css"],
   image: {
     cloudinary: {
       baseURL:
         "https://res.cloudinary.com/peggy-co/image/upload/v1663840544/SugarLoaf",
     },
   },
-  css: ["@/assets/css/tailwind.css"],
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
+
   build: {
     transpile: ["gsap"],
   },

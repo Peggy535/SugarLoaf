@@ -256,7 +256,7 @@ onMounted(() => {
             loading="lazy"
             sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
           />
-          <section
+          <!-- <section
             class="imageOverlayCard invisible w-1/2 h-3/4 relative bg-orange-500 flex flex-col"
           >
             <NuxtImg
@@ -267,7 +267,7 @@ onMounted(() => {
               loading="lazy"
               sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
             />
-          </section>
+          </section> -->
         </li>
       </ul>
     </main>
