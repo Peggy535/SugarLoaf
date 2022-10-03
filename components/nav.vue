@@ -27,11 +27,11 @@ const closeMenu = () => {
 
 <template>
   <div
-    class="fixed z-40 h-screen w-3/4 bg-amber-100 flex flex-col place-content-center invisible menu font-NeueMontrealThin"
+    class="fixed z-40 h-screen w-full bg-amber-100 flex flex-col place-content-center invisible menu font-NeueMontrealThin"
   >
     <span class="absolute top-5 left-5" @click="closeMenu">
       <h1
-        class="text-xl transition delay-50 ease-in-out duration-700 hover:text-amber-500"
+        class="text-xl transition delay-75 ease-in-out duration-700 hover:text-amber-500 hover:scale-125 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-amber-500 after:h-[1px] after:bottom-0 after:z-40 after:hover:transition after:hover:ease-in-out after:hover:duration-700 after:hover:delay-75 after:hover:scale-100"
       >
         Close
       </h1>
@@ -40,7 +40,7 @@ const closeMenu = () => {
       <ul class="text-slate-700 text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
         <NuxtLink to="/" @click="closeMenu">
           <li
-            class="m-2 p-2 transition delay-50 ease-in-out duration-700 hover:text-amber-500"
+            class="m-2 p-2 transition delay-75 ease-in-out duration-700 hover:text-amber-500 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-amber-500 after:h-[1px] after:bottom-0 after:z-40 after:hover:transition after:hover:ease-in-out after:hover:duration-700 after:hover:delay-75 after:hover:scale-100"
           >
             Home
           </li>
@@ -48,21 +48,21 @@ const closeMenu = () => {
         <span></span>
         <NuxtLink to="/gallery" @click="closeMenu">
           <li
-            class="m-2 p-2 transition delay-50 ease-in-out duration-700 hover:text-amber-500"
+            class="m-2 p-2 transition delay-75 ease-in-out duration-700 hover:text-amber-500 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-amber-500 after:h-[1px] after:bottom-0 after:z-40 after:hover:transition after:hover:ease-in-out after:hover:duration-700 after:hover:delay-75 after:hover:scale-100"
           >
             Photo Gallery
           </li>
         </NuxtLink>
         <NuxtLink to="/housedetails" @click="closeMenu">
           <li
-            class="m-2 p-2 transition delay-50 ease-in-out duration-700 hover:text-amber-500"
+            class="m-2 p-2 transition delay-75 ease-in-out duration-700 hover:text-amber-500 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-amber-500 after:h-[1px] after:bottom-0 after:z-40 after:hover:transition after:hover:ease-in-out after:hover:duration-700 after:hover:delay-75 after:hover:scale-100"
           >
             House details & amenities
           </li>
         </NuxtLink>
         <NuxtLink to="/booking" @click="closeMenu">
           <li
-            class="m-2 p-2 transition delay-50 ease-in-out duration-700 hover:text-amber-500"
+            class="m-2 p-2 transition delay-75 ease-in-out duration-700 hover:text-amber-500 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-amber-500 after:h-[1px] after:bottom-0 after:z-40 after:hover:transition after:hover:ease-in-out after:hover:duration-700 after:hover:delay-75 after:hover:scale-100"
           >
             Booking & Pricing
           </li>
@@ -74,7 +74,7 @@ const closeMenu = () => {
   <div
     class="fixed w-full flex flex-row place-content-between items-center z-30 font-NeueMontrealThin"
   >
-    <MenuIcon class="w-16 sm:w-18 md:w-20" @click="openMenu" />
+    <MenuIcon class="fill-white w-16 sm:w-18 md:w-20" @click="openMenu" />
     <span class="m-1"
       ><NuxtLink
         to="https://www.admiralmanagementservices.com/sugarloaf"

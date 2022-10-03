@@ -220,8 +220,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="font-NeueMontrealLight">
-    <section class="relative flex flex-col h-screen w-screen bg-amber-50 place-content-end">
+  <div class="font-NeueMontrealLight bg-amber-50 text-slate-700">
+    <section class="relative flex flex-col h-screen w-screen place-content-end">
       <div class="flex flex-col">
         <h1 class="text-6xl md:text-8xl xl:text-11xl m-1 sm:m-3 sm:p-3 my-20">
           Sugar Loaf
@@ -237,7 +237,6 @@ onMounted(() => {
           image you would like to view to see the image and a brief description.
         </p>
       </div>
-      
     </section>
     <main class="h-auto w-screen bg-amber-50 z-10 overflow-hidden">
       <ul class="flex flex-row flex-wrap">
