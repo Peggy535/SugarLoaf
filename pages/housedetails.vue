@@ -52,9 +52,9 @@ onMounted(() => {});
         />
       </video>
     </section>
-    <section class="relative flex h-screen w-screen z-20">
+    <section class="relative flex h-screen w-screen bg-amber-50 bg-opacity-50 z-20">
       <div
-        class="flex flex-col place-content-end text-slate-700 bg-amber-50 bg-opacity-50 font-NeueMontrealBook"
+        class="flex flex-col place-content-end text-slate-700 font-NeueMontrealBook"
       >
         <h1
           class="text-7xl md:text-8xl xl:text-10xl m-1 sm:m-3 sm:p-3 mt-20 mb-10"
