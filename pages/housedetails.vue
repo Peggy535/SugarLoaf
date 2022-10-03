@@ -40,6 +40,8 @@ definePageMeta({
         playsinline
         width="1024"
         height="576"
+        poster="https://res.cloudinary.com/peggy-co/video/upload/c_scale,w_1920/v1664038068/SugarLoaf/production_ID_4782135_1_onpelh.jpg"
+        crossorigin="anonymous"
       ></video>
     </section>
     <section

@@ -31,7 +31,8 @@ definePageMeta({
         loop
         muted
         playsinline
-        preload
+        poster="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1664041139/SugarLoaf/video_dfr9s3.jpg"
+        crossorigin="anonymous"
       ></video>
     </section>
 

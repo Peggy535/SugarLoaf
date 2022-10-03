@@ -14,6 +14,7 @@
         muted
         playsinline
         poster="https://res.cloudinary.com/peggy-co/video/upload/c_fit,q_auto,w_1024/v1663840583/SugarLoaf/antigua_sea_qof8pg.webp"
+        crossorigin="anonymous"
       ></video>
     </section>
     <!-- Landing title -->
