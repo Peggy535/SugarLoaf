@@ -9,7 +9,6 @@ import View from "~~/components/icons/View.vue";
 import Garden from "~~/components/icons/Garden.vue";
 import Entertainment from "~~/components/icons/Entertainment.vue";
 import Wheelchair from "~~/components/icons/Wheelchair.vue";
-import Entertainment from "../components/icons/Entertainment.vue";
 
 const title = ref("Sugar Loaf | Amenities & facilities");
 const description = ref("The description goes here");
