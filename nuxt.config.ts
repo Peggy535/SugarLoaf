@@ -2,7 +2,12 @@ import { defineNuxtConfig } from "nuxt";
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/image-edge", "@kevinmarrec/nuxt-pwa"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxt/image-edge",
+    "@kevinmarrec/nuxt-pwa",
+    "@nuxtjs/robots",
+  ],
   image: {
     cloudinary: {
       baseURL:
@@ -30,7 +35,7 @@ export default defineNuxtConfig({
         "A luxurious Antiguan residence that is Home from Home. Set in large and quiet gardens overlooking Falmouth Harbour, Sugar Loaf has views to swoon at and plenty of privacy, peace and quiet",
       ogTitle: "Sugar Loaf - An Antiguan Residence",
       ogImage: {
-        path: "/icon.png",
+        path: "https://res.cloudinary.com/peggy-co/image/upload/q_auto/v1664817748/SugarLoaf/icon_qp0twv.webp",
         width: 512,
         height: 512,
       },
