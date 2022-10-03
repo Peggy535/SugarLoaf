@@ -33,7 +33,7 @@ definePageMeta({
     <section class="h-screen w-screen fixed z-10">
       <video
         class="absolute top-0 right-0 w-screen h-screen object-center object-cover"
-        src="https://res.cloudinary.com/peggy-co/video/upload/ac_none,c_scale,q_auto,vc_auto,w_1024/v1664038068/SugarLoaf/production_ID_4782135_1_onpelh.webm"
+        src="https://res.cloudinary.com/peggy-co/video/upload/ac_none,c_scale,q_auto,vc_vp9,w_1024/v1664038068/SugarLoaf/production_ID_4782135_1_onpelh.webm"
         autoplay
         loop
         muted
