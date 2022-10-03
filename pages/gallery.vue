@@ -3,7 +3,9 @@ import { gsap } from "gsap";
 
 const title = ref("Sugar Loaf | Photo Gallery");
 const description = ref("The description goes here");
-
+definePageMeta({
+  layout: "slate-nav",
+});
 useHead({
   title,
   meta: [
@@ -220,7 +222,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="font-NeueMontrealLight bg-amber-50 text-slate-700">
+  <div
+    class="overflow-hidden font-NeueMontrealLight bg-amber-50 text-slate-700"
+  >
     <section class="relative flex flex-col h-screen w-screen place-content-end">
       <div class="flex flex-col">
         <h1 class="text-6xl md:text-8xl xl:text-11xl m-1 sm:m-3 sm:p-3 my-20">

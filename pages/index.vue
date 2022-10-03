@@ -34,7 +34,7 @@
     <section class="relative w-screen bg-amber-50 bg-opacity-90 z-20">
       <div class="flex flex-col w-full items-center">
         <p
-          class="text-4xl md:text-6xl lg:text-7xl xl:text-8xl m-3 p-3 my-10 border-l-2 border-l-black"
+          class="text-4xl md:text-6xl lg:text-7xl xl:text-8xl m-3 p-3 my-10 border-l-2 border-l-slate-700"
         >
           "Set in large and quiet gardens overlooking Falmouth Harbour, Sugar
           Loaf has views to swoon at and plenty of privacy, peace and quiet."
@@ -73,7 +73,9 @@
     </section>
     <section class="relative h-auto w-screen bg-amber-50 bg-opacity-90 z-20">
       <div class="flex flex-col w-full items-center">
-        <p class="text-4xl md:text-6xl m-3 p-3 my-10 border-l-2 border-l-black">
+        <p
+          class="text-4xl md:text-6xl m-3 p-3 my-10 border-l-2 border-l-slate-700"
+        >
           "Situated 5 minutes drive from the beaches and restaurants of English
           Harbour, the property has four large double bedrooms all with A/C; a
           big kitchen and sitting room and a gallery that really is just perfect

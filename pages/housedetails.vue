@@ -22,7 +22,9 @@ useHead({
     },
   ],
 });
-onMounted(() => {});
+definePageMeta({
+  layout: "slate-nav",
+});
 </script>
 
 <template>
