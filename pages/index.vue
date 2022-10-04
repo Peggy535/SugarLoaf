@@ -1,8 +1,11 @@
 <script setup>
 import { gsap } from "gsap";
 import Arrowdown from "~~/components/icons/Arrowdown.vue";
-
+onBeforeMount(() => {
+  gsap.set(".page", { autoAlpha: 0 });
+});
 onMounted(() => {
+  gsap.to(".page", { autoAlpha: 1, duration: 2 });
   gsap.set("#scroll-down", { autoAlpha: 1 });
   gsap.fromTo(
     "#scroll-down",
@@ -15,7 +18,7 @@ onMounted(() => {
 <template>
   <div>
     <div
-      class="h-auto w-screen overflow-hidden font-NeueMontrealLight text-slate-700"
+      class="h-auto w-screen overflow-hidden font-NeueMontrealLight text-slate-700 page invisible"
     >
       <!-- Video section -->
       <section class="h-screen w-screen fixed">

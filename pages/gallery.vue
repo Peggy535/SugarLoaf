@@ -200,25 +200,7 @@ const images = [
   },
 ];
 
-onMounted(() => {
-  gsap.set(".imageOverlay", { autoAlpha: 0, scale: 0 });
-  const items = document.querySelectorAll(".item");
-  const overlayImage = document.querySelector(".imageOverlayeCard");
-
-  items.forEach((el) => {
-    el.addEventListener("mouseover", (e) => {
-      gsap.to(".imageOverlayCard", {
-        autoAlpha: 1,
-        duration: 1,
-        x: 200,
-        y: 200,
-      });
-    });
-    el.addEventListener("mouseleave", (e) => {
-      gsap.to(".imageOverlayCard", { autoAlpha: 0, duration: 1 });
-    });
-  });
-});
+onMounted(() => {});
 </script>
 
 <template>
@@ -246,33 +228,6 @@ onMounted(() => {
           </p>
         </div>
       </section>
-      <!-- <div class="flex">
-        <div class="carousel carousel-center rounded-box p-4">
-          <div class="carousel-item">
-            <img
-              src="https://res.cloudinary.com/peggy-co/image/upload/v1663840544/SugarLoaf/SideOfMainBuilding_rtdcok.jpg"
-              class="rounded-box object-contain p-2"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://res.cloudinary.com/peggy-co/image/upload/v1663840544/SugarLoaf/SideOfMainBuilding_rtdcok.jpg"
-              class="rounded-box object-contain"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://res.cloudinary.com/peggy-co/image/upload/v1663840544/SugarLoaf/SideOfMainBuilding_rtdcok.jpg"
-              class="rounded-box object-contain"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://res.cloudinary.com/peggy-co/image/upload/v1663840544/SugarLoaf/SideOfMainBuilding_rtdcok.jpg"
-            />
-          </div>
-        </div>
-      </div> -->
 
       <main class="h-auto w-screen bg-amber-50 z-10">
         <ul class="flex flex-row flex-wrap">
@@ -288,18 +243,6 @@ onMounted(() => {
               loading="lazy"
               sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
             />
-            <!-- <section
-            class="imageOverlayCard invisible w-1/2 h-3/4 relative bg-orange-500 flex flex-col"
-          >
-            <NuxtImg
-              class="max-h-full min-w-full object-cover align-bottom rounded-2xl absolute"
-              provider="cloudinary"
-              :src="image.imageUrl"
-              :alt="image.imageAlt"
-              loading="lazy"
-              sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
-            />
-          </section> -->
           </li>
         </ul>
       </main>
