@@ -1,5 +1,4 @@
 <script setup>
-import { gsap } from "gsap";
 import Bedroom from "~~/components/icons/Bedroom.vue";
 import Overview from "~~/components/icons/Overview.vue";
 import AC from "~~/components/icons/AC.vue";
@@ -101,9 +100,9 @@ definePageMeta({
               <ul class="m-1 p-1 text-md list-disc list-inside">
                 <li>
                   Uninterrupted views of Falmouth Harbour from the pool area,
-                  outside balcont, living room and bedrooms.
+                  outside balcony, living room and bedrooms.
                 </li>
-                <li>Private garden and surrounding areas</li>
+                <li>Private garden</li>
               </ul>
             </div>
           </div>
@@ -188,7 +187,6 @@ definePageMeta({
                 <li>Hot Water</li>
                 <li>Hair dryers</li>
                 <li>2 indoor showers | 1 outdoor shower</li>
-                <li>Baths? Towels?</li>
               </ul>
             </div>
           </div>
@@ -204,7 +202,6 @@ definePageMeta({
                   Wheelchairs have access to the main villa level and the pool
                   level.
                 </li>
-                <li>Are there ramps and which bedrooms are avalaible?</li>
               </ul>
             </div>
           </div>
@@ -222,7 +219,7 @@ definePageMeta({
                   to sign into your favourite viewing apps.
                 </li>
                 <li>
-                  Water is supplied from two large tanks and is the Island’s
+                  Water is supplied from two large tanks and is the Island's
                   most precious resource.
                 </li>
                 <li>
