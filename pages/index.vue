@@ -5,7 +5,7 @@ onBeforeMount(() => {
   gsap.set(".page", { autoAlpha: 0 });
 });
 onMounted(() => {
-  gsap.to(".page", { autoAlpha: 1, duration: 2 });
+  gsap.to(".page", { autoAlpha: 1, duration: 0.2 });
   gsap.set("#scroll-down", { autoAlpha: 1 });
   gsap.fromTo(
     "#scroll-down",
@@ -18,10 +18,10 @@ onMounted(() => {
 <template>
   <div>
     <div
-      class="h-auto w-screen overflow-hidden font-NeueMontrealLight text-slate-700 page invisible"
+      class="h-auto w-screen overflow-hidden font-NeueMontrealLight text-slate-700 page"
     >
       <!-- Video section -->
-      <section class="h-screen w-screen fixed">
+      <section class="h-screen w-screen fixed z-10">
         <video
           src="https://res.cloudinary.com/peggy-co/video/upload/ac_none,c_scale,q_auto,vc_vp9,w_1024/v1663840583/SugarLoaf/antigua_sea_qof8pg.webm"
           class="absolute top-0 right-0 w-screen h-screen object-center object-cover"

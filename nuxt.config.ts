@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     "@nuxt/image-edge",
     "@kevinmarrec/nuxt-pwa",
     "@nuxtjs/robots",
+    "@nuxtjs/sanity",
   ],
   tailwind: {
     cssPath: "~/assets/css/tailwind.css",
@@ -21,7 +22,9 @@ export default defineNuxtConfig({
         "https://res.cloudinary.com/peggy-co/image/upload/v1663840544/SugarLoaf",
     },
   },
-
+  sanity: {
+    projectId: "tpr5d0ar",
+  },
   build: {
     transpile: ["gsap"],
   },

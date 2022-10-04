@@ -200,13 +200,15 @@ const images = [
   },
 ];
 
-onMounted(() => {});
+onMounted(() => {
+  gsap.to(".page", { autoAlpha: 1, duration: 0.5, delay: 0.3 });
+});
 </script>
 
 <template>
   <div>
     <div
-      class="overflow-hidden font-NeueMontrealLight bg-amber-50 text-slate-700"
+      class="overflow-hidden z-10 font-NeueMontrealLight bg-amber-50 text-slate-700 page invisible"
     >
       <section
         class="relative flex flex-col h-screen w-screen place-content-end"
@@ -229,7 +231,7 @@ onMounted(() => {});
         </div>
       </section>
 
-      <main class="h-auto w-screen bg-amber-50 z-10">
+      <main class="h-auto w-screen bg-amber-50 z-20">
         <ul class="flex flex-row flex-wrap">
           <li
             class="h-50 sm:h-40 lg:h-60 xl:h-70 2xl:h-80 flex-grow m-1 p-1"
