@@ -222,41 +222,73 @@ onMounted(() => {
 </script>
 
 <template>
-  <div
-    class="overflow-hidden font-NeueMontrealLight bg-amber-50 text-slate-700"
-  >
-    <section class="relative flex flex-col h-screen w-screen place-content-end">
-      <div class="flex flex-col">
-        <h1 class="text-6xl md:text-8xl xl:text-11xl m-1 sm:m-3 sm:p-3 my-20">
-          Sugar Loaf
-        </h1>
-        <h1 class="text-4xl md:text-6xl xl:text-8xl m-1 sm:m-3 sm:p-3 mb-5">
-          Photo Gallery
-        </h1>
-        <p
-          class="text-xl md:text-2xl xl:text-3xl sm:w-3/4 xl:w-1/2 m-1 p-1 sm:m-3 sm:p-3 w-full mb-3 xl:mb-12 border-l-2 border-l-black"
-        >
-          Discover Sugar Loaf both inside and out. Simply click on the areas you
-          would like to see in more detail or simply hover, click or touch the
-          image you would like to view to see the image and a brief description.
-        </p>
+  <div>
+    <div
+      class="overflow-hidden font-NeueMontrealLight bg-amber-50 text-slate-700"
+    >
+      <section
+        class="relative flex flex-col h-screen w-screen place-content-end"
+      >
+        <div class="flex flex-col">
+          <h1 class="text-6xl md:text-8xl xl:text-11xl m-1 sm:m-3 sm:p-3 my-20">
+            Sugar Loaf
+          </h1>
+          <h1 class="text-4xl md:text-6xl xl:text-8xl m-1 sm:m-3 sm:p-3 mb-5">
+            Photo Gallery
+          </h1>
+          <p
+            class="text-xl md:text-2xl xl:text-3xl sm:w-3/4 xl:w-1/2 m-1 p-1 sm:m-3 sm:p-3 w-full mb-3 xl:mb-12 border-l-2 border-l-black"
+          >
+            Discover Sugar Loaf both inside and out. Simply click on the areas
+            you would like to see in more detail or simply hover, click or touch
+            the image you would like to view to see the image and a brief
+            description.
+          </p>
+        </div>
+      </section>
+      <div class="flex">
+        <div class="carousel carousel-center rounded-box p-4">
+          <div class="carousel-item">
+            <img
+              src="https://res.cloudinary.com/peggy-co/image/upload/v1663840544/SugarLoaf/SideOfMainBuilding_rtdcok.jpg"
+              class="rounded-box object-contain p-2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://res.cloudinary.com/peggy-co/image/upload/v1663840544/SugarLoaf/SideOfMainBuilding_rtdcok.jpg"
+              class="rounded-box object-contain"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://res.cloudinary.com/peggy-co/image/upload/v1663840544/SugarLoaf/SideOfMainBuilding_rtdcok.jpg"
+              class="rounded-box object-contain"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://res.cloudinary.com/peggy-co/image/upload/v1663840544/SugarLoaf/SideOfMainBuilding_rtdcok.jpg"
+            />
+          </div>
+        </div>
       </div>
-    </section>
-    <main class="h-auto w-screen bg-amber-50 z-10 overflow-hidden">
-      <ul class="flex flex-row flex-wrap">
-        <li
-          class="h-50 sm:h-40 lg:h-60 xl:h-70 2xl:h-80 flex-grow m-1 p-1 item"
-          v-for="image in images"
-        >
-          <NuxtImg
-            class="max-h-full min-w-full object-cover align-bottom rounded-2xl"
-            provider="cloudinary"
-            :src="image.imageUrl"
-            :alt="image.imageAlt"
-            loading="lazy"
-            sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
-          />
-          <!-- <section
+
+      <main class="h-auto w-screen bg-amber-50 z-10">
+        <ul class="flex flex-row flex-wrap">
+          <li
+            class="h-50 sm:h-40 lg:h-60 xl:h-70 2xl:h-80 flex-grow m-1 p-1"
+            v-for="image in images"
+          >
+            <NuxtImg
+              class="max-h-full min-w-full object-cover align-bottom rounded-2xl"
+              provider="cloudinary"
+              :src="image.imageUrl"
+              :alt="image.imageAlt"
+              loading="lazy"
+              sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
+            />
+            <!-- <section
             class="imageOverlayCard invisible w-1/2 h-3/4 relative bg-orange-500 flex flex-col"
           >
             <NuxtImg
@@ -268,8 +300,9 @@ onMounted(() => {
               sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
             />
           </section> -->
-        </li>
-      </ul>
-    </main>
+          </li>
+        </ul>
+      </main>
+    </div>
   </div>
 </template>

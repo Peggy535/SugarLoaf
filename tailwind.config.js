@@ -2,11 +2,13 @@
 module.exports = {
   content: [
     "./components/**/*.{vue,js}",
+    "composables/**/*.{js,ts}",
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
     "./app.vue",
+    "App.{js,ts,vue}",
   ],
   mode: "jit",
   theme: {
@@ -62,5 +64,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/aspect-ratio")],
+  plugins: [require("@tailwindcss/aspect-ratio"), require("daisyui")],
 };

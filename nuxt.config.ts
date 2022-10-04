@@ -6,7 +6,9 @@ export default defineNuxtConfig({
     "@kevinmarrec/nuxt-pwa",
     "@nuxtjs/robots",
   ],
-  css: ["assets/css/tailwind.css"],
+  tailwind: {
+    cssPath: "~/assets/css/tailwind.css",
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
