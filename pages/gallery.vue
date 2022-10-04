@@ -246,7 +246,7 @@ onMounted(() => {
           </p>
         </div>
       </section>
-      <div class="flex">
+      <!-- <div class="flex">
         <div class="carousel carousel-center rounded-box p-4">
           <div class="carousel-item">
             <img
@@ -272,7 +272,7 @@ onMounted(() => {
             />
           </div>
         </div>
-      </div>
+      </div> -->
 
       <main class="h-auto w-screen bg-amber-50 z-10">
         <ul class="flex flex-row flex-wrap">
