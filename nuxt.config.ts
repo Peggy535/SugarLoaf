@@ -51,6 +51,7 @@ export default defineNuxtConfig({
     },
     workbox: {
       enabled: true,
+      
     },
     manifest: {
       name: "Sugar Loaf - An Antiguan Residence",

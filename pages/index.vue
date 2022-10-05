@@ -49,7 +49,7 @@ onMounted(() => {
         </div>
         <div
           id="scroll-down"
-          class="flex flex-col absolute bottom-1 right-1 m-1 p-1 z-20"
+          class="flex flex-col absolute bottom-1 right-1 m-1 p-1 z-20 border border-white rounded-2xl"
           v-on:scroll="scrollDisappear"
         >
           <span class="text-white text-sm text-center">Scroll down</span>
