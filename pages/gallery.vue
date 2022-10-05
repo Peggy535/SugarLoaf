@@ -15,190 +15,14 @@ useHead({
     },
   ],
 });
-const images = [
-  {
-    imageUrl: "/SideOfMainBuilding_rtdcok.jpg",
-    imageAlt:
-      "View from the side garden, blacony and Falmouth Harbour in the distance",
-    tag: "Building",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/ViewFromCourtYard_nfevbp.jpg",
-    imageAlt:
-      "View of the surrounding area from the private front court yard/entrance",
-    tag: "Building",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/CourtYard_khmzbz.jpg",
-    imageAlt: "Front entrance to Sugar Loaf",
-    tag: "Building",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/FrontDoor_ea8i9a.jpg",
-    imageAlt: "Secure entrance with a beautiful view through to the Harbour",
-    tag: "Building",
-    imageWidth: "576",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/PoolViewOfHarbour_qqmxlg.jpg",
-    imageAlt:
-      "View from the private pool side which looks directly towards Falmouth Harbour",
-    tag: "Pool",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/PoolAreaWithCover_cmgtom.jpg",
-    imageAlt: "View of the pool, sun loungers and shaded seating area",
-    tag: "Pool",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/PoolArea2_ictxam.jpg",
-    imageAlt:
-      "A view of the pool area from underneath the shaded area. Stunning view can be seen from virtually all positions.",
-    tag: "Pool",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/OpenAirShower_ygit2t.jpg",
-    imageAlt: "Outside, stone-walled, rain-fall shower.",
-    tag: "Pool",
-    imageWidth: "576",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/veranda_ipjnac.jpg",
-    imageAlt:
-      "View of the outside balcont seating area with marvellous view of Falmouth Harbour.",
-    tag: "Balcony",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/SunnyVeranda_n0m0xo.jpg",
-    imageAlt: "Relaxing, comfortable seating area - outside balcont area.",
-    tag: "Balcony",
-    imageWidth: "576",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/RainbowHarbourView_qlzbo8.jpg",
-    imageAlt:
-      "The most stunning rainbow! Caught from Sugar Loaf's outside balcony area.",
-    tag: "Balcony",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/MainLivingRoom2_klmf5f.jpg",
-    imageAlt: "Brightly lit living room with ceiling fans and A/C.",
-    tag: "LivingRoom",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/MainLivingRoom3_njhdjo.jpg",
-    imageAlt:
-      "The living room from a different angle showing a secluded work area if one needs it.",
-    tag: "LivingRoom",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/MainLivingRoom_toe1oq.jpg",
-    imageAlt: "The villa's living room.",
-    tag: "LivingRoom",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/Kitchen3_nlvmfm.jpg",
-    imageAlt: "Spacious kitchen with all conveniences",
-    tag: "Kitchen",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/Kitchen2_vlydjd.jpg",
-    imageAlt: "Ample room for the family to help prepare for your meals.",
-    tag: "Kitchen",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/kitchen1_wa43b4.jpg",
-    imageAlt: "The Kitchen area",
-    tag: "Kitchen",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/Bedroom3_ctwctl.jpg",
-    imageAlt: "One of the 4 spacious and cool bedrooms",
-    tag: "Bedrooms",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/Bedroom1_yvhil9.jpg",
-    imageAlt: "All bedrooms have excellent ventilation and mosquito nets",
-    tag: "Bedrooms",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/Bedroom2_aluu4b.jpg",
-    imageAlt: "Bedroom - the stunning views are everywhere!",
-    tag: "Bedrooms",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/AbovePoolHarbourView_jwvqby.jpg",
-    imageAlt: "",
-    tag: "Other",
-    imageWidth: "576",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/DiningArea_bzmv0w.jpg",
-    imageAlt: "",
-    tag: "Other",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/Inside2_pdnyq1.jpg",
-    imageAlt: "",
-    tag: "Other",
-    imageWidth: "576",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/Inside3_dpxsi6.jpg",
-    imageAlt: "",
-    tag: "Other",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-  {
-    imageUrl: "/ViewFromBedroom_sfs040.jpg",
-    imageAlt: "",
-    tag: "Other",
-    imageWidth: "1024",
-    imageHeight: "768",
-  },
-];
+
+const query = groq`{ "imagesArray":*[_type == "photoGallery"]{_id, "images":photoImage[].asset->url, "caption":photoImage[].caption} }`;
+const sanity = useSanity();
+const { pending, data, refresh } = await useAsyncData("imagesArray", () =>
+  sanity.fetch(query)
+);
+refresh();
+
 
 onMounted(() => {
   gsap.to(".page", { autoAlpha: 1, duration: 0.5, delay: 0.3 });
@@ -208,7 +32,7 @@ onMounted(() => {
 <template>
   <div>
     <div
-      class="overflow-hidden z-10 font-NeueMontrealLight bg-amber-50 text-slate-700 page invisible"
+      class="overflow-hidden z-10 font-NeueMontrealLight bg-amber-50 text-slate-700 page"
     >
       <!-- Video section -->
       <section class="h-screen w-screen fixed z-10">
@@ -249,15 +73,17 @@ onMounted(() => {
         <ul class="flex flex-row flex-wrap">
           <li
             class="h-50 sm:h-40 lg:h-60 xl:h-70 2xl:h-80 flex-grow m-1 p-1"
-            v-for="image in images"
+            v-for="image in data.imagesArray[0].images"
+            :key="data.imagesArray[0]._id"
           >
-            <NuxtImg
+            <img
               class="max-h-full min-w-full object-cover align-bottom rounded-2xl border border-white"
-              provider="cloudinary"
-              :src="image.imageUrl"
-              :alt="image.imageAlt"
-              loading="lazy"
-              sizes="xs:100vw sm:50vw md:25vw lg:20vw xl:20vw xxl:20vw"
+              :src="image"
+              :alt="
+                data.imagesArray[0].caption[
+                  data.imagesArray[0].images.indexOf(image)
+                ]
+              "
             />
           </li>
         </ul>

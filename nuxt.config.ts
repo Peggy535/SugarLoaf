@@ -50,8 +50,7 @@ export default defineNuxtConfig({
       twitterCard: "summary_large_image",
     },
     workbox: {
-      enabled: true,
-      
+      enabled: false,
     },
     manifest: {
       name: "Sugar Loaf - An Antiguan Residence",
