@@ -210,8 +210,22 @@ onMounted(() => {
     <div
       class="overflow-hidden z-10 font-NeueMontrealLight bg-amber-50 text-slate-700 page invisible"
     >
+      <!-- Video section -->
+      <section class="h-screen w-screen fixed z-10">
+        <video
+          class="absolute top-0 right-0 w-screen h-screen object-center object-cover"
+          src="https://res.cloudinary.com/peggy-co/video/upload/ac_none,c_scale,q_auto,vc_vp9,w_1024/v1664955010/SugarLoaf/3235898963_xhaye6.webm"
+          autoplay
+          loop
+          muted
+          playsinline
+          width="1024"
+          height="576"
+          poster="https://res.cloudinary.com/peggy-co/video/upload/ac_none,c_scale,q_auto,w_1024/v1664955010/SugarLoaf/3235898963_xhaye6.jpg"
+        ></video>
+      </section>
       <section
-        class="relative flex flex-col h-screen w-screen place-content-end"
+        class="relative flex flex-col h-screen w-screen place-content-end z-20 bg-white bg-opacity-60"
       >
         <div class="flex flex-col">
           <h1 class="text-6xl md:text-8xl xl:text-11xl m-1 sm:m-3 sm:p-3 my-20">
@@ -231,14 +245,14 @@ onMounted(() => {
         </div>
       </section>
 
-      <main class="h-auto w-screen bg-amber-50 z-20">
+      <main class="relative bg-white bg-opacity-60 h-auto w-screen z-20">
         <ul class="flex flex-row flex-wrap">
           <li
             class="h-50 sm:h-40 lg:h-60 xl:h-70 2xl:h-80 flex-grow m-1 p-1"
             v-for="image in images"
           >
             <NuxtImg
-              class="max-h-full min-w-full object-cover align-bottom rounded-2xl"
+              class="max-h-full min-w-full object-cover align-bottom rounded-2xl border border-white"
               provider="cloudinary"
               :src="image.imageUrl"
               :alt="image.imageAlt"
