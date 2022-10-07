@@ -16,13 +16,12 @@ useHead({
   ],
 });
 
-const query = groq`{ "imagesArray":*[_type == "photoGallery"]{_id, "images":photoImage[].asset->url, "caption":photoImage[].caption} }`;
+const query = groq`{ "imagesArray":*[_type == "photoGallery"]{_id, caption, "image":photoImage.asset->url} }`;
 const sanity = useSanity();
 const { pending, data, refresh } = await useAsyncData("imagesArray", () =>
   sanity.fetch(query)
 );
 refresh();
-
 
 onMounted(() => {
   gsap.to(".page", { autoAlpha: 1, duration: 0.5, delay: 0.3 });
@@ -73,17 +72,13 @@ onMounted(() => {
         <ul class="flex flex-row flex-wrap">
           <li
             class="h-50 sm:h-40 lg:h-60 xl:h-70 2xl:h-80 flex-grow m-1 p-1"
-            v-for="image in data.imagesArray[0].images"
-            :key="data.imagesArray[0]._id"
+            v-for="image in data.imagesArray"
+            :key="image._id"
           >
             <img
               class="max-h-full min-w-full object-cover align-bottom rounded-2xl border border-white"
-              :src="image"
-              :alt="
-                data.imagesArray[0].caption[
-                  data.imagesArray[0].images.indexOf(image)
-                ]
-              "
+              :src="image.image"
+              :alt="image.caption"
             />
           </li>
         </ul>

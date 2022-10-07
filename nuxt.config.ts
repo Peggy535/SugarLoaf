@@ -1,4 +1,3 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
@@ -50,7 +49,7 @@ export default defineNuxtConfig({
       twitterCard: "summary_large_image",
     },
     workbox: {
-      enabled: false,
+      enabled: true,
     },
     manifest: {
       name: "Sugar Loaf - An Antiguan Residence",
