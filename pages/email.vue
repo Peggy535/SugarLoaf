@@ -4,7 +4,7 @@ definePageMeta({
 });
 
 const email = async () => {
-  const response = await fetch('/.netlify/functions/hello')
+  const response = await fetch('/functions/hello')
   console.log(response)
 }
 
