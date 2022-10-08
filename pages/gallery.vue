@@ -51,14 +51,14 @@ onMounted(() => {
         class="relative flex flex-col h-screen w-screen place-content-end z-20 bg-white bg-opacity-60"
       >
         <div class="flex flex-col">
-          <h1 class="text-6xl md:text-8xl xl:text-11xl m-1 sm:m-3 sm:p-3 my-20">
+          <h1 class="text-6xl sm:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl m-1 sm:m-2 sm:p-2 my-20">
             Sugar Loaf
           </h1>
-          <h1 class="text-4xl md:text-6xl xl:text-8xl m-1 sm:m-3 sm:p-3 mb-5">
+          <h1 class="text-4xl sm:text-5xl md:text-6xl xl:text-8xl m-1 sm:m-2 sm:p-2 mb-5">
             Photo Gallery
           </h1>
           <p
-            class="text-xl md:text-2xl xl:text-3xl sm:w-3/4 xl:w-1/2 m-1 p-1 sm:m-3 sm:p-3 w-full mb-3 xl:mb-12 border-l-2 border-l-black"
+            class="text-xl md:text-2xl xl:text-3xl sm:w-3/4 xl:w-1/2 m-1 p-1 sm:m-3 sm:p-3 w-full mb-3 xl:mb-12 border-l-2 border-l-slate-700"
           >
             Discover Sugar Loaf both inside and out. Simply click on the areas
             you would like to see in more detail or simply hover, click or touch

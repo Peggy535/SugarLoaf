@@ -12,7 +12,7 @@ const openMenu = () => {
   gsap.fromTo(
     ".menu",
     { autoAlpha: 1, xPercent: -100 },
-    { xPercent: 0, duration: 1.25, ease: "expo.inOut" }
+    { xPercent: 0, duration: 0.8, ease: "expo.inOut" }
   );
 };
 const closeMenu = () => {
@@ -75,11 +75,7 @@ const closeMenu = () => {
   >
     <MenuIcon class="fill-slate-700 w-16 sm:w-18 md:w-20" @click="openMenu" />
     <span class="m-1"
-      ><NuxtLink
-        to="https://www.admiralmanagementservices.com/sugarloaf"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      ><NuxtLink to="/email">
         <button
           class="border-2 border-slate-700 rounded-2xl transition delay-50 ease-in-out hover:border-brand-yellow duration:300"
         >

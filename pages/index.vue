@@ -39,7 +39,7 @@ onMounted(() => {
         <!-- Landing Page text -->
         <div class="flex flex-col absolute bottom-0 left-0 m-1 p-1 mb-20">
           <h1
-            class="text-6xl sm:text-9xl lg:text-12xl xl:text-14xl 2xl:text-13xl text-white mb-10"
+            class="text-6xl sm:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl text-white mb-10"
           >
             Sugar Loaf
           </h1>
@@ -59,19 +59,16 @@ onMounted(() => {
       <section class="relative w-screen bg-amber-50 bg-opacity-90 z-20">
         <div class="flex flex-col w-full items-center">
           <p
-            class="text-4xl md:text-6xl lg:text-7xl xl:text-8xl m-3 p-3 my-10 border-l-2 border-l-slate-700"
+            class="text-4xl md:text-5xl lg:text-6xl xl:text-8xl m-3 p-3 my-10 border-l-2 border-l-slate-700"
           >
             "Set in large and quiet gardens overlooking Falmouth Harbour, Sugar
             Loaf has views to swoon at and plenty of privacy, peace and quiet."
           </p>
           <div class="m-2 p-2 sm:m-5 sm:p-5 md:h-2/3 items-center">
-            <cite class="text-xs lg:text-sm"
-              >The front court yard and entrance to Sugar Loaf</cite
-            >
             <NuxtImg
               provider="cloudinary"
               class="object-contain rounded-2xl py-2"
-              src="/CourtYard_khmzbz.jpg"
+              src="/PoolViewOfHarbour_qqmxlg.webp"
               alt=""
               width="1024"
               height="768"
@@ -82,7 +79,7 @@ onMounted(() => {
             <NuxtImg
               provider="cloudinary"
               class="object-contain rounded-2xl"
-              src="/PoolViewOfHarbour_qqmxlg.jpg"
+              src="/veranda_ipjnac.webp"
               alt=""
               width="1024"
               height="768"
@@ -90,16 +87,13 @@ onMounted(() => {
               sizes="xs:100vw sm:80vw md:80vw lg:80vw xl:80vw xxl:80vw"
               format="webp"
             />
-            <cite class="text-xs lg:text-sm"
-              >Views of Falmouth Harbour from the private pool</cite
-            >
           </div>
         </div>
       </section>
       <section class="relative h-auto w-screen bg-amber-50 bg-opacity-90 z-20">
         <div class="flex flex-col w-full items-center">
           <p
-            class="text-4xl md:text-6xl m-3 p-3 my-10 border-l-2 border-l-slate-700"
+            class="text-4xl md:text-5xl m-3 p-3 my-10 border-l-2 border-l-slate-700"
           >
             "Situated 5 minutes drive from the beaches and restaurants of
             English Harbour, the property has four large double bedrooms all
@@ -107,15 +101,12 @@ onMounted(() => {
             is just perfect - both day and night, for boat watching or just
             gazing at the Sea."
           </p>
+
           <div class="m-2 p-2 sm:m-5 sm:p-5 md:h-2/3 items-center">
-            <cite class="text-xs lg:text-sm"
-              >Sit back, relax, chat and ponder over the awe inspiring
-              view</cite
-            >
             <NuxtImg
               provider="cloudinary"
               class="object-contain rounded-2xl py-2"
-              src="/veranda_ipjnac.jpg"
+              src="/MainLivingRoom2_klmf5f.webp"
               alt=""
               width="1024"
               height="768"
@@ -126,7 +117,7 @@ onMounted(() => {
             <NuxtImg
               provider="cloudinary"
               class="object-contain rounded-2xl"
-              src="/MainLivingRoom3_njhdjo.jpg"
+              src="/HarbourView_rxip6o.webp"
               alt=""
               width="1024"
               height="768"
@@ -134,7 +125,6 @@ onMounted(() => {
               sizes="xs:100vw sm:80vw md:80vw lg:80vw xl:80vw xxl:80vw"
               format="webp"
             />
-            <cite class="text-xs lg:text-sm">Sugar Loafs living area</cite>
           </div>
         </div>
       </section>
