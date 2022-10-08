@@ -70,18 +70,18 @@ definePageMeta({
 
       <section class="relative h-auto w-screen bg-amber-50 bg-opacity-50 z-20">
         <div
-          class="w-full sm:w-4/5 md:w-2/3 flex flex-col text-slate-700 p-2 mx-auto"
+          class="w-full sm:w-4/5 md:w-2/3 xl:w-1/2 flex flex-col text-slate-700 p-2 mx-auto"
         >
           <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-4">
             <!-- Start of amenities -->
             <div class="m-1 p-1">
               <div class="flex flex-row w-full">
-                <h1 class="text-xl lg:text-3xl m-1 p-1">
+                <h1 class="text-xl lg:text-3xl xl:text-4xl m-1 p-1">
                   Overview of Sugar Loaf
                 </h1>
                 <Overview class="fill-slate-700 w-8" />
               </div>
-              <ul class="m-1 p-1 text-md lg:text-xl list-disc list-inside">
+              <ul class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside">
                 <li>Up to 8 guests</li>
                 <li>4 Bedrooms</li>
                 <li>2 Bathrooms | 2 Indoor showers</li>
@@ -96,14 +96,11 @@ definePageMeta({
           <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-4">
             <div class="m-1 p-1">
               <div class="flex flex-row">
-                <h1 class="text-2xl lg:text-3xl m-1 p-1">Scenic Views</h1>
+                <h1 class="text-2xl lg:text-3xl xl:text-4xl m-1 p-1">Scenic Views</h1>
                 <View class="fill-slate-700 w-8" />
               </div>
-              <ul class="m-1 p-1 text-md lg:text-xl list-disc list-inside">
-                <li>
-                  Uninterrupted views of Falmouth Harbour from the pool area,
-                  outside balcony, living room and bedrooms.
-                </li>
+              <ul class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside">
+                <li>Uninterrupted views of Falmouth Harbour from the pool area, outside balcony, living room and bedrooms.</li>
                 <li>Private garden</li>
               </ul>
             </div>
@@ -112,19 +109,13 @@ definePageMeta({
           <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-4">
             <div class="m-1 p-1">
               <div class="flex flex-row">
-                <h1 class="text-2xl lg:text-3xl m-1 p-1">Outdoors</h1>
+                <h1 class="text-2xl lg:text-3xl xl:text-4xl m-1 p-1">Outdoors</h1>
                 <Garden class="fill-slate-700 w-8 stroke-1" />
               </div>
-              <ul class="m-1 p-1 list-disc list-inside text-md lg:text-xl">
-                <li>
-                  Private balcony area extending along two sides of the house
-                </li>
+              <ul class="m-1 p-1 list-disc list-inside text-md lg:text-xl xl:text-2xl">
+                <li>Private balcony area extending along two sides of the house</li>
                 <li>Private swimming pool and pool-side area</li>
-                <li>
-                  Private garden Outdoor furniture including poolside sun
-                  loungers/poolside sofa/outdoor dining area/relaxing &
-                  comfortable seating and tables on balcony
-                </li>
+                <li>Private garden Outdoor furniture including poolside sun loungers/poolside sofa/outdoor dining area/relaxing & comfortable seating and tables on balcony</li>
                 <li>Hammock</li>
               </ul>
             </div>
@@ -133,14 +124,11 @@ definePageMeta({
           <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
             <div class="m-1 p-1">
               <div class="flex flex-row">
-                <h1 class="text-2xl lg:text-3xl m-1 p-1">Bedrooms & Laundry</h1>
+                <h1 class="text-2xl lg:text-3xl xl:text-4xl m-1 p-1">Bedrooms & Laundry</h1>
                 <Bedroom class="fill-slate-700 w-8" />
               </div>
-              <ul class="m-1 p-1 text-md lg:text-xl list-disc list-inside">
-                <li>
-                  Housekeeper ('Jolly') for all laundry and washing (Attends 3
-                  times per week - this can be extended)
-                </li>
+              <ul class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside">
+                <li>Housekeeper ('Jolly') for all laundry and washing (Attends 3 times per week - this can be extended)</li>
                 <li>Washing machine</li>
                 <li>Essentials - Towels/bed sheets/hand soap/toilet paper</li>
                 <li>Hangers</li>
@@ -154,10 +142,10 @@ definePageMeta({
           <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
             <div class="m-1 p-1">
               <div class="flex flex-row">
-                <h1 class="text-2xl lg:text-3xl m-1 p-1">Heating & cooling</h1>
+                <h1 class="text-2xl lg:text-3xl xl:text-4xl m-1 p-1">Heating & cooling</h1>
                 <AC class="fill-slate-700 w-8" />
               </div>
-              <ul class="m-1 p-1 text-md lg:text-xl list-disc list-inside">
+              <ul class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside">
                 <li>Air Conditioning</li>
                 <li>Ceiling fans</li>
                 <li>Portable fans</li>
@@ -168,10 +156,10 @@ definePageMeta({
           <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
             <div class="m-1 p-1">
               <div class="flex flex-row">
-                <h1 class="text-2xl lg:text-3xl m-1 p-1">Entertainment</h1>
+                <h1 class="text-2xl lg:text-3xl xl:text-4xlm-1 p-1">Entertainment</h1>
                 <Entertainment class="fill-slate-700 w-8" />
               </div>
-              <ul class="m-1 p-1 text-md lg:text-xl list-disc list-inside">
+              <ul class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside">
                 <li>Wifi</li>
                 <li>TV in main living room</li>
                 <li>Anything else??</li>
@@ -182,10 +170,10 @@ definePageMeta({
           <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
             <div class="m-1 p-1">
               <div class="flex flex-row">
-                <h1 class="text-2xl lg:text-3xl m-1 p-1">Bathrooms</h1>
+                <h1 class="text-2xl lg:text-3xl  xl:text-4xlm-1 p-1">Bathrooms</h1>
                 <Bathroom class="fill-slate-700 w-8" />
               </div>
-              <ul class="m-1 p-1 text-md lg:text-xl list-disc list-inside">
+              <ul class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside">
                 <li>Hot Water</li>
                 <li>Hair dryers</li>
                 <li>2 indoor showers | 1 outdoor shower</li>
@@ -196,14 +184,11 @@ definePageMeta({
           <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
             <div class="m-1 p-1">
               <div class="flex flex-row">
-                <h1 class="text-2xl lg:text-3xl m-1 p-1">Wheelchair access</h1>
+                <h1 class="text-2xl lg:text-3xl xl:text-4xl m-1 p-1">Wheelchair access</h1>
                 <Wheelchair class="fill-slate-700 w-8" />
               </div>
-              <ul class="m-1 p-1 text-md lg:text-xl list-disc list-inside">
-                <li>
-                  Wheelchairs have access to the main villa level and the pool
-                  level.
-                </li>
+              <ul class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside">
+                <li>Wheelchairs have access to the main villa level and the pool level.</li>
               </ul>
             </div>
           </div>
@@ -211,24 +196,17 @@ definePageMeta({
           <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
             <div class="m-1 p-1">
               <div class="flex flex-row">
-                <h1 class="text-2xl lg:text-3xl m-1 p-1">
+                <h1 class="text-2xl lg:text-3xl xl:text-4xl m-1 p-1">
                   Other important aspects
                 </h1>
                 <Info class="fill-slate-700 w-8" />
               </div>
-              <ul class="m-1 p-1 text-md lg:text-xl list-disc list-inside">
-                <li>
-                  At the House, the back-up generator will provide a rapid pick
-                  up in the event of occasional power drops, and there is a TV
-                  to sign into your favourite viewing apps.
+              <ul class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside">
+                <li>At the House, the back-up generator will provide a rapid pick up in the event of occasional power drops, and there is a TV to sign into your favourite viewing apps.
                 </li>
-                <li>
-                  Water is supplied from two large tanks and is the Island's
-                  most precious resource.
+                <li>Water is supplied from two large tanks and is the Island'smost precious resource.
                 </li>
-                <li>
-                  Nathan and Clare of Admiral Management Services, are available
-                  for support if ever there are problems.
+                <li>Nathan and Clare of Admiral Management Services, are available for support if ever there are problems.
                 </li>
               </ul>
             </div>

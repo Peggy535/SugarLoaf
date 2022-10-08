@@ -2,6 +2,12 @@
 definePageMeta({
   layout: "slate-nav",
 });
+
+const email = async () => {
+  const response = await fetch('/.netlify/functions/hello')
+  console.log(response)
+}
+
 </script>
 
 <template>
@@ -45,6 +51,7 @@ definePageMeta({
           >
             Create severless webhook via Netlify to Sparkpost for email to Nick
           </p>
+          <button @click="email" >Send email</button>
         </div>
       </section>
     </div>

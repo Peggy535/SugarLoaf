@@ -1,0 +1,9 @@
+{
+  "editor.fontFamily": "PP Telegraf Ultralight",
+  "editor.fontSize": 16,
+  "editor.codeLensFontFamily": "PP Telegraf Ultralight",
+  "editor.inlayHints.fontFamily": "PP Telegraf Ultralight",
+  "scm.inputFontFamily": "editor",
+  "debug.console.fontFamily": "PP Telegraf Ultralight",
+  "notebook.outputFontFamily": "PP Telegraf Ultralight"
+}

@@ -30,13 +30,13 @@ const closeMenu = () => {
   >
     <span class="absolute top-5 left-5" @click="closeMenu">
       <h1
-        class="text-xl transition delay-75 ease-in-out duration-700 hover:text-amber-500 hover:scale-125 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-amber-500 after:h-[1px] after:bottom-0 after:z-40 after:hover:transition after:hover:ease-in-out after:hover:duration-700 after:hover:delay-75 after:hover:scale-100"
+        class="text-slate-700 text-xl transition delay-75 ease-in-out duration-700 hover:text-amber-500 hover:scale-125 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-amber-500 after:h-[1px] after:bottom-0 after:z-40 after:hover:transition after:hover:ease-in-out after:hover:duration-700 after:hover:delay-75 after:hover:scale-100"
       >
         Close
       </h1>
     </span>
     <div class="flex mx-auto">
-      <ul class="text-slate-700 text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+      <ul class="text-slate-700 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl">
         <NuxtLink to="/" @click="closeMenu">
           <li
             class="m-2 p-2 transition delay-75 ease-in-out duration-700 hover:text-amber-500 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-amber-500 after:h-[1px] after:bottom-0 after:z-40 after:hover:transition after:hover:ease-in-out after:hover:duration-700 after:hover:delay-75 after:hover:scale-100"

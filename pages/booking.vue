@@ -63,15 +63,15 @@ definePageMeta({
       <section
         class="relative h-auto w-screen z-20 flex bg-amber-50 bg-opacity-50 p-2"
       >
-        <div class="flex-flex-col w-full sm:w-3/4 lg:w-2/3 mx-auto">
+        <div class="flex-flex-col w-full sm:w-3/4 lg:w-2/3 xl:w-1/2 mx-auto">
           <!-- Section 1 -->
           <div
             class="flex flex-col my-10 bg-amber-50 border-2 border-white rounded-2xl"
           >
-            <h1 class="p-1 m-1 sm:m-2 sm:p-2 text-2xl lg:text-3xl">
+            <h1 class="p-1 m-1 sm:m-2 sm:p-2 text-2xl lg:text-3xl xl:text-4xl">
               1. Choose how many bedrooms you would like to book for.
             </h1>
-            <p class="m-1 p-1 sm:m-2 sm:p-2 lg:text-xl">
+            <p class="m-1 p-1 sm:m-2 sm:p-2 lg:text-xl xl:text-2xl">
               Sugar Loaf has 4 bedrooms in total. You can book the entire house
               with 2, 3 or 4 bedrooms - depending on the size of your party. The
               weekly pricing for 2, 3 or 4 bedroom options are listed below.
@@ -81,16 +81,14 @@ definePageMeta({
           <div
             class="flex flex-col w-full bg-amber-50 border-2 border-white rounded-2xl"
           >
-            <h1 class="p-1 m-1 sm:m-2 sm:p-2 text-2xl lg:text-3xl">
-              2. Review the pricing for your selected stay.
-            </h1>
+            <h1 class="p-1 m-1 sm:m-2 sm:p-2 text-2xl lg:text-3xl xl:text-4xl">2. Review the pricing for your selected stay.</h1>
             <div
               class="flex flex-col border border-slate-700 rounded-2xl m-1 my-5 sm:m-2 sm:p-2"
             >
-              <h2 class="m-1 p-1 text-lg lg:text-xl font-semibold">
+              <h2 class="m-1 p-1 text-lg lg:text-xl xl:text-2xl font-semibold">
                 2 Bedroom Option | Price per week US$
               </h2>
-              <table class="table-fixed text-center m-1 p-1 mb-3 lg:text-xl">
+              <table class="table-fixed text-center m-1 p-1 mb-3 lg:text-xl xl:text-2xl">
                 <thead>
                   <tr>
                     <th>Summer</th>
@@ -111,10 +109,10 @@ definePageMeta({
             <div
               class="flex flex-col border border-slate-700 rounded-2xl m-1 my-5 sm:m-2 sm:p-2"
             >
-              <h2 class="m-1 p-1 text-lg lg:text-xl font-semibold">
+              <h2 class="m-1 p-1 text-lg lg:text-xl xl:text-2xl font-semibold">
                 3 Bedroom Option | Price per week US$
               </h2>
-              <table class="table-fixed text-center m-1 p-1 mb-5 lg:text-xl">
+              <table class="table-fixed text-center m-1 p-1 mb-5 lg:text-xl xl:text-2xl">
                 <thead>
                   <tr>
                     <th>Summer</th>
@@ -134,10 +132,10 @@ definePageMeta({
             <div
               class="flex flex-col border border-slate-700 rounded-2xl m-1 my-5 sm:m-2 sm:p-2"
             >
-              <h2 class="m-1 p-1 text-lg lg:text-xl font-semibold">
+              <h2 class="m-1 p-1 text-lg lg:text-xl xl:text-2xl font-semibold">
                 4 Bedroom Option | Price per week US$
               </h2>
-              <table class="table-fixed text-center m-1 p-1 mb-5 lg:text-xl">
+              <table class="table-fixed text-center m-1 p-1 mb-5 lg:text-xl xl:text-2xl">
                 <thead>
                   <tr>
                     <th>Summer</th>
@@ -158,17 +156,17 @@ definePageMeta({
           <div
             class="flex flex-col border border-white rounded-2xl m-1 my-5 bg-amber-50"
           >
-            <h1 class="m-1 p-1 text-2xl lg:text-3xl">
+            <h1 class="m-1 p-1 text-2xl lg:text-3xl xl:text-4xl">
               Booking period information:
             </h1>
-            <ul class="m-1 p-1 text-lg lg:text-xl">
+            <ul class="m-1 p-1 text-lg lg:text-xl xl:text-2xl">
               <li class="m-1 p-1">Summer: 16th May - 14th Nov incl.</li>
               <li class="m-1 p-1">Winter: 15th Nov - 15th May incl.</li>
               <li class="m-1 p-1">
                 Peak: Peak periods are detailed below. Please click on the event
                 link to take you to the official event website.
                 <table
-                  class="table-auto border-collapse text-center w-full my-5 text-sm lg:text-xl"
+                  class="table-auto border-collapse text-center w-full my-5 text-sm lg:text-xl xl:text-2xl"
                 >
                   <thead>
                     <tr class="font-NeueMontrealMedium">
@@ -285,20 +283,14 @@ definePageMeta({
                   </tbody>
                 </table>
               </li>
-              <li class="m-1 p-1">
-                Please enquire for accurate rates prior to booking. Minimum 3
-                night stay, 7 nights in Peak times.
-              </li>
-              <li class="m-1 p-1">
-                Points to note: No smoking inside, There is a cat living on the
-                property. Cat friendly guests only.
-              </li>
+              <li class="m-1 p-1">Please enquire for accurate rates prior to booking. Minimum 3 night stay, 7 nights in Peak times.</li>
+              <li class="m-1 p-1">Points to note: No smoking inside, There is a cat living on theproperty. Cat friendly guests only.</li>
             </ul>
           </div>
           <div
             class="flex flex-col my-10 bg-amber-50 border-2 border-white rounded-2xl"
           >
-            <h1 class="p-1 m-1 sm:m-2 sm:p-2 text-2xl">
+            <h1 class="p-1 m-1 sm:m-2 sm:p-2 text-2xl lg:text-3xl xl:text-4xl">
               3. To make your booking please email here
             </h1>
             <p class="m-1 p-1 sm:m-2 sm:p-2">Email: tbc</p>

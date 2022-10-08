@@ -59,7 +59,7 @@ onMounted(() => {
       <section class="relative w-screen bg-amber-50 bg-opacity-90 z-20">
         <div class="flex flex-col w-full items-center">
           <p
-            class="text-4xl md:text-5xl lg:text-6xl xl:text-8xl m-3 p-3 my-10 border-l-2 border-l-slate-700"
+            class="text-4xl md:text-5xl lg:text-6xl m-3 p-3 my-10 border-l-2 border-l-slate-700"
           >
             "Set in large and quiet gardens overlooking Falmouth Harbour, Sugar
             Loaf has views to swoon at and plenty of privacy, peace and quiet."
