@@ -4,11 +4,9 @@ exports.handler = async function () {
 
 
 client.transmissions.send({
-    options: {
-      sandbox: true
-    },
+    
     content: {
-      from: 'testing@sparkpostbox.com',
+      from: 'testing@sugarloafantigua.com',
       subject: 'Hello, World!',
       html:'<html><body><p>Testing SparkPost - the world\'s most awesomest email service!</p></body></html>'
     },
