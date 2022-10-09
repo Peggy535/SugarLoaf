@@ -1,9 +1,7 @@
 <script setup>
 let output;
 
-const getResponse = async () =>{
-    output = await useFetch('/.netlify/functions/hello')
-}
+const getResponse = await useFetch('/.netlify/functions/hello')
 
 definePageMeta({
   layout: "slate-nav",
