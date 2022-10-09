@@ -25,6 +25,7 @@ refresh();
 
 onMounted(() => {
   gsap.to(".page", { autoAlpha: 1, duration: 0.5, delay: 0.3 });
+  const displayWriting = console.log(img);
 });
 </script>
 
@@ -51,10 +52,14 @@ onMounted(() => {
         class="relative flex flex-col h-screen w-screen place-content-end z-20 bg-white bg-opacity-60"
       >
         <div class="flex flex-col">
-          <h1 class="text-6xl sm:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl m-1 sm:m-2 sm:p-2 my-20">
+          <h1
+            class="text-6xl sm:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl m-1 sm:m-2 sm:p-2 my-20"
+          >
             Sugar Loaf
           </h1>
-          <h1 class="text-4xl sm:text-5xl md:text-6xl xl:text-8xl m-1 sm:m-2 sm:p-2 mb-5">
+          <h1
+            class="text-4xl sm:text-5xl md:text-6xl xl:text-8xl m-1 sm:m-2 sm:p-2 mb-5"
+          >
             Photo Gallery
           </h1>
           <p
@@ -69,6 +74,23 @@ onMounted(() => {
       </section>
 
       <main class="relative bg-white bg-opacity-60 h-auto w-screen z-20">
+        <div
+          class="h-auto w-screen grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 grid-auto-rows gap-4"
+        >
+          <div
+            class="flex flex-col w-full bg-amber-50 rounded-2xl"
+            v-for="image in data.imagesArray"
+            :key="image._id"
+          >
+            <img
+              class="object-contain object-center overflow-hidden border-2 border-white rounded-2xl"
+              :src="`${image.image}?h=800&w=800&auto=format&fit=min`"
+            />
+            <figcaption class="text-2xl m-2 p-2">
+              Sugar Loaf - {{ image.caption }}
+            </figcaption>
+          </div>
+        </div>
         <ul class="flex flex-row flex-wrap">
           <li
             class="h-50 sm:h-40 lg:h-60 xl:h-70 2xl:h-80 flex-grow m-1 p-1"
@@ -76,7 +98,7 @@ onMounted(() => {
             :key="image._id"
           >
             <img
-              class="max-h-full min-w-full object-cover align-bottom rounded-2xl border border-white"
+              class="max-h-full min-w-full object-cover align-bottom rounded-2xl border-2 border-white"
               :src="image.image"
               :alt="image.caption"
             />
