@@ -1,7 +1,4 @@
 <script setup>
-let output;
-
-const getResponse = await useFetch('/.netlify/functions/hello')
 
 definePageMeta({
   layout: "slate-nav",
@@ -50,8 +47,7 @@ definePageMeta({
           >
             Create severless webhook via Netlify to Sparkpost for email to Nick
           </p>
-          <button v-on:click="getResponse">Fetch</button>
-          <h1 class="text-2xl">{{ output }}</h1>
+         
         </div>
       </section>
     </div>
