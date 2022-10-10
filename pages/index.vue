@@ -62,10 +62,10 @@ onMounted(() => {
             <NuxtImg
               provider="cloudinary"
               class="object-contain object-center"
-              src="/PoolViewOfHarbour_qqmxlg.webp"
+              src="/PoolViewOfHarbour_znemtk.webp"
               alt=""
-              width="1024"
-              height="768"
+              width="1280"
+              height="960"
               loading="lazy"
               sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:100vw xxl:100vw"
               format="webp"
@@ -259,22 +259,22 @@ onMounted(() => {
             class="object-contain object-center xl:hidden"
             src="/IMG_0493_s4efju.webp"
             alt=""
-            width="1024"
-            height="683"
+            width="1280"
+            height="853"
             loading="lazy"
-            sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:50vw xxl:50vw"
+            sizes="xs:100vw sm:100vw md:100vw lg:100vw"
             format="webp"
           />
           <div class="lg:flex lg:flex-row">
             <NuxtImg
               provider="cloudinary"
-              class="object-contain object-center xl:w-1/3 xl:object-fill"
+              class="xs:hidden xl:visible object-contain object-center xl:w-1/3 xl:object-fill"
               src="/IMG_0493_s4efju.webp"
               alt=""
               width="1024"
               height="683"
               loading="lazy"
-              sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:50vw xxl:50vw"
+              sizes="xl:33vw xxl:33vw"
               format="webp"
             />
             <NuxtImg
