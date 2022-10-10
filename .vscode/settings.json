@@ -1,10 +1,10 @@
 {
-  "editor.fontFamily": "PP Neue Montreal Book",
+  "editor.fontFamily": "PP Supply Mono UltraLight",
   "editor.fontSize": 20,
-  "editor.codeLensFontFamily": "PP Neue Montreal Book",
-  "editor.inlayHints.fontFamily": "PP Neue Montreal Book",
+  "editor.codeLensFontFamily": "PP Supply Mono UltraLight",
+  "editor.inlayHints.fontFamily": "PP Supply Mono UltraLight",
   "scm.inputFontFamily": "editor",
-  "debug.console.fontFamily": "PP Neue Montreal Book",
-"notebook.outputFontFamily": "PP Neue Montreal Book",
-"editor.fontLigatures": true
+  "debug.console.fontFamily": "PP Supply Mono UltraLight",
+  "notebook.outputFontFamily": "PP Supply Mono UltraLight",
+  "editor.fontLigatures": true
 }
