@@ -74,10 +74,12 @@ onMounted(() => {
 
       <main class="relative bg-white bg-opacity-60 h-auto w-screen z-20">
         <div class="h-auto w-screen flex flex-col">
-          <div class="flex flex-row w-full">
-            <div class="items-center">
-              <ArrowLeft class="inline-block fill-slate-700 w-12" />
-              <p class="inline-block">Swipe to view pictures</p>
+          <div class="flex flex-row w-full sm:w-4/5 lg:w-2/3 xl:w-1/2 mx-auto">
+            <div
+              class="flex items-center bg-amber-50 rounded-2xl border-2 border-white"
+            >
+              <ArrowLeft class="inline-block fill-slate-700 w-12 m-1 p-1" />
+              <p class="inline-block text-md m-1 p-1">Swipe the image below</p>
             </div>
           </div>
           <div
@@ -103,7 +105,7 @@ onMounted(() => {
             </h4>
           </div>
           <div
-            class="h-auto w-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 grid-auto-rows gap-2  px-10"
+            class="h-auto w-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 grid-auto-rows gap-2 px-10"
           >
             <div
               class="flex flex-col mx-auto w-full bg-amber-50 rounded-2xl"
@@ -111,7 +113,7 @@ onMounted(() => {
               :key="image._id"
             >
               <img
-                class="object-contain object-center overflow-hidden border-2 border-white rounded-2xl transition duration-1000 ease-in-out delay-75 hover:scale-125 lg:hover:scale-150"
+                class="object-contain object-center overflow-hidden border-2 border-white rounded-2xl transition duration-700 ease-in-out delay-75 hover:scale-125 lg:hover:scale-150"
                 :src="`${image.image}?h=800&w=800&auto=format&fit=min`"
               />
               <figcaption class="text-xs m-2 p-2">
