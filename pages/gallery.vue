@@ -1,6 +1,7 @@
 <script setup>
 import { gsap } from "gsap";
-
+import ArrowLeft from "~/components/icons/ArrowLeft.vue";
+import ArrowRight from "~/components/icons/ArrowRight.vue";
 const title = ref("Sugar Loaf | Photo Gallery");
 const description = ref("The description goes here");
 definePageMeta({
@@ -65,45 +66,60 @@ onMounted(() => {
           <p
             class="text-xl md:text-2xl xl:text-3xl sm:w-3/4 xl:w-1/2 m-1 p-1 sm:m-3 sm:p-3 w-full mb-3 xl:mb-12 border-l-2 border-l-slate-700"
           >
-            Discover Sugar Loaf both inside and out. Simply click on the areas
-            you would like to see in more detail or simply hover, click or touch
-            the image you would like to view to see the image and a brief
-            description.
+            Discover what Sugar Loaf has to offer with an extensive gallery of
+            photographs to view.
           </p>
         </div>
       </section>
 
       <main class="relative bg-white bg-opacity-60 h-auto w-screen z-20">
-        <div
-          class="h-auto w-screen grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 grid-auto-rows gap-4"
-        >
+        <div class="h-auto w-screen flex flex-col">
+          <div class="flex flex-row w-full">
+            <div class="items-center">
+              <ArrowLeft class="inline-block fill-slate-700 w-12" />
+              <p class="inline-block">Swipe to view pictures</p>
+            </div>
+          </div>
           <div
-            class="flex flex-col w-full bg-amber-50 rounded-2xl"
-            v-for="image in data.imagesArray"
-            :key="image._id"
+            class="carousel rounded-box w-full sm:w-4/5 lg:w-2/3 xl:w-1/2 sm:mx-auto mb-10"
           >
-            <img
-              class="object-contain object-center overflow-hidden border-2 border-white rounded-2xl"
-              :src="`${image.image}?h=800&w=800&auto=format&fit=min`"
-            />
-            <figcaption class="text-2xl m-2 p-2">
-              Sugar Loaf - {{ image.caption }}
-            </figcaption>
+            <div
+              class="carousel-item w-full"
+              v-for="image in data.imagesArray"
+              :key="image._id"
+            >
+              <img
+                :src="`${image.image}?h=1200&w=1200&auto=format&fit=min`"
+                class="h-full object-contain object-center overflow-hidden border-2 border-white rounded-2xl"
+                :alt="image.caption"
+              />
+            </div>
+          </div>
+          <div class="flex w-full m-1 p-1">
+            <h4 class="text-xl">
+              The following gallery contains the same images as above yet
+              descriptions have been included. To view the image more closely
+              please tap or click the image you wish to see.
+            </h4>
+          </div>
+          <div
+            class="h-auto w-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 grid-auto-rows gap-2  px-10"
+          >
+            <div
+              class="flex flex-col mx-auto w-full bg-amber-50 rounded-2xl"
+              v-for="image in data.imagesArray"
+              :key="image._id"
+            >
+              <img
+                class="object-contain object-center overflow-hidden border-2 border-white rounded-2xl transition duration-1000 ease-in-out delay-75 hover:scale-125 lg:hover:scale-150"
+                :src="`${image.image}?h=800&w=800&auto=format&fit=min`"
+              />
+              <figcaption class="text-xs m-2 p-2">
+                {{ image.caption }}
+              </figcaption>
+            </div>
           </div>
         </div>
-        <ul class="flex flex-row flex-wrap">
-          <li
-            class="h-50 sm:h-40 lg:h-60 xl:h-70 2xl:h-80 flex-grow m-1 p-1"
-            v-for="image in data.imagesArray"
-            :key="image._id"
-          >
-            <img
-              class="max-h-full min-w-full object-cover align-bottom rounded-2xl border-2 border-white"
-              :src="image.image"
-              :alt="image.caption"
-            />
-          </li>
-        </ul>
       </main>
     </div>
   </div>
