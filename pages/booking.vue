@@ -18,6 +18,9 @@ definePageMeta({
 
 <template>
   <div>
+    <Head>
+      <Title>Sugar Loaf | Booking & Pricing</Title>
+    </Head>
     <div
       class="h-auto w-screen overflow-hidden font-NeueMontrealLight text-slate-700"
     >
@@ -81,14 +84,18 @@ definePageMeta({
           <div
             class="flex flex-col w-full bg-amber-50 border-2 border-white rounded-2xl"
           >
-            <h1 class="p-1 m-1 sm:m-2 sm:p-2 text-2xl lg:text-3xl xl:text-4xl">2. Review the pricing for your selected stay.</h1>
+            <h1 class="p-1 m-1 sm:m-2 sm:p-2 text-2xl lg:text-3xl xl:text-4xl">
+              2. Review the pricing for your selected stay.
+            </h1>
             <div
               class="flex flex-col border border-slate-700 rounded-2xl m-1 my-5 sm:m-2 sm:p-2"
             >
               <h2 class="m-1 p-1 text-lg lg:text-xl xl:text-2xl font-semibold">
                 2 Bedroom Option | Price per week US$
               </h2>
-              <table class="table-fixed text-center m-1 p-1 mb-3 lg:text-xl xl:text-2xl">
+              <table
+                class="table-fixed text-center m-1 p-1 mb-3 lg:text-xl xl:text-2xl"
+              >
                 <thead>
                   <tr>
                     <th>Summer</th>
@@ -112,7 +119,9 @@ definePageMeta({
               <h2 class="m-1 p-1 text-lg lg:text-xl xl:text-2xl font-semibold">
                 3 Bedroom Option | Price per week US$
               </h2>
-              <table class="table-fixed text-center m-1 p-1 mb-5 lg:text-xl xl:text-2xl">
+              <table
+                class="table-fixed text-center m-1 p-1 mb-5 lg:text-xl xl:text-2xl"
+              >
                 <thead>
                   <tr>
                     <th>Summer</th>
@@ -135,7 +144,9 @@ definePageMeta({
               <h2 class="m-1 p-1 text-lg lg:text-xl xl:text-2xl font-semibold">
                 4 Bedroom Option | Price per week US$
               </h2>
-              <table class="table-fixed text-center m-1 p-1 mb-5 lg:text-xl xl:text-2xl">
+              <table
+                class="table-fixed text-center m-1 p-1 mb-5 lg:text-xl xl:text-2xl"
+              >
                 <thead>
                   <tr>
                     <th>Summer</th>
@@ -283,8 +294,14 @@ definePageMeta({
                   </tbody>
                 </table>
               </li>
-              <li class="m-1 p-1">Please enquire for accurate rates prior to booking. Minimum 3 night stay, 7 nights in Peak times.</li>
-              <li class="m-1 p-1">Points to note: No smoking inside, There is a cat living on theproperty. Cat friendly guests only.</li>
+              <li class="m-1 p-1">
+                Please enquire for accurate rates prior to booking. Minimum 3
+                night stay, 7 nights in Peak times.
+              </li>
+              <li class="m-1 p-1">
+                Points to note: No smoking inside, There is a cat living on
+                theproperty. Cat friendly guests only.
+              </li>
             </ul>
           </div>
           <div

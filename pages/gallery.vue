@@ -33,6 +33,9 @@ onMounted(() => {
 
 <template>
   <div>
+    <Head>
+      <Title>Sugar Loaf | Photo Gallery</Title>
+    </Head>
     <div
       class="overflow-hidden z-10 font-NeueMontrealThin bg-amber-50 text-slate-800 page"
     >

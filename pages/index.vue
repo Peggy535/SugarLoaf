@@ -17,6 +17,9 @@ onMounted(() => {
 
 <template>
   <div>
+    <Head>
+      <Title>Sugar Loaf | A Luxurious Antiguan Holiday Residence</Title>
+    </Head>
     <div
       class="h-auto w-screen overflow-hidden font-NeueMontrealThin text-slate-800 page"
     >
