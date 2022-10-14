@@ -199,7 +199,6 @@ definePageMeta({
               >
                 <li>Wifi</li>
                 <li>TV in main living room</li>
-                <li>Anything else??</li>
               </ul>
             </div>
           </div>

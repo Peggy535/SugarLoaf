@@ -310,10 +310,10 @@ definePageMeta({
             <h1 class="p-1 m-1 sm:m-2 sm:p-2 text-2xl lg:text-3xl xl:text-4xl">
               3. To make your booking please email here
             </h1>
-            <p class="m-1 p-1 sm:m-2 sm:p-2">Email: tbc</p>
-            <p class="m-1 p-1 sm:m-2 sm:p-2">Tel: tbc</p>
+            <p class="m-1 p-1 sm:m-2 sm:p-2">Email: </p>
+            <p class="m-1 p-1 sm:m-2 sm:p-2">Tel: </p>
             <span class="m-1 p-1 sm:m-2 sm:p-2"
-              ><NuxtLink to="/email">
+              ><NuxtLink to="">
                 <button
                   class="border-2 border-slate-700 rounded-2xl transition delay-75 ease-in-out hover:border-brand-yellow duration:300"
                 >

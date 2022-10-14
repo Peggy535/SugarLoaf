@@ -74,13 +74,52 @@ onMounted(() => {
               format="webp"
             />
           </div>
-          <div class="w-full">
+          <div class="w-full lg:w-2/3 mx-auto">
             <p
-              class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl m-3 p-3 my-10 md:my-20 border-l-2 border-l-slate-800"
+              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 py-10 md:py-16"
             >
               Set in quiet gardens overlooking Falmouth Harbour, Sugar Loaf has
               fantastic views, privacy, and peace and quiet.
             </p>
+          </div>
+        </div>
+
+        <!-- Gallery section -->
+        <div class="flex flex-col">
+          <div class="flex flex-col lg:flex-row lg:flex-wrap">
+            <NuxtImg
+              provider="cloudinary"
+              class="object-contain object-center w-full lg:w-full xl:w-1/3 xl:object-fill rounded-md border border-white"
+              src="/Spot_the_cat_inxsnz.webp"
+              alt=""
+              width="3648"
+              height="2736"
+              loading="lazy"
+              sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:33vw xxl:33vw"
+              format="webp"
+            />
+            <NuxtImg
+              provider="cloudinary"
+              class="object-contain object-center w-full lg:w-1/2 xl:w-1/3 xl:object-fill rounded-md border border-white"
+              src="/Dining_table_seated_cjy3bs.webp"
+              alt=""
+              width="3648"
+              height="2432"
+              loading="lazy"
+              sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
+              format="webp"
+            />
+            <NuxtImg
+              provider="cloudinary"
+              class="object-contain object-center w-full lg:w-1/2 xl:w-1/3 xl:object-fill rounded-md border border-white"
+              src="/Dining_table_views_lwfog4.webp"
+              alt=""
+              width="3648"
+              height="2432"
+              loading="lazy"
+              sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
+              format="webp"
+            />
           </div>
         </div>
         <div class="flex flex-col lg:flex-row">
@@ -133,50 +172,7 @@ onMounted(() => {
             </p>
           </div>
         </div>
-        <!-- Front Entrance Section -->
-        <div class="flex flex-col lg:flex-row">
-          <NuxtImg
-            provider="cloudinary"
-            class="object-contain object-center lg:w-1/2 rounded-md border border-white"
-            src="/5898D6C1-2AF1-4A23-B22C-FCEB2B2B99A3_ibzrds.webp"
-            alt=""
-            width="1024"
-            height="768"
-            loading="lazy"
-            sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
-            format="webp"
-          />
-          <NuxtImg
-            provider="cloudinary"
-            class="object-contain object-center lg:w-1/2 rounded-md border border-white"
-            src="/CourtYard_vm9m46.webp"
-            alt=""
-            width="1024"
-            height="768"
-            loading="lazy"
-            sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
-            format="webp"
-          />
-        </div>
-        <div class="flex flex-col">
-          <div class="w-full lg:w-2/3 mx-auto">
-            <p
-              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 pt-10 md:pt-16"
-            >
-              Sugarloaf is situated on top of a hill overlooking Falmouth
-              Harbour, and about 5 -10 minutes drive from Nelsons Dockyard, the
-              beaches at Pigeon point and Galleon bay.
-            </p>
-          </div>
-          <div class="w-full lg:w-2/3 mx-auto">
-            <p
-              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 pb-10 md:pb-16"
-            >
-              The property is easily accessible by car, secure, and has ample
-              parking out front.
-            </p>
-          </div>
-        </div>
+
         <!-- Bedroom Section -->
         <div class="flex flex-col lg:flex-row">
           <div class="w-full lg:w-1/2">
@@ -261,7 +257,8 @@ onMounted(() => {
               Upstairs, there is a lovely double bedroom again with A/C. This
               bedroom is ideal for those with mobility issues, and for those
               that need a little more help there are articulated wheelchair
-              ramps on site which should enable access to most areas.
+              ramps on site which should enable access to most areas. Oh, and
+              there's a loo.
             </p>
           </div>
           <div class="flex flex-col lg:flex-row-reverse items-center">
@@ -269,7 +266,7 @@ onMounted(() => {
               <NuxtImg
                 provider="cloudinary"
                 class="object-contain object-center rounded-md border border-white"
-                src="/Upstairs_bed_qjcyed.webp"
+                src="/IMG_0646_lifxuw.webp"
                 alt=""
                 width="1024"
                 height="768"
@@ -282,8 +279,9 @@ onMounted(() => {
               <p
                 class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 py-10 md:py-16"
               >
-                Oh, and there’s a loo, sitting room and a large kitchen. All
-                with direct access to the upper gallery and dining table.
+                Also, on the upper floor there is a sitting room and a large
+                kitchen: all with direct access to the upper gallery and dining
+                table.
               </p>
             </div>
           </div>
@@ -294,7 +292,7 @@ onMounted(() => {
           <NuxtImg
             provider="cloudinary"
             class="object-contain object-center lg:w-1/2 rounded-md border border-white"
-            src="/MainLivingRoom_wbonci.webp"
+            src="/IMG_2664_ckqmoj.webp"
             alt=""
             width="1024"
             height="768"
@@ -317,7 +315,7 @@ onMounted(() => {
             <NuxtImg
               provider="cloudinary"
               class="object-contain object-center rounded-md border border-white"
-              src="/Kitchen_2_zwvkj2.webp"
+              src="/IMG_0632_qxa1oo.webp"
               alt=""
               width="1024"
               height="768"
@@ -331,8 +329,8 @@ onMounted(() => {
             <p
               class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 py-10 xl:pt-0"
             >
-              The kitchen is fully equipped with A/C Gas stove, Cooker,
-              microwave, fridge freezer, dishwasher and two sinks.
+              The kitchen is fully equipped with A/C, gas stove, cooker,
+              microwave, fridge freezer, dishwasher, water cooler and two sinks.
             </p>
           </div>
         </div>
@@ -352,7 +350,9 @@ onMounted(() => {
             <p
               class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 py-10"
             >
-              There's also a 5 gallon water cooler.
+              Downstairs there is also a washing machine etc, and Hyacinth will
+              come in twice a week (More if needed) to handle all your laundry
+              needs.
             </p>
           </div>
         </div>
@@ -407,8 +407,52 @@ onMounted(() => {
               There is also a Deck area, with cold water showers and BBQ.
             </p>
           </div>
-          <!-- Gallery section -->
+          <!-- Front Entrance Section -->
+          <div class="flex flex-col lg:flex-row">
+            <NuxtImg
+              provider="cloudinary"
+              class="object-contain object-center lg:w-1/2 rounded-md border border-white"
+              src="/5898D6C1-2AF1-4A23-B22C-FCEB2B2B99A3_ibzrds.webp"
+              alt=""
+              width="1024"
+              height="768"
+              loading="lazy"
+              sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
+              format="webp"
+            />
+            <NuxtImg
+              provider="cloudinary"
+              class="object-contain object-center lg:w-1/2 rounded-md border border-white"
+              src="/CourtYard_vm9m46.webp"
+              alt=""
+              width="1024"
+              height="768"
+              loading="lazy"
+              sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
+              format="webp"
+            />
+          </div>
           <div class="flex flex-col">
+            <div class="w-full lg:w-2/3 mx-auto">
+              <p
+                class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 pt-10 md:pt-16"
+              >
+                Sugarloaf is situated on top of a hill overlooking Falmouth
+                Harbour, and about 5 -10 minutes drive from Nelsons Dockyard,
+                the beaches at Pigeon point and Galleon bay.
+              </p>
+            </div>
+            <div class="w-full lg:w-2/3 mx-auto">
+              <p
+                class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 pb-10 md:pb-16"
+              >
+                The property is easily accessible by car, secure, and has ample
+                parking out front.
+              </p>
+            </div>
+          </div>
+          <!-- Gallery section -->
+          <!-- <div class="flex flex-col">
             <div class="flex flex-col lg:flex-row lg:flex-wrap">
               <NuxtImg
                 provider="cloudinary"
@@ -443,47 +487,6 @@ onMounted(() => {
                 sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
                 format="webp"
               />
-            </div>
-          </div>
-          <!-- <div class="flex flex-col lg:flex-row">
-            <NuxtImg
-              provider="cloudinary"
-              class="object-contain object-center lg:w-1/2"
-              src="/CourtYard_vm9m46.webp"
-              alt=""
-              width="1024"
-              height="768"
-              loading="lazy"
-              sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
-              format="webp"
-            />
-            <NuxtImg
-              provider="cloudinary"
-              class="object-contain object-center lg:w-1/2"
-              src="/ViewFromCourtYard_uw6mgk.webp"
-              alt=""
-              width="1024"
-              height="768"
-              loading="lazy"
-              sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
-              format="webp"
-            />
-          </div>
-          <div class="flex flex-col">
-            <div class="w-full lg:w-1/2">
-              <p
-                class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pt-10"
-              >
-                Sugarloaf is situated on top of a hill overlooking Falmouth
-                Harbour, and about 5 -10 minutes drive from Nelsons Dockyard,
-                the beaches at Pigeon point and Galleon bay.
-              </p>
-              <p
-                class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pb-10"
-              >
-                The property is easily accessible by car, secure, and has ample
-                parking out front.
-              </p>
             </div>
           </div> -->
         </div>
