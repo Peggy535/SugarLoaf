@@ -203,23 +203,36 @@ onMounted(() => {
           </div>
         </div>
         <div class="flex flex-col">
-          <div class="w-full lg:w-2/3 mx-auto">
-            <p
-              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 pt-10 md:pt-16"
-            >
-              There are 3 double bedrooms on the lower level, two with en-suite
-              bathrooms and open air (walled) showers.
-            </p>
-          </div>
-          <div class="w-full lg:w-2/3 mx-auto">
-            <p
-              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 pb-10 md:pb-16"
-            >
-              All rooms have A/C, and views out over the lower gallery to
-              Falmouth Bay. For an early morning dip, just walk out through your
-              French windows, through the gated gallery, and down the stairs to
-              the pool.
-            </p>
+          <div class="flex flex-col sm:flex-row items-center">
+            <div class="w-full sm:w-1/2 mx-auto">
+              <p
+                class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 pt-10 md:pt-16"
+              >
+                There are 3 double bedrooms on the lower level, two with
+                en-suite bathrooms and open air (walled) showers.
+              </p>
+              <p
+                class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 pb-10 md:pb-16"
+              >
+                All rooms have A/C, and views out over the lower gallery to
+                Falmouth Bay. For an early morning dip, just walk out through
+                your French windows, through the gated gallery, and down the
+                stairs to the pool.
+              </p>
+            </div>
+            <div class="w-full sm:w-1/2 mx-auto">
+              <NuxtImg
+                provider="cloudinary"
+                class="object-fill object-center rounded-md border border-white"
+                src="/IMG_2692_dpdnbw.webp"
+                alt=""
+                width="768"
+                height="1024"
+                loading="lazy"
+                sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
+                format="webp"
+              />
+            </div>
           </div>
 
           <div class="flex flex-col lg:flex-row">
