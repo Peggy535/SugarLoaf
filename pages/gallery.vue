@@ -17,7 +17,8 @@ useHead({
   ],
 });
 
-const query = groq`{ "imagesArray":*[_type == "photoGallery"]{_id, caption, "image":photoImage.asset->url} }`;
+/* const query = groq`{ "imagesArray":*[_type == "photoGallery"]{_id, caption, "image":photoImage.asset->url} }`; */
+const query = groq`{"imagesArray":*[_type == 'imageArray']{_id,'caption':listOfImages[].caption, 'image':listOfImages[].singleImage.asset->url}}`;
 const sanity = useSanity();
 const { pending, data, refresh } = await useAsyncData("imagesArray", () =>
   sanity.fetch(query)
@@ -33,7 +34,7 @@ onMounted(() => {
 <template>
   <div>
     <div
-      class="overflow-hidden z-10 font-NeueMontrealLight bg-amber-50 text-slate-700 page"
+      class="overflow-hidden z-10 font-NeueMontrealThin bg-amber-50 text-slate-800 page"
     >
       <!-- Video section -->
       <section class="h-screen w-screen fixed z-10">
@@ -87,37 +88,46 @@ onMounted(() => {
           >
             <div
               class="carousel-item w-full"
-              v-for="image in data.imagesArray"
+              v-for="image in data.imagesArray[0].image"
               :key="image._id"
             >
               <img
-                :src="`${image.image}?h=1200&w=1200&auto=format&fit=min`"
+                :src="`${image}?h=1200&w=1200&auto=format&fit=min`"
                 class="h-full object-contain object-center overflow-hidden border-2 border-white rounded-2xl"
-                :alt="image.caption"
+                alt=""
               />
             </div>
           </div>
-          <div class="flex w-full m-1 p-1">
-            <h4 class="text-xl">
+          <div class="flex w-full md:w-4/5 lg:w-2/3 mx-auto m-1 p-1 pb-10 px-4">
+            <h4 class="text-2xl md:text-3xl lg:text-4xl">
               The following gallery contains the same images as above yet
               descriptions have been included. To view the image more closely
               please tap or click the image you wish to see.
             </h4>
           </div>
           <div
-            class="h-auto w-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 grid-auto-rows gap-2 px-10"
+            class="h-auto w-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 grid-auto-rows gap-6 px-10 lg:px-12"
           >
             <div
               class="flex flex-col mx-auto w-full bg-amber-50 rounded-2xl"
-              v-for="image in data.imagesArray"
+              v-for="image in data.imagesArray[0].image"
               :key="image._id"
             >
               <img
-                class="object-contain object-center overflow-hidden border-2 border-white rounded-2xl transition duration-700 ease-in-out delay-75 hover:scale-125 lg:hover:scale-150"
-                :src="`${image.image}?h=800&w=800&auto=format&fit=min`"
+                class="object-contain object-center overflow-hidden border-2 border-white rounded-2xl transition duration-700 ease-in-out delay-75 hover:scale-125 lg:hover:scale-150 hover:z-100"
+                :src="`${image}?h=800&w=800&auto=format&fit=min`"
               />
-              <figcaption class="text-xs m-2 p-2">
-                {{ image.caption }}
+              <figcaption class="text-sm m-1 p-1">
+                <img
+                  src="/maskable_icon.png"
+                  alt=""
+                  class="w-8 inline-block rounded-2xl"
+                />
+                {{
+                  data.imagesArray[0].caption[
+                    data.imagesArray[0].image.indexOf(image)
+                  ]
+                }}
               </figcaption>
             </div>
           </div>

@@ -24,10 +24,6 @@ module.exports = {
       fontFamily: {
         NeueMontrealThin: ["NeueMontrealThin"],
         NeueMontrealLight: ["NeueMontrealLight"],
-        NeueMontrealRegular: ["NeueMontrealRegular"],
-        NeueMontrealMedium: ["NeueMontrealMedium"],
-        NeueMontrealBold: ["NeueMontrealBold"],
-        NeueMontrealBook: ["NeueMontrealBook"],
       },
       fontSize: {
         "10xl": "10rem",
