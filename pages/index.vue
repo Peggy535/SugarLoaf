@@ -18,7 +18,7 @@ onMounted(() => {
 <template>
   <div>
     <div
-      class="h-auto w-screen overflow-hidden font-NeueMontrealLight text-slate-700 page"
+      class="h-auto w-screen overflow-hidden font-NeueMontrealThin text-slate-800 page"
     >
       <!-- Video section -->
       <section class="h-screen w-screen fixed z-10">
@@ -73,7 +73,7 @@ onMounted(() => {
           </div>
           <div class="w-full">
             <p
-              class="text-3xl sm:text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl m-3 p-3 my-10 md:my-20 border-l-2 border-l-slate-700"
+              class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl m-3 p-3 my-10 md:my-20 border-l-2 border-l-slate-800"
             >
               Set in quiet gardens overlooking Falmouth Harbour, Sugar Loaf has
               fantastic views, privacy, and peace and quiet.
@@ -112,7 +112,7 @@ onMounted(() => {
         <div class="flex flex-col">
           <div class="w-full lg:w-2/3 mx-auto">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pt-10 md:pt-16"
+              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 pt-10 md:pt-16"
             >
               About 5 minutes drive from the beaches and restaurants of English
               Harbour, Sugarloaf has four large double bedrooms all with A/C; a
@@ -123,7 +123,7 @@ onMounted(() => {
           </div>
           <div class="w-full lg:w-2/3 mx-auto">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pb-10 md:pb-16"
+              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 pb-10 md:pb-16"
             >
               Utilities include an automatic generator and two large fresh water
               tanks for bathing and laundry.
@@ -158,7 +158,7 @@ onMounted(() => {
         <div class="flex flex-col">
           <div class="w-full lg:w-2/3 mx-auto">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pt-10 md:pt-16"
+              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 pt-10 md:pt-16"
             >
               Sugarloaf is situated on top of a hill overlooking Falmouth
               Harbour, and about 5 -10 minutes drive from Nelsons Dockyard, the
@@ -167,7 +167,7 @@ onMounted(() => {
           </div>
           <div class="w-full lg:w-2/3 mx-auto">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pb-10 md:pb-16"
+              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 pb-10 md:pb-16"
             >
               The property is easily accessible by car, secure, and has ample
               parking out front.
@@ -206,7 +206,7 @@ onMounted(() => {
         <div class="flex flex-col">
           <div class="w-full lg:w-2/3 mx-auto">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pt-10 md:pt-16"
+              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 pt-10 md:pt-16"
             >
               There are 3 double bedrooms on the lower level, two with en-suite
               bathrooms and open air (walled) showers.
@@ -214,7 +214,7 @@ onMounted(() => {
           </div>
           <div class="w-full lg:w-2/3 mx-auto">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pb-10 md:pb-16"
+              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 pb-10 md:pb-16"
             >
               All rooms have A/C, and views out over the lower gallery to
               Falmouth Bay. For an early morning dip, just walk out through your
@@ -253,7 +253,7 @@ onMounted(() => {
           </div>
           <div class="w-full lg:w-2/3 mx-auto">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 py-10 md:py-16"
+              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 py-10 md:py-16"
             >
               Upstairs, there is a lovely double bedroom again with A/C. This
               bedroom is ideal for those with mobility issues, and for those
@@ -277,7 +277,7 @@ onMounted(() => {
             </div>
             <div class="w-full lg:w-1/2">
               <p
-                class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 py-10 md:py-16"
+                class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 py-10 md:py-16"
               >
                 Oh, and there’s a loo, sitting room and a large kitchen. All
                 with direct access to the upper gallery and dining table.
@@ -301,7 +301,7 @@ onMounted(() => {
           />
           <div class="w-full lg:w-1/2">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 py-10 md:mx-5 md:px-5 xl:py-0"
+              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 py-10 md:mx-5 md:px-5 xl:py-0"
             >
               The Sitting room has A/C, comfy armchairs and sofas: there is also
               a table for any work that you need to do, a large tv, Bluetooth
@@ -326,7 +326,7 @@ onMounted(() => {
 
           <div class="w-full lg:w-1/2">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 mt-5 pt-10 xl:pt-0"
+              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 py-10 xl:pt-0"
             >
               The kitchen is fully equipped with A/C Gas stove, Cooker,
               microwave, fridge freezer, dishwasher and two sinks.
@@ -347,7 +347,7 @@ onMounted(() => {
           />
           <div class="w-full lg:w-1/2">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 py-10"
+              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 py-10"
             >
               There's also a 5 gallon water cooler.
             </p>
@@ -392,14 +392,14 @@ onMounted(() => {
           </div>
           <div class="w-full lg:w-2/3 mx-auto">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 mt-5 pt-10 md:pt-16"
+              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 mt-5 pt-10 md:pt-16"
             >
               The Pool is a good size and maintained weekly. Seating is
               plentiful as are shaded areas, and there is a Pool house with a
               loo and fridge.
             </p>
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 mb-5 pb-10 md:pb-16"
+              class="text-xl sm:text-2xl md:text-3xl md:leading-tight xl:text-4xl m-2 p-2 md:mx-5 md:px-5 mb-5 pb-10 md:pb-16"
             >
               There is also a Deck area, with cold water showers and BBQ.
             </p>
