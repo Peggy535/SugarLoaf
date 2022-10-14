@@ -57,23 +57,23 @@ onMounted(() => {
       </section>
       <section class="relative w-screen bg-amber-50 bg-opacity-90 z-20">
         <!-- Opening Section -->
-        <div class="flex flex-col w-full xl:flex-row xl:items-center">
-          <div class="w-full xl:w-1/2">
+        <div class="flex flex-col w-full">
+          <div class="w-full">
             <NuxtImg
               provider="cloudinary"
-              class="object-contain object-center"
-              src="/PoolViewOfHarbour_znemtk.webp"
+              class="object-contain object-center rounded-md border border-white"
+              src="/PoolViewOfHarbour_scaledup_n8ehaw.webp"
               alt=""
-              width="1280"
-              height="960"
+              width="2013"
+              height="1333"
               loading="lazy"
               sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:100vw xxl:100vw"
               format="webp"
             />
           </div>
-          <div class="w-full lg:w-3/4 xl:w-1/2">
+          <div class="w-full">
             <p
-              class="text-2xl sm:text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl m-3 p-3 my-10 border-l-2 border-l-slate-700"
+              class="text-3xl sm:text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl m-3 p-3 my-10 md:my-20 border-l-2 border-l-slate-700"
             >
               Set in quiet gardens overlooking Falmouth Harbour, Sugar Loaf has
               fantastic views, privacy, and peace and quiet.
@@ -84,7 +84,7 @@ onMounted(() => {
           <div class="w-full lg:w-1/2">
             <NuxtImg
               provider="cloudinary"
-              class="object-contain object-center"
+              class="object-contain object-center rounded-md border border-white"
               src="/garden_view2_flvucr.webp"
               alt=""
               width="1024"
@@ -97,8 +97,8 @@ onMounted(() => {
           <div class="w-full lg:w-1/2">
             <NuxtImg
               provider="cloudinary"
-              class="object-contain object-center"
-              src="/gardenview1_cver6b.webp"
+              class="object-contain object-center rounded-md border border-white"
+              src="/Garden_1_hhctqx.webp"
               alt=""
               width="1024"
               height="683"
@@ -110,9 +110,9 @@ onMounted(() => {
         </div>
 
         <div class="flex flex-col">
-          <div class="w-full lg:w-1/2">
+          <div class="w-full lg:w-2/3 mx-auto">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pt-10"
+              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pt-10 md:pt-16"
             >
               About 5 minutes drive from the beaches and restaurants of English
               Harbour, Sugarloaf has four large double bedrooms all with A/C; a
@@ -121,26 +121,69 @@ onMounted(() => {
               the Sea.
             </p>
           </div>
-          <div class="w-full lg:w-1/2 lg:self-end">
+          <div class="w-full lg:w-2/3 mx-auto">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pb-10"
+              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pb-10 md:pb-16"
             >
               Utilities include an automatic generator and two large fresh water
               tanks for bathing and laundry.
             </p>
           </div>
         </div>
-
+        <!-- Front Entrance Section -->
+        <div class="flex flex-col lg:flex-row">
+          <NuxtImg
+            provider="cloudinary"
+            class="object-contain object-center lg:w-1/2 rounded-md border border-white"
+            src="/5898D6C1-2AF1-4A23-B22C-FCEB2B2B99A3_ibzrds.webp"
+            alt=""
+            width="1024"
+            height="768"
+            loading="lazy"
+            sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
+            format="webp"
+          />
+          <NuxtImg
+            provider="cloudinary"
+            class="object-contain object-center lg:w-1/2 rounded-md border border-white"
+            src="/CourtYard_vm9m46.webp"
+            alt=""
+            width="1024"
+            height="768"
+            loading="lazy"
+            sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
+            format="webp"
+          />
+        </div>
+        <div class="flex flex-col">
+          <div class="w-full lg:w-2/3 mx-auto">
+            <p
+              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pt-10 md:pt-16"
+            >
+              Sugarloaf is situated on top of a hill overlooking Falmouth
+              Harbour, and about 5 -10 minutes drive from Nelsons Dockyard, the
+              beaches at Pigeon point and Galleon bay.
+            </p>
+          </div>
+          <div class="w-full lg:w-2/3 mx-auto">
+            <p
+              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pb-10 md:pb-16"
+            >
+              The property is easily accessible by car, secure, and has ample
+              parking out front.
+            </p>
+          </div>
+        </div>
         <!-- Bedroom Section -->
         <div class="flex flex-col lg:flex-row">
           <div class="w-full lg:w-1/2">
             <NuxtImg
               provider="cloudinary"
-              class="object-contain object-center"
-              src="/Bedroom2_a0mzih.webp"
+              class="object-contain object-center rounded-md border border-white"
+              src="/Master_Bedroom_1_ymtugr.webp"
               alt=""
-              width="1024"
-              height="768"
+              width="4032"
+              height="3024"
               loading="lazy"
               sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
               format="webp"
@@ -149,8 +192,8 @@ onMounted(() => {
           <div class="w-full lg:w-1/2">
             <NuxtImg
               provider="cloudinary"
-              class="object-contain object-center"
-              src="/Bedroom1_a4e5kn.webp"
+              class="object-contain object-center rounded-md border border-white"
+              src="/MB2_hahs5l.webp"
               alt=""
               width="1024"
               height="768"
@@ -161,16 +204,18 @@ onMounted(() => {
           </div>
         </div>
         <div class="flex flex-col">
-          <div class="w-full lg:w-1/2">
+          <div class="w-full lg:w-2/3 mx-auto">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pt-10"
+              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pt-10 md:pt-16"
             >
               There are 3 double bedrooms on the lower level, two with en-suite
               bathrooms and open air (walled) showers.
             </p>
           </div>
-          <div class="w-full lg:w-1/2 lg:self-end">
-            <p class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5">
+          <div class="w-full lg:w-2/3 mx-auto">
+            <p
+              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pb-10 md:pb-16"
+            >
               All rooms have A/C, and views out over the lower gallery to
               Falmouth Bay. For an early morning dip, just walk out through your
               French windows, through the gated gallery, and down the stairs to
@@ -178,25 +223,66 @@ onMounted(() => {
             </p>
           </div>
 
-          <p class="text-2xl m-2 p-2 text-orange-600">
-            Upstairs bed photo to go here. Not sure which one it is
-            though???Sorry.
-          </p>
-          <div class="w-full lg:w-1/2 lg:self-end">
-            <p class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5">
+          <div class="flex flex-col lg:flex-row">
+            <div class="w-full lg:w-1/2">
+              <NuxtImg
+                provider="cloudinary"
+                class="object-contain object-center rounded-md border border-white"
+                src="/Bedroom_3_watkxx.webp"
+                alt=""
+                width="1024"
+                height="768"
+                loading="lazy"
+                sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
+                format="webp"
+              />
+            </div>
+            <div class="w-full lg:w-1/2">
+              <NuxtImg
+                provider="cloudinary"
+                class="object-contain object-center rounded-md border border-white"
+                src="/Bedroom_2_wbb9dy.webp"
+                alt=""
+                width="1024"
+                height="768"
+                loading="lazy"
+                sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
+                format="webp"
+              />
+            </div>
+          </div>
+          <div class="w-full lg:w-2/3 mx-auto">
+            <p
+              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 py-10 md:py-16"
+            >
               Upstairs, there is a lovely double bedroom again with A/C. This
               bedroom is ideal for those with mobility issues, and for those
               that need a little more help there are articulated wheelchair
               ramps on site which should enable access to most areas.
             </p>
           </div>
-          <div class="w-full lg:w-1/2">
-            <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 pb-10"
-            >
-              Oh, and there’s a loo, sitting room and a large kitchen. all with
-              direct access to the upper gallery and dining table.
-            </p>
+          <div class="flex flex-col lg:flex-row-reverse items-center">
+            <div class="w-full lg:w-1/2">
+              <NuxtImg
+                provider="cloudinary"
+                class="object-contain object-center rounded-md border border-white"
+                src="/Upstairs_bed_qjcyed.webp"
+                alt=""
+                width="1024"
+                height="768"
+                loading="lazy"
+                sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
+                format="webp"
+              />
+            </div>
+            <div class="w-full lg:w-1/2">
+              <p
+                class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 py-10 md:py-16"
+              >
+                Oh, and there’s a loo, sitting room and a large kitchen. All
+                with direct access to the upper gallery and dining table.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -204,7 +290,7 @@ onMounted(() => {
         <div class="flex flex-col lg:flex-row lg:items-center">
           <NuxtImg
             provider="cloudinary"
-            class="object-contain object-center lg:w-1/2"
+            class="object-contain object-center lg:w-1/2 rounded-md border border-white"
             src="/MainLivingRoom_wbonci.webp"
             alt=""
             width="1024"
@@ -227,8 +313,8 @@ onMounted(() => {
           <div class="w-full lg:w-1/2">
             <NuxtImg
               provider="cloudinary"
-              class="object-contain object-center"
-              src="/Kitchen3_ze0bi1.webp"
+              class="object-contain object-center rounded-md border border-white"
+              src="/Kitchen_2_zwvkj2.webp"
               alt=""
               width="1024"
               height="768"
@@ -245,8 +331,23 @@ onMounted(() => {
               The kitchen is fully equipped with A/C Gas stove, Cooker,
               microwave, fridge freezer, dishwasher and two sinks.
             </p>
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row lg:items-center">
+          <NuxtImg
+            provider="cloudinary"
+            class="object-contain object-center lg:w-1/2 rounded-md border border-white"
+            src="/Kitchen_3_fk4wzo.webp"
+            alt=""
+            width="1024"
+            height="768"
+            loading="lazy"
+            sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
+            format="webp"
+          />
+          <div class="w-full lg:w-1/2">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 mt-5 mb-5 pb-10"
+              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 py-10"
             >
               There's also a 5 gallon water cooler.
             </p>
@@ -254,32 +355,21 @@ onMounted(() => {
         </div>
         <!-- Pool section -->
         <div class="flex flex-col">
-          <NuxtImg
-            provider="cloudinary"
-            class="object-contain object-center xl:hidden"
-            src="/IMG_0493_s4efju.webp"
-            alt=""
-            width="1280"
-            height="853"
-            loading="lazy"
-            sizes="xs:100vw sm:100vw md:100vw lg:100vw"
-            format="webp"
-          />
-          <div class="lg:flex lg:flex-row">
+          <div class="flex flex-col lg:flex-row lg:flex-wrap">
             <NuxtImg
               provider="cloudinary"
-              class="xs:hidden xl:visible object-contain object-center xl:w-1/3 xl:object-fill"
+              class="object-contain object-center w-full lg:w-full xl:w-1/3 xl:object-fill rounded-md border border-white"
               src="/IMG_0493_s4efju.webp"
               alt=""
-              width="1024"
-              height="683"
+              width="5472"
+              height="3648"
               loading="lazy"
-              sizes="xl:33vw xxl:33vw"
+              sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:33vw xxl:33vw"
               format="webp"
             />
             <NuxtImg
               provider="cloudinary"
-              class="object-contain object-center lg:w-1/2 xl:w-1/3"
+              class="object-contain object-center w-full lg:w-1/2 xl:w-1/3 rounded-md border border-white"
               src="/PoolArea3_h4eazm.webp"
               alt=""
               width="1024"
@@ -290,7 +380,7 @@ onMounted(() => {
             />
             <NuxtImg
               provider="cloudinary"
-              class="object-contain object-center lg:w-1/2 xl:w-1/3"
+              class="object-contain object-center w-full lg:w-1/2 xl:w-1/3 rounded-md border border-white"
               src="/PoolAreaWithCover_ve1rwu.webp"
               alt=""
               width="1024"
@@ -300,22 +390,59 @@ onMounted(() => {
               format="webp"
             />
           </div>
-          <div class="w-full lg:w-1/2">
+          <div class="w-full lg:w-2/3 mx-auto">
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 mt-5 pt-10"
+              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 mt-5 pt-10 md:pt-16"
             >
               The Pool is a good size and maintained weekly. Seating is
               plentiful as are shaded areas, and there is a Pool house with a
               loo and fridge.
             </p>
             <p
-              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 mb-5 pb-10"
+              class="text-xl sm:text-2xl xl:text-3xl m-2 p-2 md:mx-5 md:px-5 mb-5 pb-10 md:pb-16"
             >
               There is also a Deck area, with cold water showers and BBQ.
             </p>
           </div>
-
-          <div class="flex flex-col lg:flex-row">
+          <!-- Gallery section -->
+          <div class="flex flex-col">
+            <div class="flex flex-col lg:flex-row lg:flex-wrap">
+              <NuxtImg
+                provider="cloudinary"
+                class="object-contain object-center w-full lg:w-full xl:w-1/3 xl:object-fill rounded-md border border-white"
+                src="/Spot_the_cat_inxsnz.webp"
+                alt=""
+                width="3648"
+                height="2736"
+                loading="lazy"
+                sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:33vw xxl:33vw"
+                format="webp"
+              />
+              <NuxtImg
+                provider="cloudinary"
+                class="object-contain object-center w-full lg:w-1/2 xl:w-1/3 xl:object-fill rounded-md border border-white"
+                src="/Dining_table_seated_cjy3bs.webp"
+                alt=""
+                width="3648"
+                height="2432"
+                loading="lazy"
+                sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
+                format="webp"
+              />
+              <NuxtImg
+                provider="cloudinary"
+                class="object-contain object-center w-full lg:w-1/2 xl:w-1/3 xl:object-fill rounded-md border border-white"
+                src="/Dining_table_views_lwfog4.webp"
+                alt=""
+                width="3648"
+                height="2432"
+                loading="lazy"
+                sizes="xs:100vw sm:100vw md:100vw lg:50vw xl:50vw xxl:50vw"
+                format="webp"
+              />
+            </div>
+          </div>
+          <!-- <div class="flex flex-col lg:flex-row">
             <NuxtImg
               provider="cloudinary"
               class="object-contain object-center lg:w-1/2"
@@ -355,7 +482,7 @@ onMounted(() => {
                 parking out front.
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
       <section
