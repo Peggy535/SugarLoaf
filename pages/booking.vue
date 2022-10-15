@@ -308,23 +308,8 @@ definePageMeta({
             class="flex flex-col my-10 bg-amber-50 border-2 border-white rounded-2xl"
           >
             <h1 class="p-1 m-1 sm:m-2 sm:p-2 text-2xl lg:text-3xl xl:text-4xl">
-              3. To make your booking please email here
+              3. To make your booking please email nickw60@me.com.
             </h1>
-            <p class="m-1 p-1 sm:m-2 sm:p-2">Email: </p>
-            <p class="m-1 p-1 sm:m-2 sm:p-2">Tel: </p>
-            <span class="m-1 p-1 sm:m-2 sm:p-2"
-              ><NuxtLink to="">
-                <button
-                  class="border-2 border-slate-700 rounded-2xl transition delay-75 ease-in-out hover:border-brand-yellow duration:300"
-                >
-                  <p
-                    class="text-slate-700 p-1 sm:p-2 text-md sm:text-xl md:text-2xl transition delay-75 ease-in-out hover:text-brand-yellow duration:200"
-                  >
-                    Email SL now
-                  </p>
-                </button>
-              </NuxtLink>
-            </span>
           </div>
         </div>
       </section>
