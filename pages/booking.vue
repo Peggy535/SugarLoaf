@@ -1,5 +1,6 @@
 <script setup>
 	import emailjs from "@emailjs/browser";
+
 	const config = useRuntimeConfig();
 	const form = ref(null);
 	const inputFieldReset = ref(null);
