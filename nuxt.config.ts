@@ -55,4 +55,9 @@ export default defineNuxtConfig({
 			display: "standalone",
 		},
 	},
+	publicRuntimeConfig: {
+		EMAILJS_TEMPLATE_ID: process.env.EMAILJS_TEMPLATE_ID,
+		EMAILJS_PUBLIC_ID: process.env.EMAILJS_PUBLIC_ID,
+		EMAILJS_SERVICE_ID: process.env.EMAILJS_SERVICE_ID,
+	},
 });

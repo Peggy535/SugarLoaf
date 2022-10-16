@@ -1,4 +1,9 @@
 <script setup>
+	import emailjs from "@emailjs/browser";
+	const config = useRuntimeConfig();
+	const form = ref(null);
+	const inputFieldReset = ref(null);
+
 	const title = ref("Sugar Loaf | Booking & Pricing");
 	const description = ref("The description goes here");
 
@@ -14,6 +19,18 @@
 	definePageMeta({
 		layout: "slate-nav",
 	});
+
+	const submitHandler = () => {
+		emailjs.sendForm(config.EMAILJS_SERVICE_ID, config.EMAILJS_TEMPLATE_ID, form.value, config.EMAILJS_PUBLIC_ID).then(
+			(result) => {
+				alert("SUCCESS!", result.text);
+				inputFieldReset.value = "";
+			},
+			(error) => {
+				alert("FAILED...", error.text);
+			}
+		);
+	};
 </script>
 
 <template>
@@ -218,7 +235,7 @@
 						</h1>
 
 						<section class="flex w-full">
-							<div class="text-md sm:text-xl lg:text-2xl  mx-auto">
+							<div class="text-md sm:text-xl lg:text-2xl mx-auto">
 								<form class="form" ref="form" @submit.prevent="submitHandler">
 									<div class="form-group">
 										<input
