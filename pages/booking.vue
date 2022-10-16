@@ -22,7 +22,7 @@
 	});
 
 	const submitHandler = () => {
-		emailjs.sendForm(config.EMAILJS_SERVICE_ID, config.EMAILJS_TEMPLATE_ID, form.value, config.EMAILJS_PUBLIC_ID).then(
+		emailjs.sendForm(config.EMAILJS_SERVICE_ID, config.EMAILJS_TEMPLATE_ID, form.value, config.EMAILJS_PUBLIC_KEY).then(
 			(result) => {
 				alert("SUCCESS!", result.text);
 				inputFieldReset.value = "";
