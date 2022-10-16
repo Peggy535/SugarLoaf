@@ -87,13 +87,20 @@ definePageMeta({
               <ul
                 class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside"
               >
-                <li>Up to 8 guests</li>
-                <li>4 Bedrooms</li>
-                <li>2 Bathrooms | 2 Indoor showers</li>
-                <li>Private swimming pool</li>
-                <li>Outside, secluded stone-walled shower</li>
-                <li>Private and secure gardens</li>
-                <li>Private & gated entrance & parking</li>
+                <li>Up to 8 guests.</li>
+                <li>
+                  4 Double bedrooms over 2 levels - 2 en-suite - with open air
+                  showers.
+                </li>
+                <li>1 Family bathroom.</li>
+                <li>1 washroom on upper level.</li>
+                <li>
+                  Swimming pool with stunning views, loungers and covered
+                  seating area, and fridge and loo in the pool house.
+                </li>
+                <li>Outdoor shower by pool with deck and BBQ.</li>
+                <li>Secluded and secure gardens.</li>
+                <li>Automatic gated entrance with ample parking.</li>
               </ul>
             </div>
           </div>
@@ -110,15 +117,14 @@ definePageMeta({
                 class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside"
               >
                 <li>
-                  Uninterrupted views of Falmouth Harbour from the pool area,
-                  outside balcony, living room and bedrooms.
+                  Uninterrupted views of Falmouth Harbour, Nelsons Dockyard and
+                  Montserrat.
                 </li>
-                <li>Private garden</li>
               </ul>
             </div>
           </div>
 
-          <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-4">
+          <!-- <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-4">
             <div class="m-1 p-1">
               <div class="flex flex-row">
                 <h1 class="text-2xl lg:text-3xl xl:text-4xl m-1 p-1">
@@ -130,20 +136,20 @@ definePageMeta({
                 class="m-1 p-1 list-disc list-inside text-md lg:text-xl xl:text-2xl"
               >
                 <li>
-                  Private balcony area extending along two sides of the house
+                  Private balcony area extending along two sides of the house.
                 </li>
-                <li>Private swimming pool and pool-side area</li>
+                <li>Private swimming pool and pool-side area.</li>
                 <li>
                   Private garden Outdoor furniture including poolside sun
                   loungers/poolside sofa/outdoor dining area/relaxing &
-                  comfortable seating and tables on balcony
+                  comfortable seating and tables on balcony.
                 </li>
-                <li>Hammock</li>
+                <li>Hammock.</li>
               </ul>
             </div>
-          </div>
+          </div> -->
 
-          <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
+          <!-- <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
             <div class="m-1 p-1">
               <div class="flex flex-row">
                 <h1 class="text-2xl lg:text-3xl xl:text-4xl m-1 p-1">
@@ -154,19 +160,15 @@ definePageMeta({
               <ul
                 class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside"
               >
-                <li>
-                  Housekeeper ('Jolly') for all laundry and washing (Attends 3
-                  times per week - this can be extended)
-                </li>
-                <li>Washing machine</li>
-                <li>Essentials - Towels/bed sheets/hand soap/toilet paper</li>
-                <li>Hangers</li>
-                <li>Bed linen</li>
-                <li>Mosquito nets</li>
-                <li>Wardrobes</li>
+                <li>Washing machine.</li>
+                <li>Essentials - Towels/bed sheets/hand soap/toilet paper.</li>
+                <li>Hangers.</li>
+                <li>Bed linen.</li>
+                <li>Mosquito nets.</li>
+                <li>Wardrobes.</li>
               </ul>
             </div>
-          </div>
+          </div> -->
 
           <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
             <div class="m-1 p-1">
@@ -179,9 +181,8 @@ definePageMeta({
               <ul
                 class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside"
               >
-                <li>Air Conditioning</li>
-                <li>Ceiling fans</li>
-                <li>Portable fans</li>
+                <li>Modern Air-conditioning Units in all rooms.</li>
+                <li>Ceiling fans and Sun blinds on the gallery.</li>
               </ul>
             </div>
           </div>
@@ -189,7 +190,7 @@ definePageMeta({
           <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
             <div class="m-1 p-1">
               <div class="flex flex-row">
-                <h1 class="text-2xl lg:text-3xl xl:text-4xlm-1 p-1">
+                <h1 class="text-2xl lg:text-3xl xl:text-4xl m-1 p-1">
                   Entertainment
                 </h1>
                 <Entertainment class="fill-slate-700 w-8" />
@@ -197,13 +198,20 @@ definePageMeta({
               <ul
                 class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside"
               >
-                <li>Wifi</li>
-                <li>TV in main living room</li>
+                <li>
+                  Wifi which works well, but you will need a VPN on your
+                  portable devices.
+                </li>
+                <li>
+                  TV which allows sign in to all your favourite viewing Apps.
+                  Typed notes are available and easy to follow.
+                </li>
+                <li>Bluetooth speaker.</li>
               </ul>
             </div>
           </div>
 
-          <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
+          <!-- <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
             <div class="m-1 p-1">
               <div class="flex flex-row">
                 <h1 class="text-2xl lg:text-3xl xl:text-4xlm-1 p-1">
@@ -219,7 +227,7 @@ definePageMeta({
                 <li>2 indoor showers | 1 outdoor shower</li>
               </ul>
             </div>
-          </div>
+          </div> -->
 
           <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
             <div class="m-1 p-1">
@@ -233,8 +241,9 @@ definePageMeta({
                 class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside"
               >
                 <li>
-                  Wheelchairs have access to the main villa level and the pool
-                  level.
+                  Wheelchairs can access the upper level and pool level by way
+                  of portable articulated ramps ( please discuss at time of
+                  booking).
                 </li>
               </ul>
             </div>
@@ -251,19 +260,27 @@ definePageMeta({
               <ul
                 class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside"
               >
+                <li>There is a friendly cat that lives at the premises</li>
                 <li>
-                  At the House, the back-up generator will provide a rapid pick
-                  up in the event of occasional power drops, and there is a TV
-                  to sign into your favourite viewing apps.
+                  We have a rapid pick-up generator that provides power in the
+                  event of occasional power drops
                 </li>
                 <li>
-                  Water is supplied from two large tanks and is the Island'smost
-                  precious resource.
+                  Water is supplied by 2 large tanks and is the Islands most
+                  precious resource
                 </li>
                 <li>
-                  Nathan and Clare of Admiral Management Services, are available
-                  for support if ever there are problems.
+                  Our Housekeeper, Hyacinth, visits two half days per week, for
+                  washing please liaise with her
                 </li>
+                <li>
+                  We can organise a welcome pack of essentials for your arrival.
+                </li>
+                <li>
+                  Our Host, is available for support and problem solving should
+                  the need arise.
+                </li>
+                <li>There is ample, gated parking.</li>
               </ul>
             </div>
           </div>
