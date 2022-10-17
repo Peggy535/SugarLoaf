@@ -3,6 +3,8 @@
 
 	const config = useRuntimeConfig();
 	const form = ref(null);
+	const submitting = ref(false);
+	const submitted = ref(false);
 	const inputFieldReset = ref(null);
 
 	const title = ref("Sugar Loaf | Booking & Pricing");
@@ -22,10 +24,13 @@
 	});
 
 	const submitHandler = () => {
+		submitting.value = true;
 		emailjs.sendForm(config.EMAILJS_SERVICE_ID, config.EMAILJS_TEMPLATE_ID, form.value, config.EMAILJS_PUBLIC_KEY).then(
 			(result) => {
-				alert("SUCCESS!", result.text);
-				inputFieldReset.value = "";
+				submitting.value = false;
+				submitted.value = true;
+				inputFieldReset = "";
+				console.log(values);
 			},
 			(error) => {
 				alert("FAILED...", error.text);
@@ -236,7 +241,20 @@
 						</h1>
 
 						<section class="flex w-full">
-							<div class="text-md sm:text-xl lg:text-2xl mx-auto">
+							<div
+								v-if="submitting"
+								class="w-full h-full text-slate-800 items-center mx-auto text-center"
+								:class="{ [`hidden`]: submitted }"
+							>
+								<h1 text="text-3xl m-1 p-1">Submitting your email</h1>
+							</div>
+							<div v-if="submitted" class="w-full h-full text-slate-800 items-center mx-auto text-center">
+								<h1 class="text-2xl m-1 p-1">Your email has been sent. We will be in touch very shortly.</h1>
+							</div>
+							<div
+								:class="{ [`hidden`]: submitting || submitted }"
+								class="text-md sm:text-xl lg:text-2xl mx-auto transition duration-700 ease-in-out"
+							>
 								<form class="form" ref="form" @submit.prevent="submitHandler">
 									<div class="form-group">
 										<input
@@ -275,7 +293,7 @@
 									</div>
 									<div class="form-group">
 										<input
-											class="submit text-slate-800 m-1 p-1 border border-slate-800 rounded-2xl"
+											class="submit text-slate-800 m-1 p-1 border border-slate-800 rounded-2xl transition duration-500 delay-75 ease-in-out hover:border-amber-600 hover:text-amber-600 hover:bg-amber-200 hover:scale-110"
 											type="button"
 											name="send"
 											@click="submitHandler"
@@ -291,3 +309,5 @@
 		</div>
 	</div>
 </template>
+
+<style scoped></style>
