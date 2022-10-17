@@ -296,7 +296,6 @@
 											class="submit text-slate-800 m-1 p-1 border border-slate-800 rounded-2xl transition duration-500 delay-75 ease-in-out hover:border-amber-600 hover:text-amber-600 hover:bg-amber-200 hover:scale-110"
 											type="button"
 											name="send"
-											@click="submitHandler"
 											value="Send email"
 										/>
 									</div>
@@ -310,4 +309,22 @@
 	</div>
 </template>
 
-<style scoped></style>
+<style scoped>
+	input[type="text"],
+	input[type="email"],
+	input[type="textarea"],
+	textarea,
+	fieldset {
+		width: 100%;
+		border: 1px solid #333;
+		box-sizing: border-box;
+	}
+
+	input:invalid, textarea:invalid {
+		box-shadow: 0 0 5px 1px lightcoral;
+	}
+
+	input:focus:invalid {
+		box-shadow: none;
+	}
+</style>
