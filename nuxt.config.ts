@@ -32,15 +32,18 @@ export default defineNuxtConfig({
 		meta: {
 			name: "Sugar Loaf",
 			theme_color: "#fffbeb",
-			ogSiteName: "Sugar Loaf",
+			mobileApp:true,
+			favicon: true,
+			ogType: 'website',
+			ogSiteName: "Sugar Loaf - A luxurious Antiguan holiday residence.",
 			ogUrl: "https://www.sugarloafantigua.com",
 			ogDescription:
 				"A luxurious Antiguan holiday residence that is Home from Home. Set in large and quiet gardens overlooking Falmouth Harbour, Sugar Loaf has views to swoon at and plenty of privacy, peace and quiet",
 			ogTitle: "Sugar Loaf - An Antiguan holiday Residence",
 			ogImage: {
-				path: "https://res.cloudinary.com/peggy-co/image/upload/q_auto/v1664817748/SugarLoaf/icon_qp0twv.webp",
-				width: 512,
-				height: 512,
+				path: "https://res.cloudinary.com/peggy-co/image/upload/q_auto/v1664807725/SugarLoaf/ogImage_dvfc0c.webp",
+				width: 1200,
+				height: 630,
 			},
 			twitterCard: "summary",
 		},

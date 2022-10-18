@@ -29,10 +29,6 @@
 					"A luxurious Antiguan holiday residence that is Home from Home. Set in large and quiet gardens overlooking Falmouth Harbour, Sugar Loaf has views to swoon at and plenty of privacy, peace and quiet",
 			},
 			{
-				name: "twitter:card",
-				content: "summary",
-			},
-			{
 				name: "twitter:title",
 				content: "Sugar Loaf - A luxurious Antiguan holiday residence",
 			},
@@ -53,26 +49,9 @@
 				name: "twitter:image:alt",
 				content: "https://res.cloudinary.com/peggy-co/image/upload/q_auto/v1664817748/SugarLoaf/icon_qp0twv.webp",
 			},
-			{
-				name: "og:title",
-				content: "Sugar Loaf - A luxurious Antiguan holiday residence",
-			},
-			{
-				name: "og:type",
-				content: "website",
-			},
-			{
-				name: "og:url",
-				content: "https://www.sugarloafantigua.com",
-			},
-			{
-				name: "og:image",
-				content: "https://res.cloudinary.com/peggy-co/image/upload/q_auto/v1664807725/SugarLoaf/ogImage_dvfc0c.webp",
-			},
-			{
-				name: "og:site_name",
-				content: "Sugar Loaf - A luxurious Antiguan holiday residence.",
-			},
+			
+			
+			
 		],
 		link: [
 			{
