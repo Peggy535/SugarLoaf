@@ -1,13 +1,5 @@
 <template>
 	<div>
-		<Head>
-			<!-- Google tag (gtag.js) -->
-			<Script async src="https://www.googletagmanager.com/gtag/js?id=G-JSGYMB6J9Z"></Script>
-			<Script>
-				window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag("js", new Date()); gtag("config",
-				"G-JSGYMB6J9Z");
-			</Script>
-		</Head>
 		<NuxtLayout>
 			<NuxtPage />
 		</NuxtLayout>
