@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-	const favicon = ref("/favicon.ico");
+	const favicon = ref("/icon.png");
 
 	useHead({
 		meta: [
@@ -49,9 +49,6 @@
 				name: "twitter:image:alt",
 				content: "https://res.cloudinary.com/peggy-co/image/upload/q_auto/v1664817748/SugarLoaf/icon_qp0twv.webp",
 			},
-			
-			
-			
 		],
 		link: [
 			{

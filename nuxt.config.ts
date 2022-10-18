@@ -26,7 +26,7 @@ export default defineNuxtConfig({
 	},
 	pwa: {
 		icon: {
-			source: "/icon.png",
+			source: "~/public/icon.png",
 			sizes: [512],
 		},
 		meta: {
