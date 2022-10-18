@@ -34,7 +34,7 @@
 			},
 			{
 				name: "twitter:title",
-				content: "Sugar Loaf - A luxurious Antiguan holiday Residence",
+				content: "Sugar Loaf - A luxurious Antiguan holiday residence",
 			},
 			{
 				name: "twitter:description",
@@ -50,8 +50,12 @@
 				content: "https://res.cloudinary.com/peggy-co/image/upload/q_auto/v1664807725/SugarLoaf/twitterImage_bzr0tx.webp",
 			},
 			{
+				name: "twitter:image:alt",
+				content: "https://res.cloudinary.com/peggy-co/image/upload/q_auto/v1664817748/SugarLoaf/icon_qp0twv.webp",
+			},
+			{
 				name: "og:title",
-				content: "Sugar Loaf - A luxurious Antiguan holiday Residence",
+				content: "Sugar Loaf - A luxurious Antiguan holiday residence",
 			},
 			{
 				name: "og:type",
@@ -64,6 +68,10 @@
 			{
 				name: "og:image",
 				content: "https://res.cloudinary.com/peggy-co/image/upload/q_auto/v1664807725/SugarLoaf/ogImage_dvfc0c.webp",
+			},
+			{
+				name: "og:site_name",
+				content: "Sugar Loaf - A luxurious Antiguan holiday residence.",
 			},
 		],
 		link: [
