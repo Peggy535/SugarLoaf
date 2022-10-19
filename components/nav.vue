@@ -13,8 +13,8 @@
 	};
 	const closeMenu = () => {
 		gsap.to(".menu", {
-			xPercent: 200,
-			duration: 2,
+			xPercent: 100,
+			duration: 1.4,
 			ease: "expo.inOut",
 		});
 	};

@@ -1,11 +1,8 @@
 <script setup>
-	import Bedroom from "~~/components/icons/Bedroom.vue";
 	import Overview from "~~/components/icons/Overview.vue";
 	import AC from "~~/components/icons/AC.vue";
-	import Bathroom from "~~/components/icons/Bathroom.vue";
 	import Info from "~~/components/icons/Info.vue";
 	import View from "~~/components/icons/View.vue";
-	import Garden from "~~/components/icons/Garden.vue";
 	import Entertainment from "~~/components/icons/Entertainment.vue";
 	import Wheelchair from "~~/components/icons/Wheelchair.vue";
 
@@ -22,7 +19,7 @@
 		],
 	});
 	definePageMeta({
-		layout: "slate-nav",
+		layout: "default",
 	});
 </script>
 
@@ -92,52 +89,6 @@
 						</div>
 					</div>
 
-					<!-- <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-4">
-            <div class="m-1 p-1">
-              <div class="flex flex-row">
-                <h1 class="text-2xl lg:text-3xl xl:text-4xl m-1 p-1">
-                  Outdoors
-                </h1>
-                <Garden class="fill-slate-700 w-8 stroke-1" />
-              </div>
-              <ul
-                class="m-1 p-1 list-disc list-inside text-md lg:text-xl xl:text-2xl"
-              >
-                <li>
-                  Private balcony area extending along two sides of the house.
-                </li>
-                <li>Private swimming pool and pool-side area.</li>
-                <li>
-                  Private garden Outdoor furniture including poolside sun
-                  loungers/poolside sofa/outdoor dining area/relaxing &
-                  comfortable seating and tables on balcony.
-                </li>
-                <li>Hammock.</li>
-              </ul>
-            </div>
-          </div> -->
-
-					<!-- <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
-            <div class="m-1 p-1">
-              <div class="flex flex-row">
-                <h1 class="text-2xl lg:text-3xl xl:text-4xl m-1 p-1">
-                  Bedrooms & Laundry
-                </h1>
-                <Bedroom class="fill-slate-700 w-8" />
-              </div>
-              <ul
-                class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside"
-              >
-                <li>Washing machine.</li>
-                <li>Essentials - Towels/bed sheets/hand soap/toilet paper.</li>
-                <li>Hangers.</li>
-                <li>Bed linen.</li>
-                <li>Mosquito nets.</li>
-                <li>Wardrobes.</li>
-              </ul>
-            </div>
-          </div> -->
-
 					<div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
 						<div class="m-1 p-1">
 							<div class="flex flex-row">
@@ -164,24 +115,6 @@
 							</ul>
 						</div>
 					</div>
-
-					<!-- <div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
-            <div class="m-1 p-1">
-              <div class="flex flex-row">
-                <h1 class="text-2xl lg:text-3xl xl:text-4xlm-1 p-1">
-                  Bathrooms
-                </h1>
-                <Bathroom class="fill-slate-700 w-8" />
-              </div>
-              <ul
-                class="m-1 p-1 text-md lg:text-xl xl:text-2xl list-disc list-inside"
-              >
-                <li>Hot Water</li>
-                <li>Hair dryers</li>
-                <li>2 indoor showers | 1 outdoor shower</li>
-              </ul>
-            </div>
-          </div> -->
 
 					<div class="flex border-2 border-white rounded-2xl bg-amber-50 my-2">
 						<div class="m-1 p-1">

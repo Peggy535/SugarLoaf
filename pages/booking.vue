@@ -20,7 +20,7 @@
 		],
 	});
 	definePageMeta({
-		layout: "slate-nav",
+		layout: "default",
 	});
 
 	const submitHandler = () => {

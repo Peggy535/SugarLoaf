@@ -1,13 +1,13 @@
 <script setup>
 	import { gsap } from "gsap";
 	import Arrowdown from "~~/components/icons/Arrowdown.vue";
-	onBeforeMount(() => {
-		gsap.set(".page", { autoAlpha: 0 });
-	});
+
 	onMounted(() => {
-		gsap.to(".page", { autoAlpha: 1, duration: 0.2 });
 		gsap.set("#scroll-down", { autoAlpha: 1 });
 		gsap.fromTo("#scroll-down", { autoAlpha: 1 }, { autoAlpha: 0, duration: 2, yoyo: true, repeat: 5 });
+	});
+	definePageMeta({
+		layout: "default",
 	});
 </script>
 
@@ -191,7 +191,7 @@
 						<div class="w-full sm:w-1/2 mx-auto">
 							<NuxtImg
 								provider="cloudinary"
-								class="object-fill object-center rounded-md border border-white"
+								class="object-cover object-center rounded-md border border-white"
 								src="/IMG_2692_dpdnbw.webp"
 								alt=""
 								width="768"
