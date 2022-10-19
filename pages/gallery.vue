@@ -42,7 +42,7 @@
 					poster="https://res.cloudinary.com/peggy-co/video/upload/ac_none,c_scale,q_auto,w_1024/v1664955010/SugarLoaf/3235898963_xhaye6.jpg"
 				></video>
 			</section>
-			<section class="relative flex flex-col h-screen w-screen place-content-end z-20 bg-white bg-opacity-60">
+			<section class="relative flex flex-col h-screen w-screen place-content-end z-20 bg-amber-50 bg-opacity-50">
 				<div class="flex flex-col">
 					<h1 class="text-6xl sm:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl m-1 sm:m-2 sm:p-2 my-20">Sugar Loaf</h1>
 					<h1 class="text-4xl sm:text-5xl md:text-6xl xl:text-8xl m-1 sm:m-2 sm:p-2 mb-5">Photo Gallery</h1>
@@ -54,7 +54,7 @@
 				</div>
 			</section>
 
-			<main class="relative bg-white bg-opacity-60 h-auto w-screen z-20">
+			<main class="relative bg-amber-50 bg-opacity-50 h-auto w-screen z-20">
 				<div class="h-auto w-screen flex flex-col">
 					<div class="flex flex-row w-full sm:w-4/5 lg:w-2/3 xl:w-1/2 mx-auto">
 						<div class="flex items-center bg-amber-50 rounded-2xl border-2 border-white">
@@ -77,7 +77,7 @@
 							closely please tap or click the image you wish to see.
 						</h4>
 					</div>
-					<div class="h-auto w-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 grid-auto-rows gap-6 px-10 lg:px-12">
+					<div class="h-auto w-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 grid-auto-rows gap-6 sm:gap-8 lg:gap-10 xl:gap-12 2xl:gap-14 px-10 lg:px-12">
 						<div class="flex flex-col mx-auto w-full bg-amber-50 rounded-2xl" v-for="image in data.imagesArray[0].image" :key="image._id">
 							<img
 								class="object-contain object-center overflow-hidden border-2 border-white rounded-2xl transition duration-700 ease-in-out delay-75 hover:scale-125 lg:hover:scale-150 hover:z-100"

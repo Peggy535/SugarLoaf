@@ -59,7 +59,7 @@
 				></video>
 			</section>
 
-			<section class="relative flex h-screen w-full bg-amber-50 bg-opacity-50 z-20">
+			<section class="relative flex h-screen w-full bg-amber-50 bg-opacity-40 z-20">
 				<div class="flex flex-col place-content-end font-NeueMontrealBook my-10 text-slate-700">
 					<h1 class="text-6xl sm:text-9xl md:text-8xl lg:text-9xl xl:text-10xl m-1 sm:m-2 sm:p-2 mt-20 mb-10">Sugar Loaf</h1>
 					<h1 class="text-3xl sm:text-5xl md:text-6xl xl:text-7xl m-1 sm:m-2 sm:p-2 mb-5">How to book and pricing</h1>
@@ -68,7 +68,7 @@
 					</p>
 				</div>
 			</section>
-			<section class="relative h-auto w-screen z-20 flex bg-amber-50 bg-opacity-50 p-2">
+			<section class="relative h-auto w-screen z-20 flex bg-amber-50 bg-opacity-40 p-2">
 				<div class="flex-flex-col w-full sm:w-3/4 lg:w-2/3 xl:w-1/2 mx-auto">
 					<!-- Section 1 -->
 					<div class="flex flex-col my-10 bg-amber-50 border-2 border-white rounded-2xl">
