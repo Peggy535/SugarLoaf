@@ -29,8 +29,7 @@
 			(result) => {
 				submitting.value = false;
 				submitted.value = true;
-				inputFieldReset = "";
-				console.log(values);
+				inputFieldReset.value = "";
 			},
 			(error) => {
 				alert("FAILED...", error.text);
@@ -229,7 +228,7 @@
 									</tbody>
 								</table>
 							</li>
-							<li class="m-1 p-1">Please enquire for accurate rates prior to booking. Minimum 3 night stay, 7 nights in Peak times.</li>
+							<li class="m-1 p-1">Please enquire for accurate rates prior to booking. Minimum 5 night stay, 7 nights in Peak times.</li>
 							<li class="m-1 p-1">
 								Points to note: No smoking inside, There is a cat living on theproperty. Cat friendly guests only.
 							</li>
@@ -246,10 +245,12 @@
 								class="w-full h-full text-slate-800 items-center mx-auto text-center"
 								:class="{ [`hidden`]: submitted }"
 							>
-								<h1 text="text-3xl m-1 p-1">Submitting your email</h1>
+								<h1 text="text-5xl m-1 p-1">Submitting your email</h1>
 							</div>
 							<div v-if="submitted" class="w-full h-full text-slate-800 items-center mx-auto text-center">
-								<h1 class="text-2xl m-1 p-1">Your email has been sent. We will be in touch very shortly.</h1>
+								<h1 class="text-5xl m-1 p-1">
+									Your email has been sent to enquiries@sugarloafantigua.com. We will be in touch very shortly.
+								</h1>
 							</div>
 							<div
 								:class="{ [`hidden`]: submitting || submitted }"
@@ -297,6 +298,7 @@
 											type="button"
 											name="send"
 											value="Send email"
+											@click="submitHandler"
 										/>
 									</div>
 								</form>
@@ -320,7 +322,8 @@
 		box-sizing: border-box;
 	}
 
-	input:invalid, textarea:invalid {
+	input:invalid,
+	textarea:invalid {
 		box-shadow: 0 0 5px 1px lightcoral;
 	}
 
