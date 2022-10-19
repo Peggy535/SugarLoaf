@@ -245,10 +245,10 @@
 								class="w-full h-full text-slate-800 items-center mx-auto text-center"
 								:class="{ [`hidden`]: submitted }"
 							>
-								<h1 text="text-5xl m-1 p-1">Submitting your email</h1>
+								<h1 text="p-1 m-1 sm:m-2 sm:p-2 text-2xl lg:text-3xl xl:text-4xl">Submitting your email</h1>
 							</div>
 							<div v-if="submitted" class="w-full h-full text-slate-800 items-center mx-auto text-center">
-								<h1 class="text-5xl m-1 p-1">
+								<h1 class="p-1 m-1 sm:m-2 sm:p-2 text-2xl lg:text-3xl xl:text-4xl">
 									Your email has been sent to enquiries@sugarloafantigua.com. We will be in touch very shortly.
 								</h1>
 							</div>
@@ -295,10 +295,9 @@
 									<div class="form-group">
 										<input
 											class="submit text-slate-800 m-1 p-1 border border-slate-800 rounded-2xl transition duration-500 delay-75 ease-in-out hover:border-amber-600 hover:text-amber-600 hover:bg-amber-200 hover:scale-110"
-											type="button"
+											type="submit"
 											name="send"
 											value="Send email"
-											@click="submitHandler"
 										/>
 									</div>
 								</form>
