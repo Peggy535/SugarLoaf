@@ -230,7 +230,7 @@
 							</li>
 							<li class="m-1 p-1">Please enquire for accurate rates prior to booking. Minimum 5 night stay, 7 nights in Peak times.</li>
 							<li class="m-1 p-1">
-								Points to note: No smoking inside, There is a cat living on theproperty. Cat friendly guests only.
+								Points to note: No smoking inside, There is a cat living on the property. Cat friendly guests only.
 							</li>
 						</ul>
 					</div>
