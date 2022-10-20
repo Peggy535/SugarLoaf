@@ -77,7 +77,9 @@
 							closely please tap or click the image you wish to see.
 						</h4>
 					</div>
-					<div class="h-auto w-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 grid-auto-rows gap-6 sm:gap-8 lg:gap-10 xl:gap-12 2xl:gap-14 px-10 lg:px-12">
+					<div
+						class="h-auto w-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 grid-auto-rows gap-6 sm:gap-8 lg:gap-10 xl:gap-12 2xl:gap-14 px-10 lg:px-12"
+					>
 						<div class="flex flex-col mx-auto w-full bg-amber-50 rounded-2xl" v-for="image in data.imagesArray[0].image" :key="image._id">
 							<img
 								class="object-contain object-center overflow-hidden border-2 border-white rounded-2xl transition duration-700 ease-in-out delay-75 hover:scale-125 lg:hover:scale-150 hover:z-100"
