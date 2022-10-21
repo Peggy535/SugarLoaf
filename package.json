@@ -16,8 +16,7 @@
     "gsap": "^3.11.1",
     "nuxt": "^3.0.0-rc.12",
     "nuxt-schema-org": "^1.1.0-beta.4",
-    "postcss": "^8.4.16",
-    "sass": "^1.55.0"
+    "postcss": "^8.4.16"
   },
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
@@ -25,7 +24,6 @@
     "@gtm-support/vue-gtm": "^2.0.0",
     "@nuxtjs/robots": "^2.5.0",
     "@nuxtjs/sanity": "^1.3.0",
-    "daisyui": "^2.31.0",
-    "vue-gtag": "^2.0.1"
+    "daisyui": "^2.31.0"
   }
 }
