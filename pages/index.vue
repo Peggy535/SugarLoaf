@@ -1,9 +1,14 @@
 <script setup>
+	import { gsap } from "gsap";
 	import Arrowdown from "~~/components/icons/Arrowdown.vue";
 
 	definePageMeta({
 		layout: "default",
 	});
+	onMounted(()=>{
+		gsap.set('#scroll-down', {autoAlpha:0})
+		gsap.fromTo('#scroll-down', {autoAlpha:0}, {autoAlpha:1, duration:1, yoyo:true, repeat:5})
+	})
 </script>
 
 <template>
