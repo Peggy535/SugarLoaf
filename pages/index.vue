@@ -5,10 +5,10 @@
 	definePageMeta({
 		layout: "default",
 	});
-	onMounted(()=>{
-		gsap.set('#scroll-down', {autoAlpha:0})
-		gsap.fromTo('#scroll-down', {autoAlpha:0}, {autoAlpha:1, duration:1, yoyo:true, repeat:5})
-	})
+	onMounted(() => {
+		gsap.set("#scroll-down", { autoAlpha: 0 });
+		gsap.fromTo("#scroll-down", { autoAlpha: 0 }, { autoAlpha: 1, duration: 1, yoyo: true, repeat: 5 });
+	});
 </script>
 
 <template>
@@ -47,6 +47,19 @@
 			<section class="relative w-screen bg-amber-100 bg-opacity-60 z-20">
 				<!-- Opening Section -->
 				<div class="flex flex-col w-full">
+					<div class="w-full">
+						<NuxtImg
+							provider="cloudinary"
+							class="object-contain object-center rounded-md border border-white"
+							src="/main_and_featured_image_icwuvl.webp"
+							alt=""
+							width="3000"
+							height="2000"
+							loading="lazy"
+							sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:100vw xxl:100vw"
+							format="webp"
+						/>
+					</div>
 					<div class="w-full">
 						<NuxtImg
 							provider="cloudinary"
