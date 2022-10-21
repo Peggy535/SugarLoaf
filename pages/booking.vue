@@ -83,7 +83,7 @@
 					<div class="flex flex-col w-full bg-amber-50 border-2 border-white rounded-2xl">
 						<h1 class="p-1 m-1 sm:m-2 sm:p-2 text-2xl lg:text-3xl xl:text-4xl">2. Review the pricing for your selected stay.</h1>
 						<div class="flex flex-col border border-slate-700 rounded-2xl m-1 my-5 sm:m-2 sm:p-2">
-							<h2 class="m-1 p-1 text-lg lg:text-xl xl:text-2xl font-semibold">Price per day USD</h2>
+							<h2 class="m-1 p-1 text-lg lg:text-xl xl:text-2xl font-semibold">price per night USD</h2>
 							<table class="table-fixed text-left m-1 p-1 mb-3 text-xs sm:text-sm lg:text-md xl:text-lg border border-slate-400">
 								<thead>
 									<tr>
@@ -143,7 +143,7 @@
 									</tr>
 									<tr>
 										<td class="border border-slate-400 m-1 p-1"><p class="m-1 p-1">Christmas/New Year</p></td>
-										<td class="border border-slate-400 m-1 p-1">-</td>
+										<td class="border border-slate-400 m-1 p-1">23rd Dec 22 - 2nd Jan 23</td>
 									</tr>
 
 									<tr class="transition delay-75 ease-in-out duration-700 hover:text-amber-500 hover:scale-110">
