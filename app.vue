@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-	const favicon = ref("/icon.png");
+	const favicon = ref("/maskable_icon_x512.png");
 
 	useHead({
 		script: [
@@ -60,11 +60,11 @@
 			},
 			{
 				name: "twitter:image",
-				content: "https://res.cloudinary.com/peggy-co/image/upload/q_auto/v1664807725/SugarLoaf/twitterImage_bzr0tx.webp",
+				content: "https://www.sugarloafantigua.com/maskable_icon.png",
 			},
 			{
 				name: "twitter:image:alt",
-				content: "https://res.cloudinary.com/peggy-co/image/upload/q_auto/v1664817748/SugarLoaf/icon_qp0twv.webp",
+				content: "https://www.sugarloafantigua.com/maskable_icon_x512.png",
 			},
 		],
 		link: [
