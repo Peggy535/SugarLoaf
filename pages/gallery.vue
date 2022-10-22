@@ -86,7 +86,7 @@
 								:src="`${image}?h=800&w=800&auto=format&fit=min`"
 							/>
 							<figcaption class="text-sm m-1 p-1">
-								<img src="/maskable_icon.png" alt="" class="w-8 inline-block rounded-2xl" />
+								<img src="/maskable_icon.png" alt="" class="w-8 inline-block" />
 								{{ data.imagesArray[0].caption[data.imagesArray[0].image.indexOf(image)] }}
 							</figcaption>
 						</div>
