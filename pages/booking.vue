@@ -43,7 +43,7 @@
 		<Head>
 			<Title>Sugar Loaf | Booking & Pricing</Title>
 		</Head>
-		<div class="h-auto w-screen overflow-hidden font-NeueMontrealThin text-slate-700">
+		<div class="h-auto w-screen overflow-hidden font-NeueMontrealThin text-slate-800">
 			<!-- Video section -->
 			<section class="h-screen w-screen fixed">
 				<video
@@ -59,16 +59,16 @@
 				></video>
 			</section>
 
-			<section class="relative flex h-screen w-full bg-amber-50 bg-opacity-40 z-20">
-				<div class="flex flex-col place-content-end font-NeueMontrealThin my-10 text-slate-700">
+			<section class="relative flex h-screen w-full bg-amber-50 bg-opacity-50 z-20">
+				<div class="flex flex-col place-content-end font-NeueMontrealThin my-10 text-slate-800">
 					<h1 class="text-6xl sm:text-9xl md:text-8xl lg:text-9xl xl:text-10xl m-1 sm:m-2 sm:p-2 mt-20 mb-10">Sugar Loaf</h1>
 					<h1 class="text-3xl sm:text-5xl md:text-6xl xl:text-7xl m-1 sm:m-2 sm:p-2 mb-5">How to book and pricing</h1>
-					<p class="text-xl md:text-3xl xl:text-2xl sm:w-3/4 xl:w-1/2 m-1 p-1 w-full mb-3 xl:mb-12 border-l-2 border-l-slate-700">
+					<p class="text-xl md:text-3xl xl:text-2xl sm:w-3/4 xl:w-1/2 m-1 p-1 w-full mb-3 xl:mb-12 border-l-2 border-l-slate-800">
 						Discover the weekly pricing for Sugar Loaf and how best to book your stay.
 					</p>
 				</div>
 			</section>
-			<section class="relative h-auto w-screen z-20 flex bg-amber-50 bg-opacity-40 p-2">
+			<section class="relative h-auto w-screen z-20 flex bg-amber-50 bg-opacity-50 p-2">
 				<div class="flex-flex-col w-full sm:w-3/4 lg:w-2/3 xl:w-1/2 mx-auto">
 					<!-- Section 1 -->
 					<div class="flex flex-col my-10 bg-amber-50 border-2 border-white rounded-2xl">
@@ -82,7 +82,7 @@
 					<!-- Section 2 -->
 					<div class="flex flex-col w-full bg-amber-50 border-2 border-white rounded-2xl">
 						<h1 class="p-1 m-1 sm:m-2 sm:p-2 text-2xl lg:text-3xl xl:text-4xl">2. Review the pricing for your selected stay.</h1>
-						<div class="flex flex-col border border-slate-700 rounded-2xl m-1 my-5 sm:m-2 sm:p-2">
+						<div class="flex flex-col border border-slate-800 rounded-2xl m-1 my-5 sm:m-2 sm:p-2">
 							<h2 class="m-1 p-1 text-lg lg:text-xl xl:text-2xl font-semibold">price per night USD</h2>
 							<table class="table-fixed text-left m-1 p-1 mb-3 text-xs sm:text-sm lg:text-md xl:text-lg border border-slate-400">
 								<thead>
@@ -235,7 +235,7 @@
 								<form class="form" ref="form" @submit.prevent="submitHandler">
 									<div class="form-group">
 										<input
-											class="border border-slate-800 rounded-2xl bg-white text-slate-800 pointer-events-auto m-1 p-1"
+											class="border border-slate-800 rounded-2xl bg-white text-slate-800 pointer-events-auto m-2 p-2"
 											name="from_name"
 											placeholder="name"
 											type="text"
@@ -246,7 +246,7 @@
 									</div>
 									<div class="form-group">
 										<input
-											class="border border-slate-800 rounded-2xl bg-white text-slate-800 pointer-events-auto m-1 p-1"
+											class="border border-slate-800 rounded-2xl bg-white text-slate-800 pointer-events-auto m-2 p-2"
 											name="user_email"
 											placeholder="email address"
 											type="email"
@@ -258,7 +258,7 @@
 
 									<div class="form-group">
 										<textarea
-											class="border border-slate-800 rounded-2xl bg-white text-slate-800 pointer-events-auto m-1 p-1 text-area"
+											class="border border-slate-800 rounded-2xl bg-white text-slate-800 pointer-events-auto m-2 p-2 text-area"
 											name="message"
 											placeholder="message"
 											type="text"

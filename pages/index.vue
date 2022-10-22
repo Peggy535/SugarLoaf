@@ -44,7 +44,7 @@
 					<Arrowdown class="fill-white h-10" />
 				</div>
 			</section>
-			<section class="relative w-screen bg-amber-100 bg-opacity-60 z-20">
+			<section class="relative w-screen bg-amber-50 bg-opacity-70 z-20">
 				<!-- Opening Section -->
 				<div class="flex flex-col w-full">
 					<div class="w-full">
@@ -424,7 +424,7 @@
 				</div>
 			</section>
 			<section
-				class="relative z-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid-rows-auto h-auto w-screen bg-amber-100 bg-opacity-60 px-4"
+				class="relative z-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid-rows-auto h-auto w-screen bg-amber-50 bg-opacity-70 px-4"
 			>
 				<div class="grid col-span-1 row-span-1 h-48 m-2 p-2">
 					<div class="relative flex">

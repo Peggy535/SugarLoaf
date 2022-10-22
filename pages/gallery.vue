@@ -27,7 +27,7 @@
 		<Head>
 			<Title>Sugar Loaf | Photo Gallery</Title>
 		</Head>
-		<div class="overflow-hidden z-10 font-NeueMontrealThin bg-amber-50 text-slate-800 bookingpage">
+		<div class="overflow-hidden z-10 font-NeueMontrealThin text-slate-800 bookingpage">
 			<!-- Video section -->
 			<section class="h-screen w-screen fixed z-10">
 				<video
@@ -42,23 +42,23 @@
 					poster="https://res.cloudinary.com/peggy-co/video/upload/ac_none,c_scale,q_auto,w_1024/v1664955010/SugarLoaf/3235898963_xhaye6.jpg"
 				></video>
 			</section>
-			<section class="relative flex flex-col h-screen w-screen place-content-end z-20 bg-amber-50 bg-opacity-50">
+			<section class="relative flex flex-col h-screen w-screen place-content-end z-20 bg-amber-50 bg-opacity-60">
 				<div class="flex flex-col">
 					<h1 class="text-6xl sm:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl m-1 sm:m-2 sm:p-2 my-20">Sugar Loaf</h1>
 					<h1 class="text-4xl sm:text-5xl md:text-6xl xl:text-8xl m-1 sm:m-2 sm:p-2 mb-5">Photo Gallery</h1>
 					<p
-						class="text-xl md:text-2xl xl:text-3xl sm:w-3/4 xl:w-1/2 m-1 p-1 sm:m-3 sm:p-3 w-full mb-3 xl:mb-12 border-l-2 border-l-slate-700"
+						class="text-xl md:text-2xl xl:text-3xl sm:w-3/4 xl:w-1/2 m-1 p-1 sm:m-3 sm:p-3 w-full mb-3 xl:mb-12 border-l-2 border-l-slate-800"
 					>
 						Discover what Sugar Loaf has to offer with an extensive gallery of photographs to view.
 					</p>
 				</div>
 			</section>
 
-			<main class="relative bg-amber-50 bg-opacity-50 h-auto w-screen z-20">
+			<main class="relative bg-amber-50 bg-opacity-60 h-auto w-screen z-20">
 				<div class="h-auto w-screen flex flex-col">
 					<div class="flex flex-row w-full sm:w-4/5 lg:w-2/3 xl:w-1/2 mx-auto">
 						<div class="flex items-center bg-amber-50 rounded-2xl border-2 border-white">
-							<ArrowLeft class="inline-block fill-slate-700 w-12 m-1 p-1" />
+							<ArrowLeft class="inline-block fill-slate-800 w-12 m-1 p-1" />
 							<p class="inline-block text-md m-1 p-1">Swipe the image below</p>
 						</div>
 					</div>
