@@ -70,7 +70,7 @@
 								<li>1 Family bathroom.</li>
 								<li>1 washroom on upper level.</li>
 								<li>Swimming pool with stunning views, loungers and covered seating area, and fridge and loo in the pool house.</li>
-								<li>Outdoor shower by pool with deck and BBQ.</li>
+								<li>Outdoor shower by pool with deck.</li>
 								<li>Secluded and secure gardens.</li>
 								<li>Automatic gated entrance with ample parking.</li>
 							</ul>
