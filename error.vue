@@ -4,7 +4,7 @@
 	const props = defineProps({
 		error: Object,
 	});
-	const handleError = () => clearError({ redirect: "/" });
+
 </script>
 
 <template>
@@ -37,11 +37,11 @@
 						Hold on, that shouldn't have happened!
 					</h1>
 					<h3 class="text-2xl sm:text-3xl lg:text-4xl">
-						We're so sorry, but something has gone wrong. Please click the botton below to go back to the previous page or stay a while
+						We're so sorry, but something has gone wrong. Please click the botton below to go back to the Home page or stay a while
 						and admire the beautiful view.
 					</h3>
 					<NuxtLink to="/">
-						<button @click="handleError">
+						<button>
 							<p class="text-xl md:text-2xl m-1 p-1">Go back</p>
 						</button>
 					</NuxtLink>
