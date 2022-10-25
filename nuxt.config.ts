@@ -10,8 +10,12 @@ export default defineNuxtConfig({
 		},
 	},
 	image: {
+		domains: ["sugarloafantigua.com"],
 		cloudinary: {
 			baseURL: "https://res.cloudinary.com/peggy-co/image/upload/v1663840544/SugarLoaf",
+		},
+		modifiers: {
+			quality: "auto:best",
 		},
 	},
 	sanity: {
