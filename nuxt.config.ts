@@ -26,14 +26,13 @@ export default defineNuxtConfig({
 	},
 	pwa: {
 		icon: {
-			source: "/maskable_icon.png",
+			source: "public/maskable_icon.png",
 			sizes: [512],
 		},
 		meta: {
 			name: "Sugar Loaf",
 			theme_color: "#fffbeb",
 			mobileApp: true,
-			favicon: true,
 			ogType: "website",
 			ogSiteName: "Sugar Loaf - A luxurious Antiguan holiday residence.",
 			ogUrl: "https://www.sugarloafantigua.com",
