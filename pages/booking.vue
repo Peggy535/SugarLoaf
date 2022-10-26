@@ -235,7 +235,7 @@
 								<form class="form" ref="form" @submit.prevent="submitHandler">
 									<div class="form-group">
 										<input
-											class="border border-slate-800 rounded-2xl bg-white text-slate-800 pointer-events-auto m-2 p-2"
+											class="border border-slate-800 rounded-2xl bg-white text-slate-800 pointer-events-auto m-2 p-2 w-full mx-auto"
 											name="from_name"
 											placeholder="name"
 											type="text"
@@ -246,7 +246,7 @@
 									</div>
 									<div class="form-group">
 										<input
-											class="border border-slate-800 rounded-2xl bg-white text-slate-800 pointer-events-auto m-2 p-2"
+											class="border border-slate-800 rounded-2xl bg-white text-slate-800 pointer-events-auto m-2 p-2 w-full mx-auto"
 											name="user_email"
 											placeholder="email address"
 											type="email"
@@ -258,7 +258,7 @@
 
 									<div class="form-group">
 										<textarea
-											class="border border-slate-800 rounded-2xl bg-white text-slate-800 pointer-events-auto m-2 p-2 text-area"
+											class="border border-slate-800 rounded-2xl bg-white text-slate-800 pointer-events-auto m-2 p-2 text-area w-full mx-auto"
 											name="message"
 											placeholder="message"
 											type="text"
@@ -270,7 +270,7 @@
 									</div>
 									<div class="form-group">
 										<input
-											class="submit text-slate-800 m-1 p-1 border border-slate-800 rounded-2xl transition duration-500 delay-75 ease-in-out hover:border-amber-600 hover:text-amber-600 hover:bg-amber-200 hover:scale-110"
+											class="submit text-slate-800 m-2 p-2 border border-slate-800 rounded-2xl transition duration-500 delay-75 ease-in-out hover:border-amber-600 hover:text-amber-600 hover:bg-amber-200 hover:scale-110"
 											type="submit"
 											name="send"
 											value="Send email"
