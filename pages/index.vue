@@ -21,17 +21,30 @@
 			<!-- Video section -->
 			<section class="h-screen w-screen fixed z-10">
 				<video
-					src="https://res.cloudinary.com/peggy-co/video/upload/ac_none,c_scale,q_auto,vc_vp9,w_1024/v1663840583/SugarLoaf/antigua_sea_qof8pg.webm"
-					class="absolute top-0 right-0 w-screen h-screen object-center object-cover"
-					width="1024"
-					height="576"
-					autoplay
-					loop
-					muted
 					playsinline
+					autoplay
+					muted
+					loop
+					id="backgroundVideo"
+					class="absolute top-0 right-0 w-screen h-screen object-center object-cover"
+					width="1920"
+					height="1080"
 					poster="https://res.cloudinary.com/peggy-co/video/upload/c_fit,q_auto,w_1024/v1663840583/SugarLoaf/antigua_sea_qof8pg.webp"
 					alt="background video of smooth, gentle waves lapping up on a sun-lit beach."
-				></video>
+				>
+					<source
+						src="https://res.cloudinary.com/peggy-co/video/upload/ac_none,q_auto,vc_auto/v1663840583/SugarLoaf/antigua_sea_qof8pg.webm"
+					/>
+					<source
+						src="https://res.cloudinary.com/peggy-co/video/upload/ac_none,q_auto,vc_auto/v1663840583/SugarLoaf/antigua_sea_qof8pg.mp4"
+					/>
+					<source
+						src="https://res.cloudinary.com/peggy-co/video/upload/ac_none,q_auto,vc_auto/v1663840583/SugarLoaf/antigua_sea_qof8pg.ogv"
+					/>
+					<source
+						src="https://res.cloudinary.com/peggy-co/video/upload/ac_none,q_auto,vc_auto/v1663840583/SugarLoaf/antigua_sea_qof8pg.mov"
+					/>
+				</video>
 			</section>
 			<!-- Landing title -->
 			<section class="relative h-screen w-full bg-amber-500 bg-opacity-30 z-20">
