@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-	modules: ["@nuxtjs/tailwindcss", "@nuxt/image-edge", "@kevinmarrec/nuxt-pwa", "@nuxtjs/robots", "@nuxtjs/sanity", "@formkit/nuxt"],
+	modules: ["@nuxtjs/tailwindcss", "@nuxt/image-edge", "@kevinmarrec/nuxt-pwa", "@nuxtjs/sanity"],
 	tailwind: {
 		cssPath: "@/assets/css/tailwind.css",
 	},
@@ -24,10 +24,7 @@ export default defineNuxtConfig({
 	build: {
 		transpile: ["gsap"],
 	},
-	robots: {
-		UserAgent: "*",
-		Allow: "*",
-	},
+	
 	pwa: {
 		icon: {
 			source: "public/maskable_icon.png",
