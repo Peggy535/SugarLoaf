@@ -24,16 +24,18 @@ export default defineNuxtConfig({
 	build: {
 		transpile: ["gsap"],
 	},
-	
+
 	pwa: {
 		icon: {
-			source: "public/maskable_icon.png",
-			sizes: [512],
+			source: "public/icon.png",
+			sizes: [120, 144, 152, 192, 384, 512],
 		},
 		meta: {
 			name: "Sugar Loaf",
 			theme_color: "#fffbeb",
 			mobileApp: true,
+			mobileAppIOS: true,
+			lang: "en-GB",
 			ogType: "website",
 			ogSiteName: "Sugar Loaf - A luxurious Antiguan holiday residence.",
 			ogUrl: "https://www.sugarloafantigua.com",
