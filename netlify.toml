@@ -2,3 +2,8 @@
 from = "http://www.sugarloafantigua.com"
 to = "https://www.sugarloafantigua.com"
 status = 301
+
+[[redirects]]
+from = "http://sugarloafantigua.com"
+to = "https://www.sugarloafantigua.com"
+status = 301

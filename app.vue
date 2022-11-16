@@ -19,6 +19,8 @@
 							'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 							})(window,document,'script','dataLayer','GTM-WGK3R56');`,
 				type: "text/javascript",
+				async: true,
+				defer: true,
 			},
 		],
 		noscript: [
